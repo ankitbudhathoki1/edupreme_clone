@@ -1,0 +1,1 @@
+This is a clone website of Edupreme University and College originally owned by ThemeForest (themeforest.net)
