@@ -28,7 +28,7 @@ p{
 }
 /* contact header settings */
 header .contact-header .clz-logo img {
-  width: 34%;
+  width: 56%;
   padding: 5px 0;
 }
 header .contact-header .clz-logo span{
@@ -40,7 +40,7 @@ header .contact-header {
 header .contact-header a {
   text-decoration: none;
   color: black;
-  font-size: 13px;
+  font-size: 15px;
   font-family: var(--secondary-font);
 }
 header .contact-header .header-contact-wrapper i {
@@ -192,7 +192,7 @@ section.nbar .navbar .nav-link{
     margin: 0 5px;
     transition: 0.5s;
     font-weight: 600;
-    width: 100%;
+    width: 105%;
 }
 section.nbar .navbar .nav-link:hover{
     color: var(--primary-color);
@@ -932,12 +932,19 @@ section.how-to-apply .how-to-apply-card {
   section.university-life .university-life-heading h1{
     font-size: 38px;
     font-family: var(--primary-font-family);
+    margin-bottom: 18px;
+  }
+  section.university-life .university-life-heading span,
+  section.faculty .faculty-dis span{
+    border-top: 4px solid var(--primary-color);
+    padding: 0 40px;
   }
   .university-life-disc p {
     font-size: 19px;
     margin-bottom: 45px;
     font-family: var(--secondary-font);
   }
+
   section.university-life .university-life-disc-points-wrapper .university-life-disc-points {
     padding: 5px 10px;
   }

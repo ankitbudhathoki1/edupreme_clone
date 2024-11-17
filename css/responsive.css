@@ -18,6 +18,10 @@
       section.how-to-apply .how-to-apply-card .arrow .down {
         display: none;
       }
+      .col-sm-12.col-md-4.life-point-two {
+        border-right: 1px solid #425169;
+        border-left: 1px solid #425169;
+      }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
@@ -26,7 +30,7 @@
         width: 45%;
       }
     .header-contact-wrapper {
-        margin-left: 20px;
+      margin-left: -20px;
       }
       section.apply-section .sidebar {
         padding: 120px 15px;
@@ -215,7 +219,7 @@
             background-size: contain;
             background-position: inherit;
             margin: 0;
-            padding: 80px 70px 80px 35px;
+            padding: 80px 80px 100px 35px;
           }
           section.university-life .overlay {
             padding: 80px 10px 80px 20px;
@@ -301,6 +305,9 @@
  
 /* // Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
+  .header-contact-wrapper {
+    margin-left: 55px;
+       }
     /* apply section */
     section.apply-section .sidebar .buttons {
         flex-direction: column;
@@ -353,7 +360,7 @@
 @media (max-width: 576px) { 
   /* contact header */
   header .contact-header .clz-logo img {
-    width: 35%;
+    width: 34%;
   }
     /* nbar */
     .nbar .navbar-toggler {
@@ -439,7 +446,7 @@
       }
       section.university-life .university-life-disc-points-wrapper .university-life-disc-points {
         margin: 0px 0px;
-        border-bottom: 1px solid #dbdbdb;
+        border-bottom: 1px solid #a39f9f;
         padding: 16px 0;
       }
       section.university-life .university-life-disc-points-wrapper .university-life-disc-points.last-point {
@@ -552,7 +559,10 @@
       section.how-to-apply .how-to-apply-card.apply-bg p {
         font-size: 16px;
       }
-
+      /* university life */
+      .col-sm-12.col-md-4.life-point-two {
+        border: none;
+      }
       /* experience */
       section.experience {
         margin: 0 10px;
@@ -652,9 +662,13 @@
       .grad .graduation-alumni p {
         font-size: 14px;
       }
+
  }
 
  @media (max-width: 390px) {
+  header .contact-header .clz-logo img {
+    width: 34%;
+  }
   section.how-to-apply .how-to-apply-card .arrow .down {
     right: 75px;
     bottom: -21px;
