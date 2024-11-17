@@ -715,28 +715,128 @@ section.video-tour .overlay{
 /* setting for graduation */
 section.grad {
   padding: 110px 30px;
+  position: relative;
+}
+.graduation,
+.alumni {
+  display: flex;
 }
 .grad .grad-msg h1 {
-  font-size: 34px;
+  font-size: 35px;
   font-family: var(--primary-font-family);
+  margin: 20px 0;
 }
-.graduation-img img {
-  max-height: 600px;
-  width: 100%;
-  object-fit: cover;
+.grad .grad-msg p{
+  color: var(--tertiary-color);
+  font-size: 17px;
+  margin: 25px 0;
+}
+.grad .graduation-alumni p{
+  color: var(--tertiary-color);
 }
 section.grad .graduation-alumni i {
-  float: left;
   font-size: 24px;
-  height: 60px;
+  height: 80px;
   background: var(--primary-color);
-  width: 60px;
+  width: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   margin: 28px 25px 0 0;
   color: white;
+}
+section.grad .graduation-alumni h1 {
+  font-family: var(--primary-font-family);
+  font-size: 25px;
+}
+section.grad .graduation-msg,
+section.grad .alumni-msg {
+  padding: 20px 0;
+}
+/* image section */
+section.grad .graduation-img img {
+  max-height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+section.grad .graduation-img{
+  position: relative;
+}
+section.grad .graduation-img .img-text{
+  position: absolute;
+}
+section.grad .graduation-img .img-text {
+  position: absolute;
+  background: #fff;
+  height: 125px;
+  width: 395px;
+  bottom: 20px;
+  right: -25px;
+  border-right: 5px solid var(--primary-color);
+  padding: 18px 25px;
+}
+section.grad .graduation-img .img-text p {
+  font-size: 20px;
+  font-style: italic;
+  color: var(--tertiary-color);
+}
+/* how to apply section */
+section.how-to-apply {
+    padding: 50px 32px;
+    position: relative;
+}
+section.how-to-apply .how-to-apply-card.apply-bg{
+  background-color: #f0f0f0;
+  border: none;
+  position: relative;
+}
+section.how-to-apply .how-to-apply-card{
+  padding: 28px 40px;
+}
+section.how-to-apply .how-to-apply-card.apply-bg .arrow .right{
+  position: absolute;
+  right: -24px;
+  top: 95px;
+}
+section.how-to-apply .how-to-apply-card .arrow .right{
+  position: absolute;
+  right: -27px;
+  top: 93px;
+}
+section.how-to-apply .how-to-apply-card .icon i {
+  font-size: 37px;
+  color: var(--primary-color);
+}
+section.how-to-apply .how-to-apply-card .arrow .right i{
+  color: #fff;
+  background: var(--primary-color);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+section.how-to-apply .how-to-apply-card.apply-bg h1{
+  font-size: 29px;
+}
+
+section.how-to-apply .how-to-apply-card h1{
+  font-family: var(--primary-font-family);
+  font-size: 23px;
+  margin: 15px 0px;
+}
+section.how-to-apply .how-to-apply-card p{
+  color: var(--tertiary-color);
+  margin: 10px 0;
+}
+
+section.how-to-apply .how-to-apply-card {
+  padding: 28px 40px;
+  border: 2px dashed #dbdbdb;
+  position: relative;
 }
   /* settings for review section */
   section.review {
