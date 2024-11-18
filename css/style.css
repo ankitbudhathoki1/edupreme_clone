@@ -200,7 +200,8 @@ header .contact-header .offcanvas-body .ncontact-wrapper .nav-item .nav-link i {
 }
 
 header .contact-header .offcanvas-body .ncontact-wrapper .nav-item .nav-link i:hover,
-footer .college-short-disc .follow-us a i:hover {
+footer .college-short-disc .follow-us a i:hover,
+section.overview .department-contact .body .follow-us a i:hover{
   background-color: yellow;
   color: #000;
   transform: scale(1.1);
@@ -1237,22 +1238,26 @@ footer .college-short-disc img {
 }
 
 footer .college-short-disc .follow-us ul,
-footer .contact-us .direction-email ul {
+footer .contact-us .direction-email ul,
+section.overview .department-contact .body .follow-us ul{
   list-style: none;
   padding: 0;
 }
 
-footer .college-short-disc .follow-us ul li {
+footer .college-short-disc .follow-us ul li,
+section.overview .department-contact .body .follow-us ul li{
   float: left;
   padding: 0 10px 0 0;
 }
 
-footer .college-short-disc .follow-us a {
+footer .college-short-disc .follow-us a,
+section.overview .department-contact .body .follow-us a{
   text-decoration: none;
   color: white;
 }
 
-footer .college-short-disc .follow-us i {
+footer .college-short-disc .follow-us i,
+section.overview .department-contact .body .follow-us i{
   background: #324a7d;
   font-size: 15px;
   height: 40px;
@@ -1438,7 +1443,8 @@ section.campus-news .sidebar p {
 
 /* settings for about us page */
 /* settings for banner */
-section.welcome-msg {
+section.welcome-msg,
+section.faculty-details-banner{
   background: url(../images/about/banner.jpg);
     background-position-x: 0%;
     background-position-y: 0%;
@@ -1450,17 +1456,20 @@ section.welcome-msg {
   height: 550px;
   padding: 0 45px;
 }
-section.welcome-msg .overlay {
+section.welcome-msg .overlay,
+section.faculty-details-banner .overlay{
   background: var(--overlay-third);
   height: 550px;
   margin: 0 -45px;
   padding: 0 45px;
 }
-section.welcome-msg .sidebar {
+section.welcome-msg .sidebar,
+section.faculty-details-banner .sidebar {
   margin: 145px 0px;
   color: #fff;
 }
-section.welcome-msg .sidebar h3 {
+section.welcome-msg .sidebar h3,
+section.faculty-details-banner .sidebar h3 {
   font-size: 14px;
   background: white;
   color: var(--primary-color);
@@ -1471,14 +1480,16 @@ section.welcome-msg .sidebar h3 {
   font-weight: 600;
   margin: 0;
 }
-section.welcome-msg .sidebar h1 {
+section.welcome-msg .sidebar h1,
+section.faculty-details-banner .sidebar h1{
   font-size: 46px;
   font-family: var(--primary-font-family);
   text-transform: capitalize;
   font-weight: 600;
   margin: 18px 0;
 }
-section.welcome-msg .sidebar p {
+section.welcome-msg .sidebar p,
+section.faculty-details-banner .sidebar p {
   font-size: 19px;
   padding: 20px 50px 0 20px;
   border-left: 4px solid var(--primary-color);
@@ -1523,7 +1534,193 @@ section.motive .key-of-success {
   padding: 40px;
 }
 
+/* faculty details */
+section.faculty-details-banner{
+  background: url(../images/faculty_details/banner.jpg);
+}
 
+section.faculty-details-banner .sidebar .buttons a {
+  margin: 0;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+}
+
+section.faculty-details-banner .sidebar .buttons .apply-now {
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 145px;
+  transition: 0.5s;
+}
+
+section.faculty-details-banner .sidebar .buttons .apply-now:hover {
+  background-color: var(--secondary-color);
+}
+
+section.faculty-details-banner .sidebar .buttons .apply-now a {
+  color: white;
+}
+/* overview body */
+section.overview .overview-body {
+  padding: 12px;
+}
+section.overview .overview-body h1 {
+  font-size: 27px;
+  font-family: var(--primary-font-family);
+}
+section.overview .overview-body p {
+  color: var(--tertiary-color);
+  margin: 16px 0px;
+}
+section.overview .overview-body .major-study {
+  padding: 10px 0;
+}
+section.overview .overview-body .major-study img{
+  float: left;
+  width: 40%;
+  margin-right: 20px;
+}
+section.overview .overview-body .major-study .major-study-body h2 {
+  font-family: var(--primary-font-family);
+  font-size: 18px;
+}
+  section.overview .overview-body .major-study .major-study-body ul {
+    list-style: none;
+    padding: 0;
+  }
+    section.overview .overview-body .major-study .major-study-body ul li{
+      color: var(--tertiary-color);
+    }
+    section.overview .overview-body .major-study .major-study-body ul li i{
+      color: var(--primary-color);
+      margin-right: 5px;
+    }
+/* settings for accordion */
+.accordion .accordion-item h2.accordion-header button {
+  font-family: var(--primary-font-family);
+  font-weight: 600;
+  font-size: 17px;
+  padding: 20px;
+}
+.accordion-button:not(.collapsed) {
+  color: var(--secondary-color);
+  background-color: transparent;
+  box-shadow: none;
+  border-bottom: 1px dashed #dbdbdb;
+}
+.accordion-button:active, 
+.accordion-button:focus {
+  background: transparent;
+  box-shadow: none;
+}
+
+
+section.overview .department-contact .body .follow-us i{
+  background: #fff;
+  color: var(--primary-color);
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+section.overview {
+  padding: 75px 25px;
+}
+section.overview .department-contact {
+  background: var(--secondary-color);
+  padding: 24px;
+}
+section.overview .department-contact{
+  background: var(--secondary-color);
+  padding: 24px;
+  color: white;
+  margin: 10px 21px;
+}
+section.overview .department-contact .heading {
+  padding: 0px 0 20px 0px;
+  border-bottom: 1px solid #4b5873;
+}
+section.overview .department-contact .heading h1,
+section.overview .department-contact .body h1 {
+  font-size: 23px;
+  font-family: var(--primary-font-family);
+  margin: 0;
+}
+section.overview .department-contact .body h3 {
+  font-size: 16px;
+  margin: 8px 0 0 0;
+}
+section.overview .department-contact .body .address-info h2 {
+  font-size: 18px;
+  font-family: var(--primary-font-family);
+}
+section.overview .department-contact .body .address-info{
+  margin-top: 10px;
+}
+section.overview .department-contact .body .address-info,
+section.overview .department-contact .body .contact-info,
+section.overview .department-contact .body .open-hours {
+  padding: 10px 0;
+}
+section.overview .department-contact .body .address-info p,
+section.overview .department-contact .body .contact-info p {
+  margin: 0px;
+  font-size: 16px;
+  color: #dbdbdb;
+}
+section.overview .department-contact .body {
+  padding-top: 20px;
+}
+section.overview .department-contact .body .follow-us ul li {
+  float: none;
+  padding: 0 10px 0 0;
+}
+section.overview .department-contact .body .follow-us h1 {
+  font-size: 18px;
+  margin-top: 13px;
+}
+section.overview .department-contact .body .follow-us ul {
+  display: flex;
+  margin: 15px 0 0 0;
+}
+/* related download section */
+section.overview .related-downloads {
+  padding: 24px;
+  margin: 30px 21px;
+  border: 2px dashed #dbdbdb;
+}
+section.overview .related-downloads h1{
+  font-family: var(--primary-font-family);
+  font-size: 23px;
+}
+section.overview .related-downloads ul {
+  list-style: none;
+  padding: 0;
+}
+section.overview .related-downloads ul li{
+  border-bottom: 1px solid #dbdbdb;
+  padding: 5px 0;
+}
+section.overview .related-downloads ul li.no-bb{
+  border: none;
+}
+section.overview .related-downloads ul a{
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+section.overview .related-downloads ul a i{
+  color: var(--primary-color);
+  margin-right: 5px;
+}
 /* blog cards settings */
 section.blogs {
   padding: 113px 30px;
