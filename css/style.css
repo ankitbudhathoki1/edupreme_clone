@@ -551,7 +551,8 @@ section.motive p {
 .empowering .empowering-discover-btn a,
 section.review .review-right-sidebar .right-sidebar-disc .review-discover-more a,
 section.experience .explore-more-wrapper .explore-more-experience-btn a,
-section.learn-together .learn-together-body .learn-apply a {
+section.learn-together .learn-together-body .learn-apply a,
+section.campus-history .discover-more a{
   margin: 0;
   font-size: 17px;
   text-decoration: none;
@@ -564,7 +565,8 @@ section.learn-together .learn-together-body .learn-apply a {
 .empowering .empowering-discover-btn,
 section.review .review-right-sidebar .right-sidebar-disc .review-discover-more,
 section.experience .explore-more-wrapper .explore-more-experience-btn,
-section.learn-together .learn-together-body .learn-apply {
+section.learn-together .learn-together-body .learn-apply,
+section.campus-history .discover-more{
   background-color: var(--primary-color);
   display: flex;
   align-items: center;
@@ -1435,6 +1437,53 @@ section.campus-news .sidebar p {
 }
 
 /* settings for about us page */
+/* settings for banner */
+section.welcome-msg {
+  background: url(../images/about/banner.jpg);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: inherit;
+  height: 550px;
+  padding: 0 45px;
+}
+section.welcome-msg .overlay {
+  background: var(--overlay-third);
+  height: 550px;
+  margin: 0 -45px;
+  padding: 0 45px;
+}
+section.welcome-msg .sidebar {
+  margin: 145px 0px;
+  color: #fff;
+}
+section.welcome-msg .sidebar h3 {
+  font-size: 14px;
+  background: white;
+  color: var(--primary-color);
+  font-family: var(--primary-font-family);
+  padding: 7px 10px;
+  width: fit-content;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+}
+section.welcome-msg .sidebar h1 {
+  font-size: 46px;
+  font-family: var(--primary-font-family);
+  text-transform: capitalize;
+  font-weight: 600;
+  margin: 18px 0;
+}
+section.welcome-msg .sidebar p {
+  font-size: 19px;
+  padding: 20px 50px 0 20px;
+  border-left: 4px solid var(--primary-color);
+}
+
 /* settings for campus history */
 .campus-history {
   padding: 60px 30px;
@@ -1444,11 +1493,24 @@ section.campus-history .college-img img {
   width: 100%;
   object-fit: cover;
   height: 430px;
-  padding-right: 80px;
+  padding: 0 35px 0 0;
 }
-
+section.campus-history .history-disc h1{
+  font-family: var(--primary-font-family);
+  font-size: 37px;
+}
+section.campus-history .history-disc h3 {
+  font-family: var(--primary-font-family);
+  font-size: 18px;
+  color: var(--tertiary-color);
+}
+section.campus-history .history-disc p {
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  color: var(--tertiary-color);
+}
 section.campus-history .history-disc {
-  padding: 0px 20px;
+  padding: 25px 20px;
 }
 
 section.motive .our-principle {
