@@ -49,9 +49,16 @@
   section.how-to-apply .how-to-apply-card .arrow .right {
     top: 117px;
   }
-
+  section.welcome-msg .sidebar {
+    margin: 110px 0px;
+  }
+  section.welcome-msg {
+    background-position: center;
+  }
+  section.motive .our-principle {
+    padding: 40px 65px;
+  }
 }
-
 @media (max-width: 1080px) {
   header .contact-header .clz-logo img {
     width: 48%;
@@ -60,9 +67,18 @@
   section.apply-section .main-heading h1 {
     font-size: 52px;
   }
+  section.campus-history .history-disc {
+    padding: 10px 20px;
+  }
+  section.campus-history .college-img img {
+    height: 500px;
+  }
 }
 
 @media (max-width: 1024px) {
+  header .contact-header .bline {
+    display: none;
+  }
   header .contact-header .navbar-toggler {
     display: none;
   }
@@ -76,15 +92,20 @@
   .col-md-1.col-lg-1.col-xl-1 {
     display: none;
   }
-
-}
-
-/* // Large devices (desktops, 1024px and up) */
-@media (max-width: 1024px) {
-  header .contact-header .bline {
-    display: none;
+  section.motive .our-principle {
+    padding: 30px 40px;
   }
+  section.motive .our-philosophy, section.motive .key-of-success {
+    padding: 30px 22px;
+  }
+  section.motive .our-principle p ,
+  section.motive p{
+    margin: 0;
+  }
+  
+
 }
+
 
 /* // Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {
@@ -131,6 +152,26 @@
     width: 65px;
     margin: 26px 25px 0 0;
   }
+  section.welcome-msg .sidebar {
+    margin: 90px 0px;
+  }
+  section.welcome-msg .sidebar h1 {
+    font-size: 38px;
+}
+ection.welcome-msg .sidebar p {
+  font-size: 18px;
+  padding: 14px 0px 0 20px;
+}
+.campus-history {
+  padding: 60px 0;
+}
+section.campus-history .college-img img {
+  padding: 0 25px;
+  height: 435px;
+}
+section.campus-history .history-disc h1 {
+  font-size: 34px;
+}
 }
 
 @media (max-width: 820px) {
@@ -410,8 +451,40 @@
   .grad .grad-msg h1 {
     font-size: 30px;
   }
+  section.welcome-msg .overlay {
+    padding: 0 15px;
+  }
+  section.motive .our-principle p, section.motive p {
+    font-size: 15px;
+  }
+  section.motive .our-principle h3,
+  section.motive h3{
+    font-size: 22px;
+  }
 }
 
+@media (max-width: 667px) {
+  section.welcome-msg .sidebar {
+    margin: 40px 0px;
+  }
+  section.welcome-msg {
+    height: 300px;
+  }
+  section.welcome-msg .overlay {
+    height: 300px;
+  }
+  section.welcome-msg .sidebar h3 {
+    font-size: 12px;
+    padding: 5px;
+  }
+  section.welcome-msg .sidebar h1 {
+    font-size: 33px;
+  }
+  section.welcome-msg .sidebar p {
+    font-size: 17px;
+    padding: 11px 50px 0 20px;
+  }
+}
 @media (max-width: 640px) {
 
   /* contact header */
@@ -832,6 +905,42 @@
   .grad .graduation-alumni p {
     font-size: 14px;
   }
+  section.welcome-msg .sidebar p {
+    font-size: 16px;
+    padding: 11px 0 0 20px;
+  }
+  section.welcome-msg .sidebar h1 {
+    font-size: 29px;
+    margin: 10px 0;
+  }
+  section.welcome-msg .sidebar {
+    margin: 27px 0px;
+  }
+  section.campus-history .college-img img {
+    padding: 0 12px;
+    height: 250px;
+  }
+  section.campus-history .history-disc h1 {
+    font-size: 28px;
+  }
+  section.campus-history .history-disc h3 {
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+  section.campus-history .history-disc p {
+    font-size: 15px;
+  }
+  section.campus-history .discover-more a {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  section.campus-history .discover-more {
+    height: 35px;
+    width: 130px;
+  }
+  section.motive .our-principle {
+    padding: 30px 24px;
+  }
 
 }
 
@@ -844,6 +953,19 @@
     right: 75px;
     bottom: -21px;
   }
+  section.campus-history .history-disc {
+    padding: 10px 8px;
+  }
+  section.campus-history .history-disc h1 {
+    font-size: 25px;
+  }
+  section.campus-history .college-img img {
+    padding: 0 10px;
+  }
+  section.campus-history .history-disc h3 {
+    font-size: 16px;
+  }
+
 }
 
 @media (max-width: 320px) {
@@ -856,4 +978,10 @@
     right: -13px;
     bottom: -21px;
   }
+  /* section.welcome-msg .overlay {
+    height: 390px;
+  }
+    section.welcome-msg .overlay {
+      height: 390px;
+    } */
 }

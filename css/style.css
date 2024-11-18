@@ -1446,7 +1446,7 @@ section.welcome-msg {
     background-size: auto;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: inherit;
+  background-position: center;
   height: 550px;
   padding: 0 45px;
 }
@@ -1503,6 +1503,7 @@ section.campus-history .history-disc h3 {
   font-family: var(--primary-font-family);
   font-size: 18px;
   color: var(--tertiary-color);
+  font-weight: 600;
 }
 section.campus-history .history-disc p {
   font-family: var(--secondary-font);
