@@ -553,7 +553,9 @@ section.motive p {
 section.review .review-right-sidebar .right-sidebar-disc .review-discover-more a,
 section.experience .explore-more-wrapper .explore-more-experience-btn a,
 section.learn-together .learn-together-body .learn-apply a,
-section.campus-history .discover-more a{
+section.campus-history .discover-more a,
+section.apply-details .apply-details-body .apply-details-discover-more a,
+section.gd .gd-body .gb-discover-more a{
   margin: 0;
   font-size: 17px;
   text-decoration: none;
@@ -567,7 +569,9 @@ section.campus-history .discover-more a{
 section.review .review-right-sidebar .right-sidebar-disc .review-discover-more,
 section.experience .explore-more-wrapper .explore-more-experience-btn,
 section.learn-together .learn-together-body .learn-apply,
-section.campus-history .discover-more{
+section.campus-history .discover-more,
+section.apply-details .apply-details-body .apply-details-discover-more,
+section.gd .gd-body .gb-discover-more{
   background-color: var(--primary-color);
   display: flex;
   align-items: center;
@@ -581,7 +585,9 @@ section.campus-history .discover-more{
 .empowering .empowering-discover-btn:hover,
 section.review .review-right-sidebar .right-sidebar-disc .review-discover-more:hover,
 section.experience .explore-more-wrapper .explore-more-experience-btn:hover,
-section.learn-together .learn-together-body .learn-apply:hover {
+section.learn-together .learn-together-body .learn-apply:hover,
+section.apply-details .apply-details-body .apply-details-discover-more:hover,
+section.gd .gd-body .gb-discover-more:hover{
   background-color: var(--secondary-color);
 }
 
@@ -1404,10 +1410,235 @@ section.copyright .terms-rights .terms span {
   border: 1px solid red;
 }
 
+/* how to apply page */
+section.how_to_apply {
+  background: url(../images/how_to_apply/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: inherit;
+  height: 423px;
+  padding: 0 45px;
+}
+section.how_to_apply .overlay {
+  background: var(--overlay-third);
+  height: 423px;
+  margin: 0 -45px;
+  padding: 0 45px;
+}
 
+  section.how_to_apply .sidebar {
+  margin: 125px 0px;
+  color: #fff;
+}
 
+/* apply details section */
+section.apply-details {
+  padding: 100px 28px;
+}
+section.apply-details .apply-details-body {
+  padding-right: 20px;
+}
+section.apply-details .apply-details-body h1 {
+  font-family: var(--primary-font-family);
+  margin: 0;
+  padding: 15px 0;
+  border-bottom: 4px solid var(--primary-color);
+  font-size: 38px;
+}
+section.apply-details .apply-details-body h3 {
+  font-family: var(--primary-font-family);
+  margin: 0;
+  padding: 20px 0;
+  font-size: 22px;
+}
+section.apply-details .apply-details-body p {
+color: var(--tertiary-color);
+}
+section.apply-details .apply-details-body .apply-details-discover-more {
+  margin-top: 28px;
+}
+section.apply-details .apply-details-img img {
+  padding: 0 0 0 45px;
+  width: 100%;
+  height: 399px;
+  object-fit: cover;
+}
+/* education services */
+section.edu-services {
+  background: url(../images/how_to_apply/university_image.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 615px;
+  margin: 0 30px;
+  color: #fff;
+}
+section.edu-services .overlay{
+background-color: rgb(33, 49, 83, 0.3);
+height: 615px;
+}
+section.edu-services .edu-services-body {
+  background: var(--secondary-color);
+  padding: 30px;
+}
+section.edu-services .edu-services-body .edu-ser-body-wrapper {
+  display: flex;
+  margin: 18px 0;
+  border-bottom: 1px solid #6d6d6d;
+}
+section.edu-services .edu-services-body .edu-ser-body-wrapper .icon i{
+  color: #ffd500;
+}
+section.edu-services .edu-services-body .edu-ser-body-wrapper .icon i {
+  color: #ffd500;
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+section.edu-services .edu-services-body .edu-ser-body-wrapper .content h1 {
+  font-family: var(--primary-font-family);
+  font-size: 21px;
+}
+/* application process */
+section.app-process {
+  padding: 100px 0px;
+}
+section.app-process .tto {
+  padding: 28px;
+  border: 2px dashed #dbdbdb;
+  margin-right: 50px;
+}
+section.app-process .tto h1 {
+  font-size: 23px;
+  font-family: var(--primary-font-family);
+  margin-bottom: 18px;
+}
+section.app-process .tto p {
+  font-size: 15.5px;
+  color: var(--tertiary-color);
+}
+section.app-process .tto ul {
+  list-style: none;
+  padding: 0;
+}
+section.app-process .tto ul li {
+  font-size: 16px;
+  font-family: var(--secondary-font);
+  color: var(--tertiary-color);
+}
+section.app-process .tto ul li i {
+color: var(--primary-color);
+margin-right: 5px;
+}
+section.app-process .tto .app-form {
+  background: var(--primary-color);
+  width: 100%;
+  height: 44px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+section.app-process .tto .app-form a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+section.app-process .wtsnd {
+  padding: 28px;
+  margin: 25px 50px 0 0;
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+section.app-process .wtsnd h1 {
+  font-size: 23px;
+  font-family: var(--primary-font-family);
+  margin: 0;
+}
+section.app-process .wtsnd p {
+  font-size: 16px;
+  margin: 15px 0;
+}
+section.app-process .wtsnd .wtsnd-contact {
+  margin-top: 35px;
+}
+section.app-process .wtsnd .wtsnd-contact a {
+  font-family: var(--secondary-font);
+  color: #fefe00;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15.5px;
+}
+/* the application process */
+section.app-process .app-process-steps h1 {
+  font-size: 36px;
+  font-family: var(--primary-font-family);
+  border-bottom: 1px solid #dbdbdb;
+  padding: 15px 0px;
+}
+section.app-process .app-process-steps .process-wrapper {
+  display: flex;
+}
+section.app-process .app-process-steps .process-wrapper .sn p {
+  font-size: 38px;
+  margin: 7px 21px 0 0;
+  background: #f0f0f0;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+section.app-process .app-process-steps .process-wrapper .process h2 {
+  font-family: var(--primary-font-family);
+  margin-top: 6px;
+  font-size: 23px;
+}
+section.app-process .app-process-steps .process-wrapper .process p{
+  font-size: 17px;
+  color: var(--tertiary-color);
+}
+/* graduation */
+section.gd {
+  background: url(../images/how_to_apply/degree.jpg);
+  color: #fff;
+  height: 523px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 30px;
+}
+section.gd .overlay{
+  background-color: var(--overlay-first);
+  height: 523px;
+  padding: 50px 30px;
+  margin: -50px -30px;
+}
+section.gd .gd-body {
+  margin: 92px 0;
+}
+section.gd .gd-body h1 {
+  font-size: 37px;
+  font-family: var(--primary-font-family);
+  margin: 0;
+}
+section.gd .gd-body p {
+  font-size: 16px;
+  color: #dbdbdb;
+  margin: 25px 0;
+}
+section.gd .gd-body .gb-discover-more a {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
 /* settings for blog page */
-section.campus-news {
+section.campus-news{
   background: url(../images/blog/man_standing.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1416,26 +1647,28 @@ section.campus-news {
   padding: 0 45px;
 }
 
-section.campus-news .overlay {
+section.campus-news .overlay{
   background: var(--overlay-third);
   height: 475px;
   margin: 0 -45px;
   padding: 0 45px;
 }
 
-section.campus-news .sidebar {
+section.campus-news .sidebar{
   margin: 175px 0px;
   color: #fff;
 }
 
-section.campus-news .sidebar h1 {
+section.campus-news .sidebar h1,
+section.how_to_apply .sidebar h1 {
   font-family: var(--primary-font-family);
   font-size: 48px;
   text-transform: capitalize;
   font-weight: 600;
 }
 
-section.campus-news .sidebar p {
+section.campus-news .sidebar p,
+section.how_to_apply  .sidebar p {
   border-left: 4px solid var(--primary-color);
   padding: 20px 30px 0 22px;
   font-size: 20px;
