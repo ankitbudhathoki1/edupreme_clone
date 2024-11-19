@@ -1498,13 +1498,27 @@ section.faculty-details-banner .sidebar p {
 /* settings for campus history */
 .campus-history {
   padding: 60px 30px;
+  position: relative;
 }
-
+section.campus-history .college-img {
+  position: relative;
+}
 section.campus-history .college-img img {
   width: 100%;
   object-fit: cover;
   height: 430px;
   padding: 0 35px 0 0;
+  z-index: 2;
+  position: relative;
+}
+section.campus-history .college-img .img-frame {
+  position: absolute;
+  background: #762f69;
+  height: 198px;
+  width: 198px;
+  left: -15px;
+  bottom: -15px;
+  z-index: 1;
 }
 section.campus-history .history-disc h1{
   font-family: var(--primary-font-family);
