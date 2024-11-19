@@ -1556,6 +1556,7 @@ section.faculty-details-banner .sidebar .buttons .apply-now {
   height: 35px;
   width: 145px;
   transition: 0.5s;
+  margin: 30px 0;
 }
 
 section.faculty-details-banner .sidebar .buttons .apply-now:hover {
@@ -1581,9 +1582,9 @@ section.overview .overview-body .major-study {
   padding: 10px 0;
 }
 section.overview .overview-body .major-study img{
-  float: left;
+  /* float: left;
   width: 40%;
-  margin-right: 20px;
+  margin-right: 20px; */
 }
 section.overview .overview-body .major-study .major-study-body h2 {
   font-family: var(--primary-font-family);
@@ -1592,6 +1593,7 @@ section.overview .overview-body .major-study .major-study-body h2 {
   section.overview .overview-body .major-study .major-study-body ul {
     list-style: none;
     padding: 0;
+    font-family: var(--secondary-font);
   }
     section.overview .overview-body .major-study .major-study-body ul li{
       color: var(--tertiary-color);
