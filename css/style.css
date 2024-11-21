@@ -593,9 +593,30 @@ section.gd .gd-body .gb-discover-more:hover{
 
 /* settings for milestone */
 section.milestone {
-  margin: 55px 0;
+  padding: 55px 35px;
 }
-
+.mil-cont {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+section.milestone .mil-cont span {
+  font-size: 50px;
+  font-weight: 500;
+  font-family: var(--primary-font-family);
+  color: #324a7d;
+}
+section.milestone .mil-cont h4 {
+  margin: 0;
+  font-size: 18px;
+  padding: 0 0px 0 0;
+  margin-left: 25px;
+  font-family: var(--primary-font-family);
+}
+.col-sm-12.col-lg-6.col-xl-3.rb{
+  border-right: 1px dashed #dbdbdb;
+}
+/* 
 section.milestone h1 {
   color: #324a7d;
   font-size: 47px;
@@ -610,7 +631,7 @@ section.milestone p {
   font-weight: 600;
   margin: 5px 0 0 30px;
   padding-right: 25px;
-}
+} */
 
 /* settings for empowering section */
 .empowering {
@@ -1143,13 +1164,13 @@ section.experience .experience-img img {
 }
 
 section.experience .experience-img h1 {
-  font-size: 20px;
+  font-size: 19px;
   font-family: var(--primary-font-family);
   padding-top: 10px;
 }
 
 section.experience .experience-img p {
-  font-size: 17px;
+  font-size: 16px;
   color: var(--tertiary-color);
   font-family: var(--secondary-font);
 }
@@ -1637,6 +1658,28 @@ section.gd .gd-body .gb-discover-more a {
   letter-spacing: 1px;
   font-weight: 500;
 }
+/* university life */
+section.uni_life_banner{
+  background: url(../images/university_life/uni_life_banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: inherit;
+  height: 475px;
+  padding: 0 45px;
+}
+
+section.uni_life_banner .overlay{
+  background: var(--overlay-third);
+  height: 475px;
+  margin: 0 -45px;
+  padding: 0 45px;
+}
+
+section.uni_life_banner .sidebar{
+  margin: 175px 0px;
+  color: #fff;
+}
+
 /* settings for blog page */
 section.campus-news{
   background: url(../images/blog/man_standing.jpg);
@@ -1660,7 +1703,8 @@ section.campus-news .sidebar{
 }
 
 section.campus-news .sidebar h1,
-section.how_to_apply .sidebar h1 {
+section.how_to_apply .sidebar h1,
+section.uni_life_banner .sidebar h1 {
   font-family: var(--primary-font-family);
   font-size: 48px;
   text-transform: capitalize;
@@ -1668,7 +1712,8 @@ section.how_to_apply .sidebar h1 {
 }
 
 section.campus-news .sidebar p,
-section.how_to_apply  .sidebar p {
+section.how_to_apply  .sidebar p,
+section.uni_life_banner .sidebar p {
   border-left: 4px solid var(--primary-color);
   padding: 20px 30px 0 22px;
   font-size: 20px;
@@ -1784,6 +1829,8 @@ section.motive .key-of-success {
 /* faculty details */
 section.faculty-details-banner{
   background: url(../images/faculty_details/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 section.faculty-details-banner .sidebar .buttons a {
@@ -1828,11 +1875,7 @@ section.overview .overview-body p {
 section.overview .overview-body .major-study {
   padding: 10px 0;
 }
-section.overview .overview-body .major-study img{
-  /* float: left;
-  width: 40%;
-  margin-right: 20px; */
-}
+
 section.overview .overview-body .major-study .major-study-body h2 {
   font-family: var(--primary-font-family);
   font-size: 18px;
@@ -2034,7 +2077,8 @@ section.blogs .blog-body .writer-date i {
   color: var(--primary-color);
 }
 
-section.blogs .blog-body .writer-date p {
+section.blogs .blog-body .writer-date p,
+section.blogs .blog-body .writer-date span {
   font-size: 13px;
   margin: 0;
   color: var(--tertiary-color);
@@ -2060,4 +2104,16 @@ section.blogs .blog-card .read-more a {
   letter-spacing: 1px;
   font-size: 15px;
   font-weight: 500;
+}
+
+/* teacher profile */
+.flip-card{
+  background-color: transparent;
+  height: 270px;
+  width: 400px;
+  margin: 20px;
+}
+.flip-card .flip-card-inner{
+  height: 100%;
+  width: 100%;
 }
