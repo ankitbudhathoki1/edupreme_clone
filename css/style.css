@@ -201,7 +201,7 @@ header .contact-header .offcanvas-body .ncontact-wrapper .nav-item .nav-link i {
 
 header .contact-header .offcanvas-body .ncontact-wrapper .nav-item .nav-link i:hover,
 footer .college-short-disc .follow-us a i:hover,
-section.overview .department-contact .body .follow-us a i:hover{
+section.overview .department-contact .body .follow-us a i:hover {
   background-color: yellow;
   color: #000;
   transform: scale(1.1);
@@ -217,6 +217,9 @@ hr {
 }
 
 /* settings for nbar starts */
+.nbar {
+  border-bottom: 1px solid #dbdbdb;
+}
 section.nbar .dropdown:hover .dropdown-menu {
   display: block;
 }
@@ -555,7 +558,7 @@ section.experience .explore-more-wrapper .explore-more-experience-btn a,
 section.learn-together .learn-together-body .learn-apply a,
 section.campus-history .discover-more a,
 section.apply-details .apply-details-body .apply-details-discover-more a,
-section.gd .gd-body .gb-discover-more a{
+section.gd .gd-body .gb-discover-more a {
   margin: 0;
   font-size: 17px;
   text-decoration: none;
@@ -571,7 +574,7 @@ section.experience .explore-more-wrapper .explore-more-experience-btn,
 section.learn-together .learn-together-body .learn-apply,
 section.campus-history .discover-more,
 section.apply-details .apply-details-body .apply-details-discover-more,
-section.gd .gd-body .gb-discover-more{
+section.gd .gd-body .gb-discover-more {
   background-color: var(--primary-color);
   display: flex;
   align-items: center;
@@ -587,7 +590,7 @@ section.review .review-right-sidebar .right-sidebar-disc .review-discover-more:h
 section.experience .explore-more-wrapper .explore-more-experience-btn:hover,
 section.learn-together .learn-together-body .learn-apply:hover,
 section.apply-details .apply-details-body .apply-details-discover-more:hover,
-section.gd .gd-body .gb-discover-more:hover{
+section.gd .gd-body .gb-discover-more:hover {
   background-color: var(--secondary-color);
 }
 
@@ -595,17 +598,20 @@ section.gd .gd-body .gb-discover-more:hover{
 section.milestone {
   padding: 55px 35px;
 }
+
 .mil-cont {
   display: flex;
   /* justify-content: center; */
   align-items: center;
 }
+
 section.milestone .mil-cont span {
   font-size: 50px;
   font-weight: 500;
   font-family: var(--primary-font-family);
   color: #324a7d;
 }
+
 section.milestone .mil-cont h4 {
   margin: 0;
   font-size: 18px;
@@ -613,9 +619,11 @@ section.milestone .mil-cont h4 {
   margin-left: 25px;
   font-family: var(--primary-font-family);
 }
-.col-sm-12.col-lg-6.col-xl-3.rb{
-  border-right: 1px dashed #dbdbdb;
+
+.col-sm-12.col-lg-6.col-xl-3.rb {
+  border-right: 1px dashed #aeaeae;
 }
+
 /* 
 section.milestone h1 {
   color: #324a7d;
@@ -1266,25 +1274,25 @@ footer .college-short-disc img {
 
 footer .college-short-disc .follow-us ul,
 footer .contact-us .direction-email ul,
-section.overview .department-contact .body .follow-us ul{
+section.overview .department-contact .body .follow-us ul {
   list-style: none;
   padding: 0;
 }
 
 footer .college-short-disc .follow-us ul li,
-section.overview .department-contact .body .follow-us ul li{
+section.overview .department-contact .body .follow-us ul li {
   float: left;
   padding: 0 10px 0 0;
 }
 
 footer .college-short-disc .follow-us a,
-section.overview .department-contact .body .follow-us a{
+section.overview .department-contact .body .follow-us a {
   text-decoration: none;
   color: white;
 }
 
 footer .college-short-disc .follow-us i,
-section.overview .department-contact .body .follow-us i{
+section.overview .department-contact .body .follow-us i {
   background: #324a7d;
   font-size: 15px;
   height: 40px;
@@ -1440,6 +1448,7 @@ section.how_to_apply {
   height: 423px;
   padding: 0 45px;
 }
+
 section.how_to_apply .overlay {
   background: var(--overlay-third);
   height: 423px;
@@ -1447,7 +1456,7 @@ section.how_to_apply .overlay {
   padding: 0 45px;
 }
 
-  section.how_to_apply .sidebar {
+section.how_to_apply .sidebar {
   margin: 125px 0px;
   color: #fff;
 }
@@ -1456,9 +1465,11 @@ section.how_to_apply .overlay {
 section.apply-details {
   padding: 100px 28px;
 }
+
 section.apply-details .apply-details-body {
   padding-right: 20px;
 }
+
 section.apply-details .apply-details-body h1 {
   font-family: var(--primary-font-family);
   margin: 0;
@@ -1466,24 +1477,29 @@ section.apply-details .apply-details-body h1 {
   border-bottom: 4px solid var(--primary-color);
   font-size: 38px;
 }
+
 section.apply-details .apply-details-body h3 {
   font-family: var(--primary-font-family);
   margin: 0;
   padding: 20px 0;
   font-size: 22px;
 }
+
 section.apply-details .apply-details-body p {
-color: var(--tertiary-color);
+  color: var(--tertiary-color);
 }
+
 section.apply-details .apply-details-body .apply-details-discover-more {
   margin-top: 28px;
 }
+
 section.apply-details .apply-details-img img {
   padding: 0 0 0 45px;
   width: 100%;
   height: 399px;
   object-fit: cover;
 }
+
 /* education services */
 section.edu-services {
   background: url(../images/how_to_apply/university_image.jpg);
@@ -1494,22 +1510,27 @@ section.edu-services {
   margin: 0 30px;
   color: #fff;
 }
-section.edu-services .overlay{
-background-color: rgb(33, 49, 83, 0.3);
-height: 615px;
+
+section.edu-services .overlay {
+  background-color: rgb(33, 49, 83, 0.3);
+  height: 615px;
 }
+
 section.edu-services .edu-services-body {
   background: var(--secondary-color);
   padding: 30px;
 }
+
 section.edu-services .edu-services-body .edu-ser-body-wrapper {
   display: flex;
   margin: 18px 0;
   border-bottom: 1px solid #6d6d6d;
 }
-section.edu-services .edu-services-body .edu-ser-body-wrapper .icon i{
+
+section.edu-services .edu-services-body .edu-ser-body-wrapper .icon i {
   color: #ffd500;
 }
+
 section.edu-services .edu-services-body .edu-ser-body-wrapper .icon i {
   color: #ffd500;
   font-size: 23px;
@@ -1518,41 +1539,50 @@ section.edu-services .edu-services-body .edu-ser-body-wrapper .icon i {
   align-items: center;
   margin-right: 10px;
 }
+
 section.edu-services .edu-services-body .edu-ser-body-wrapper .content h1 {
   font-family: var(--primary-font-family);
   font-size: 21px;
 }
+
 /* application process */
 section.app-process {
   padding: 100px 0px;
 }
+
 section.app-process .tto {
   padding: 28px;
   border: 2px dashed #dbdbdb;
   margin-right: 50px;
 }
+
 section.app-process .tto h1 {
   font-size: 23px;
   font-family: var(--primary-font-family);
   margin-bottom: 18px;
 }
+
 section.app-process .tto p {
   font-size: 15.5px;
   color: var(--tertiary-color);
 }
+
 section.app-process .tto ul {
   list-style: none;
   padding: 0;
 }
+
 section.app-process .tto ul li {
   font-size: 16px;
   font-family: var(--secondary-font);
   color: var(--tertiary-color);
 }
+
 section.app-process .tto ul li i {
-color: var(--primary-color);
-margin-right: 5px;
+  color: var(--primary-color);
+  margin-right: 5px;
 }
+
 section.app-process .tto .app-form {
   background: var(--primary-color);
   width: 100%;
@@ -1563,30 +1593,36 @@ section.app-process .tto .app-form {
   align-items: center;
   margin-top: 30px;
 }
+
 section.app-process .tto .app-form a {
   text-decoration: none;
   color: white;
   font-weight: 500;
   font-size: 16px;
 }
+
 section.app-process .wtsnd {
   padding: 28px;
   margin: 25px 50px 0 0;
   background-color: var(--secondary-color);
   color: #fff;
 }
+
 section.app-process .wtsnd h1 {
   font-size: 23px;
   font-family: var(--primary-font-family);
   margin: 0;
 }
+
 section.app-process .wtsnd p {
   font-size: 16px;
   margin: 15px 0;
 }
+
 section.app-process .wtsnd .wtsnd-contact {
   margin-top: 35px;
 }
+
 section.app-process .wtsnd .wtsnd-contact a {
   font-family: var(--secondary-font);
   color: #fefe00;
@@ -1594,6 +1630,7 @@ section.app-process .wtsnd .wtsnd-contact a {
   text-transform: uppercase;
   font-size: 15.5px;
 }
+
 /* the application process */
 section.app-process .app-process-steps h1 {
   font-size: 36px;
@@ -1601,9 +1638,11 @@ section.app-process .app-process-steps h1 {
   border-bottom: 1px solid #dbdbdb;
   padding: 15px 0px;
 }
+
 section.app-process .app-process-steps .process-wrapper {
   display: flex;
 }
+
 section.app-process .app-process-steps .process-wrapper .sn p {
   font-size: 38px;
   margin: 7px 21px 0 0;
@@ -1616,15 +1655,18 @@ section.app-process .app-process-steps .process-wrapper .sn p {
   color: var(--primary-color);
   font-weight: 600;
 }
+
 section.app-process .app-process-steps .process-wrapper .process h2 {
   font-family: var(--primary-font-family);
   margin-top: 6px;
   font-size: 23px;
 }
-section.app-process .app-process-steps .process-wrapper .process p{
+
+section.app-process .app-process-steps .process-wrapper .process p {
   font-size: 17px;
   color: var(--tertiary-color);
 }
+
 /* graduation */
 section.gd {
   background: url(../images/how_to_apply/degree.jpg);
@@ -1634,32 +1676,38 @@ section.gd {
   background-repeat: no-repeat;
   padding: 50px 30px;
 }
-section.gd .overlay{
+
+section.gd .overlay {
   background-color: var(--overlay-first);
   height: 523px;
   padding: 50px 30px;
   margin: -50px -30px;
 }
+
 section.gd .gd-body {
   margin: 92px 0;
 }
+
 section.gd .gd-body h1 {
   font-size: 37px;
   font-family: var(--primary-font-family);
   margin: 0;
 }
+
 section.gd .gd-body p {
   font-size: 16px;
   color: #dbdbdb;
   margin: 25px 0;
 }
+
 section.gd .gd-body .gb-discover-more a {
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: 500;
 }
+
 /* university life */
-section.uni_life_banner{
+section.uni_life_banner {
   background: url(../images/university_life/uni_life_banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1668,20 +1716,20 @@ section.uni_life_banner{
   padding: 0 45px;
 }
 
-section.uni_life_banner .overlay{
+section.uni_life_banner .overlay {
   background: var(--overlay-third);
   height: 475px;
   margin: 0 -45px;
   padding: 0 45px;
 }
 
-section.uni_life_banner .sidebar{
+section.uni_life_banner .sidebar {
   margin: 175px 0px;
   color: #fff;
 }
 
 /* settings for blog page */
-section.campus-news{
+section.campus-news {
   background: url(../images/blog/man_standing.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1690,14 +1738,14 @@ section.campus-news{
   padding: 0 45px;
 }
 
-section.campus-news .overlay{
+section.campus-news .overlay {
   background: var(--overlay-third);
   height: 475px;
   margin: 0 -45px;
   padding: 0 45px;
 }
 
-section.campus-news .sidebar{
+section.campus-news .sidebar {
   margin: 175px 0px;
   color: #fff;
 }
@@ -1712,7 +1760,7 @@ section.uni_life_banner .sidebar h1 {
 }
 
 section.campus-news .sidebar p,
-section.how_to_apply  .sidebar p,
+section.how_to_apply .sidebar p,
 section.uni_life_banner .sidebar p {
   border-left: 4px solid var(--primary-color);
   padding: 20px 30px 0 22px;
@@ -1722,30 +1770,33 @@ section.uni_life_banner .sidebar p {
 /* settings for about us page */
 /* settings for banner */
 section.welcome-msg,
-section.faculty-details-banner{
+section.faculty-details-banner {
   background: url(../images/about/banner.jpg);
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-repeat: repeat;
-    background-size: auto;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-size: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 550px;
   padding: 0 45px;
 }
+
 section.welcome-msg .overlay,
-section.faculty-details-banner .overlay{
+section.faculty-details-banner .overlay {
   background: var(--overlay-third);
   height: 550px;
   margin: 0 -45px;
   padding: 0 45px;
 }
+
 section.welcome-msg .sidebar,
 section.faculty-details-banner .sidebar {
   margin: 145px 0px;
   color: #fff;
 }
+
 section.welcome-msg .sidebar h3,
 section.faculty-details-banner .sidebar h3 {
   font-size: 14px;
@@ -1758,14 +1809,16 @@ section.faculty-details-banner .sidebar h3 {
   font-weight: 600;
   margin: 0;
 }
+
 section.welcome-msg .sidebar h1,
-section.faculty-details-banner .sidebar h1{
+section.faculty-details-banner .sidebar h1 {
   font-size: 46px;
   font-family: var(--primary-font-family);
   text-transform: capitalize;
   font-weight: 600;
   margin: 18px 0;
 }
+
 section.welcome-msg .sidebar p,
 section.faculty-details-banner .sidebar p {
   font-size: 19px;
@@ -1778,9 +1831,11 @@ section.faculty-details-banner .sidebar p {
   padding: 60px 30px;
   position: relative;
 }
+
 section.campus-history .college-img {
   position: relative;
 }
+
 section.campus-history .college-img img {
   width: 100%;
   object-fit: cover;
@@ -1789,6 +1844,7 @@ section.campus-history .college-img img {
   z-index: 2;
   position: relative;
 }
+
 section.campus-history .college-img .img-frame {
   position: absolute;
   background: #762f69;
@@ -1798,21 +1854,25 @@ section.campus-history .college-img .img-frame {
   bottom: -15px;
   z-index: 1;
 }
-section.campus-history .history-disc h1{
+
+section.campus-history .history-disc h1 {
   font-family: var(--primary-font-family);
   font-size: 37px;
 }
+
 section.campus-history .history-disc h3 {
   font-family: var(--primary-font-family);
   font-size: 18px;
   color: var(--tertiary-color);
   font-weight: 600;
 }
+
 section.campus-history .history-disc p {
   font-family: var(--secondary-font);
   font-size: 16px;
   color: var(--tertiary-color);
 }
+
 section.campus-history .history-disc {
   padding: 25px 20px;
 }
@@ -1827,7 +1887,7 @@ section.motive .key-of-success {
 }
 
 /* faculty details */
-section.faculty-details-banner{
+section.faculty-details-banner {
   background: url(../images/faculty_details/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1860,18 +1920,22 @@ section.faculty-details-banner .sidebar .buttons .apply-now:hover {
 section.faculty-details-banner .sidebar .buttons .apply-now a {
   color: white;
 }
+
 /* overview body */
 section.overview .overview-body {
   padding: 12px;
 }
+
 section.overview .overview-body h1 {
   font-size: 27px;
   font-family: var(--primary-font-family);
 }
+
 section.overview .overview-body p {
   color: var(--tertiary-color);
   margin: 16px 0px;
 }
+
 section.overview .overview-body .major-study {
   padding: 10px 0;
 }
@@ -1880,18 +1944,22 @@ section.overview .overview-body .major-study .major-study-body h2 {
   font-family: var(--primary-font-family);
   font-size: 18px;
 }
-  section.overview .overview-body .major-study .major-study-body ul {
-    list-style: none;
-    padding: 0;
-    font-family: var(--secondary-font);
-  }
-    section.overview .overview-body .major-study .major-study-body ul li{
-      color: var(--tertiary-color);
-    }
-    section.overview .overview-body .major-study .major-study-body ul li i{
-      color: var(--primary-color);
-      margin-right: 5px;
-    }
+
+section.overview .overview-body .major-study .major-study-body ul {
+  list-style: none;
+  padding: 0;
+  font-family: var(--secondary-font);
+}
+
+section.overview .overview-body .major-study .major-study-body ul li {
+  color: var(--tertiary-color);
+}
+
+section.overview .overview-body .major-study .major-study-body ul li i {
+  color: var(--primary-color);
+  margin-right: 5px;
+}
+
 /* settings for accordion */
 .accordion .accordion-item h2.accordion-header button {
   font-family: var(--primary-font-family);
@@ -1899,20 +1967,22 @@ section.overview .overview-body .major-study .major-study-body h2 {
   font-size: 17px;
   padding: 20px;
 }
+
 .accordion-button:not(.collapsed) {
   color: var(--secondary-color);
   background-color: transparent;
   box-shadow: none;
   border-bottom: 1px dashed #dbdbdb;
 }
-.accordion-button:active, 
+
+.accordion-button:active,
 .accordion-button:focus {
   background: transparent;
   box-shadow: none;
 }
 
 
-section.overview .department-contact .body .follow-us i{
+section.overview .department-contact .body .follow-us i {
   background: #fff;
   color: var(--primary-color);
   font-size: 16px;
@@ -1924,95 +1994,117 @@ section.overview .department-contact .body .follow-us i{
   transition: 0.5s;
   border-radius: 5px;
 }
+
 section.overview {
   padding: 75px 25px;
 }
+
 section.overview .department-contact {
   background: var(--secondary-color);
   padding: 24px;
 }
-section.overview .department-contact{
+
+section.overview .department-contact {
   background: var(--secondary-color);
   padding: 24px;
   color: white;
   margin: 10px 21px;
 }
+
 section.overview .department-contact .heading {
   padding: 0px 0 20px 0px;
   border-bottom: 1px solid #4b5873;
 }
+
 section.overview .department-contact .heading h1,
 section.overview .department-contact .body h1 {
   font-size: 23px;
   font-family: var(--primary-font-family);
   margin: 0;
 }
+
 section.overview .department-contact .body h3 {
   font-size: 16px;
   margin: 8px 0 0 0;
 }
+
 section.overview .department-contact .body .address-info h2 {
   font-size: 18px;
   font-family: var(--primary-font-family);
 }
-section.overview .department-contact .body .address-info{
+
+section.overview .department-contact .body .address-info {
   margin-top: 10px;
 }
+
 section.overview .department-contact .body .address-info,
 section.overview .department-contact .body .contact-info,
 section.overview .department-contact .body .open-hours {
   padding: 10px 0;
 }
+
 section.overview .department-contact .body .address-info p,
 section.overview .department-contact .body .contact-info p {
   margin: 0px;
   font-size: 16px;
   color: #dbdbdb;
 }
+
 section.overview .department-contact .body {
   padding-top: 20px;
 }
+
 section.overview .department-contact .body .follow-us ul li {
   float: none;
   padding: 0 10px 0 0;
 }
+
 section.overview .department-contact .body .follow-us h1 {
   font-size: 18px;
   margin-top: 13px;
 }
+
 section.overview .department-contact .body .follow-us ul {
   display: flex;
   margin: 15px 0 0 0;
 }
+
 /* related download section */
 section.overview .related-downloads {
   padding: 24px;
   margin: 30px 21px;
   border: 2px dashed #dbdbdb;
 }
-section.overview .related-downloads h1{
+
+section.overview .related-downloads h1 {
   font-family: var(--primary-font-family);
   font-size: 23px;
 }
+
 section.overview .related-downloads ul {
   list-style: none;
   padding: 0;
 }
-section.overview .related-downloads ul li{
+
+section.overview .related-downloads ul li {
   border-bottom: 1px solid #dbdbdb;
   padding: 5px 0;
 }
-section.overview .related-downloads ul li.no-bb{
+
+section.overview .related-downloads ul li.no-bb {
   border: none;
 }
-section.overview .related-downloads ul a{
+
+section.overview .related-downloads ul a {
   text-decoration: none;
   color: var(--tertiary-color);
 }
-section.overview .related-downloads ul a i{
+
+section.overview .related-downloads ul a i {
   color: var(--primary-color);
   margin-right: 5px;
 }
+
 /* blog cards settings */
 section.blogs {
   padding: 113px 30px;
@@ -2107,13 +2199,178 @@ section.blogs .blog-card .read-more a {
 }
 
 /* teacher profile */
-.flip-card{
-  background-color: transparent;
-  height: 270px;
-  width: 400px;
-  margin: 20px;
+section.professors {
+  padding: 50px 0;
+  background-color: #f7f7f7;
 }
-.flip-card .flip-card-inner{
+
+section.professors .pg-title h1 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: var(--primary-font-family);
+}
+
+.pro-disc h1 {
+  font-size: 27px;
+  font-family: var(--primary-font-family);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.pro-disc {
+  padding: 25px 0;
+}
+
+section.professors .flip-card,
+section.pro-journey .flip-card {
+  background-color: transparent;
+  height: 320px;
+  width: 84%;
+  perspective: 1000px;
+  margin: 15px 0;
+
+}
+
+section.professors .flip-card .flip-card-inner,
+section.pro-journey .flip-card .flip-card-inner {
   height: 100%;
   width: 100%;
+  transition: all 1s;
+  transform-style: preserve-3d;
+  /* text-align: center; */
+  position: relative;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+section.professors .flip-card .flip-card-inner .flip-card-front,
+section.pro-journey .flip-card .flip-card-inner .flip-card-front {
+  text-align: center;
+  background-color: var(--secondary-color);
+  color: #fff;
+  height: 100%;
+  border-radius: 10px;
+}
+
+section.professors .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+section.professors .flip-card-inner .flip-card-back {
+  transform: rotateY(180deg);
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+section.professors .flip-card .flip-card-inner .flip-card-front img,
+section.pro-journey .flip-card .flip-card-inner .flip-card-front img {
+  border-radius: 10px 10px 0 0;
+}
+
+section.professors .flip-card .flip-card-inner .flip-card-front,
+section.professors .flip-card .flip-card-inner .flip-card-back {
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  border: 1px solid #dbdbdb;
+}
+
+section.professors .flip-card .flip-card-inner .flip-card-front h3,
+section.pro-journey .flip-card .flip-card-inner .flip-card-front h3 {
+  font-size: 22px;
+  margin: 12px 0 0 0;
+  font-family: var(--primary-font-family);
+  font-weight: 600;
+}
+
+section.professors .flip-card .flip-card-inner .flip-card-front p,
+section.pro-journey .flip-card .flip-card-inner .flip-card-front p {
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  margin: 0 0;
+}
+
+section.professors .flip-card .flip-card-inner .flip-card-back h3 {
+  color: #000;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: var(--primary-font-family);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+section.professors .flip-card .flip-card-inner .flip-card-back p {
+  font-size: 15px;
+}
+
+section.professors .flip-card .flip-card-inner .flip-card-back p a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.5s;
+  text-align: center;
+}
+
+section.professors .flip-card .flip-card-inner .flip-card-back p a:hover {
+  color: var(--secondary-color);
+}
+
+section.professors .flip-card .flip-card-inner .flip-card-back p i {
+  margin-right: 5px;
+  color: var(--primary-color);
+}
+
+section.professors .flip-card .flip-card-inner .flip-card-back a.btn {
+  background: var(--secondary-color);
+  border: none;
+  font-weight: 600;
+  width: 100%;
+}
+
+section.professors .flip-card .flip-card-inner .flip-card-back a.btn:hover {
+  background: var(--primary-color);
+}
+
+section.professors .flip-card .flip-card-inner .pro-img {
+  width: 100%;
+  height: 220px;
+}
+
+/* pro journey */
+section.pro-journey {
+  padding: 50px 0;
+}
+
+.professional-journey h1 {
+  margin: 0 0px 40px 0;
+  font-size: 30px;
+  font-family: var(--primary-font-family);
+}
+
+section.pro-journey .about-pro h3 {
+  font-weight: 600;
+  font-size: 19px;
+  margin: 16px 0 12px 0;
+  font-family: var(--primary-font-family);
+  text-transform: uppercase;
+}
+
+section.pro-journey .about-pro ul li {
+  font-family: var(--secondary-font);
+  color: var(--tertiary-color);
+}
+
+section.pro-journey .about-pro ul li a {
+  color: var(--primary-color);
+}
+
+section.pro-journey .about-pro ul li a:hover {
+  color: var(--secondary-color);
+}
+
+section.pro-journey .about-pro .about-pro-divider {
+  color: #aeaeae;
 }
