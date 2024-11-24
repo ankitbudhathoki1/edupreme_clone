@@ -353,6 +353,9 @@
   section.milestone .mil-cont span {
     font-size: 47px;
   }
+  .blog-disc .blog-disc-body h1 {
+    font-size: 36px;
+  }
 }
 
 @media (max-width: 820px) {
@@ -689,6 +692,15 @@
   section.milestone .mil-cont h4 {
     font-size: 16px;
   }
+  section.blog-cat .cat-heading h1, section.blog-auth .auth-heading h1 {
+    font-size: 40px;
+  }
+  section.blog-cat .cat-body h3 a, section.blog-auth .auth-body h3 a {
+    font-size: 30px;
+  }
+  section.blog-cat .cat-body p, section.blog-auth .auth-body p {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 736px) {
@@ -797,6 +809,9 @@
 
   section.milestone .mil-cont h4 {
     margin-left: 80px;
+  }
+  .blog-disc .blog-disc-body h1 {
+    font-size: 33px;
   }
 
 }
@@ -924,7 +939,7 @@
 
   /* contact header */
   header .contact-header .clz-logo img {
-    width: 34%;
+    width: 25%;
   }
 
   /* nbar */
@@ -1468,13 +1483,37 @@
   section.milestone .mil-cont {
     margin-left: 0;
   }
+  .blog-disc .blog-disc-body p {
+    font-size: 15px;
+  }
+  section.blog-cat .cat-heading h1, section.blog-auth .auth-heading h1 {
+    font-size: 36px;
+  }
+  section.blog-cat .cat-body h3 a, section.blog-auth .auth-body h3 a {
+    font-size: 27px;
+  }
 }
 
+@media (max-width: 523px) {
+  .blog-disc .blog-disc-body h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 414px) {
+  section.blog-cat .cat-heading h1, section.blog-auth .auth-heading h1 {
+    font-size: 33px;
+  }
+  section.blog-cat .cat-body h3 a, section.blog-auth .auth-body h3 a {
+    font-size: 22px;
+  }
+  header .contact-header .clz-logo img {
+    width: 35%;
+  }
+}
 @media (max-width: 390px) {
   header .contact-header .clz-logo img {
-    width: 34%;
+    width: 37%;
   }
-
   section.how-to-apply .how-to-apply-card .arrow .down {
     right: 75px;
     bottom: -21px;
@@ -1509,10 +1548,16 @@
   section.campus-news .sidebar {
     margin: 45px 0px;
   }
+  section.blog-cat .cat-heading h1, section.blog-auth .auth-heading h1 {
+    font-size: 29px;
+  }
 
 }
 
 @media (max-width: 320px) {
+  header .contact-header .clz-logo img {
+    width: 46%;
+  }
   section.grad .graduation-img .img-text {
     height: 126px;
     width: 280px;
@@ -1523,12 +1568,6 @@
     bottom: -21px;
   }
 
-  /* section.welcome-msg .overlay {
-    height: 390px;
-  }
-    section.welcome-msg .overlay {
-      height: 390px;
-    } */
   section.faculty-details-banner {
     height: 435px;
   }
@@ -1556,5 +1595,14 @@
   section.campus-news .sidebar p {
     padding: 15px 0 0 15px;
     font-size: 16px;
+  }
+  .blog-disc .blog-disc-body .blog-disc-img .image-caption {
+    width: 272px;
+  }
+  section.blog-cat .cat-heading h1, section.blog-auth .auth-heading h1 {
+    font-size: 23px;
+  }
+  section.blog-auth .auth-heading p {
+    font-size: 15px;
   }
 }
