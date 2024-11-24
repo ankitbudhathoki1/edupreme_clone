@@ -29,6 +29,9 @@
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1199.99px) {
+
+}
 @media (max-width: 1200px) {
   header .contact-header .clz-logo img {
     width: 45%;
@@ -717,7 +720,29 @@
   section.milestone .mil-cont {
     margin-left: 110px;
   }
-
+  section.how-to-apply .how-to-apply-card .arrow .right {
+    display: none;
+  }
+  section.how-to-apply .how-to-apply-card .arrow .down {
+    display: inline;
+  }
+  section.how-to-apply .how-to-apply-card .arrow .down i {
+    color: #fff;
+    background: var(--primary-color);
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+  section.how-to-apply .how-to-apply-card .arrow .down {
+    position: absolute;
+    right: 95px;
+    bottom: -17px; 
+    z-index: 1;
+  }
 
 }
 
@@ -863,8 +888,14 @@
   section.milestone .mil-cont {
     margin-left: 65px;
   }
-
-
+  section.blogs .blog-body .writer-date {
+    display: flex;
+    flex-direction: column;
+    /* margin: 12px 0; */
+  }
+  section.blogs .blog-body .writer-date .writer, section.blogs .blog-body .writer-date .date{
+    width: 100%;
+  }
 }
 
 @media (max-width: 640px) {
@@ -1114,35 +1145,16 @@
     margin: 17px 22px 0 5px;
   }
 
-  section.how-to-apply .how-to-apply-card .arrow .right {
-    display: none;
-  }
 
-  section.how-to-apply .how-to-apply-card .arrow .down {
-    display: inline;
-  }
 
-  section.how-to-apply .how-to-apply-card .arrow .down {
-    position: absolute;
-    right: 95px;
-    bottom: -17px;
-  }
+
+
 
   /* section.how-to-apply .how-to-apply-card .icon i {
         font-size: 37px;
         color: var(--primary-color);
       } */
-  section.how-to-apply .how-to-apply-card .arrow .down i {
-    color: #fff;
-    background: var(--primary-color);
-    border-radius: 50%;
-    height: 36px;
-    width: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-  }
+
 
   section.how-to-apply .how-to-apply-card .apply-wrapper {
     display: flex;
