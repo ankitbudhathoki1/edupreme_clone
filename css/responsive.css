@@ -23,8 +23,8 @@
   }
 
   .col-sm-12.col-md-4.life-point-two {
-    border-right: 1px solid #425169;
-    border-left: 1px solid #425169;
+    border-right: 1px solid #5e5e5e;
+    border-left: 1px solid #5e5e5e;
   }
 }
 
@@ -192,6 +192,9 @@
 
   section.blogs .blog-card .read-more {
     padding: 11px 21px;
+  }
+  section.uni_life_banner .sidebar {
+    margin: 149px 0px;
   }
 
 
@@ -614,6 +617,10 @@
     margin-left: 30px;
     padding-right: 15px;
   }
+  section.pro-journey .flip-card {
+    height: 325px;
+    width: 225px;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -701,7 +708,30 @@
   section.blog-cat .cat-body p, section.blog-auth .auth-body p {
     font-size: 15px;
   }
+  section.uni_life_banner {
+    height: 336px;
+    padding: 0 25px;
+  }
+  section.uni_life_banner .sidebar {
+    margin: 104px 0px;
+  }
+  section.uni_life_banner .overlay {
+    background: var(--overlay-third);
+    height: 336px;
+    margin: 0 -25px;
+    padding: 0 25px;
+  }
+  section.uni_life_banner .sidebar h1 {
+    font-size: 37px;
+  }
+  section.uni_life_banner .sidebar p {
+    padding: 15px 75px 0 20px;
+    font-size: 18px;
+  }
+
 }
+
+
 
 @media (max-width: 736px) {
   section.overview .major-study .major-study-body {
@@ -813,6 +843,9 @@
   .blog-disc .blog-disc-body h1 {
     font-size: 33px;
   }
+  .professional-journey h1 {
+    margin: 0 0px 20px 0;
+  }
 
 }
 
@@ -911,14 +944,32 @@
   section.blogs .blog-body .writer-date .writer, section.blogs .blog-body .writer-date .date{
     width: 100%;
   }
+  section.uni_life_banner {
+    background-position: center;
+    height: 275px;
+    padding: 0 15px;
+  }
+  section.uni_life_banner .overlay {
+    background: var(--overlay-third);
+    height: 275px;
+    margin: 0 -15px;
+    padding: 0 15px;
+  }
+  section.uni_life_banner .sidebar {
+    margin: 78px 0px;
+  }
+  section.uni_life_banner .sidebar h1 {
+    font-size: 37px;
+  }
+  section.uni_life_banner .sidebar p {
+    padding: 10px 0px 0 20px;
+    font-size: 17px;
+  }
 }
 
 @media (max-width: 640px) {
 
   /* contact header */
-
-
-
 
   header .contact-header .clz-logo img {
     width: 25%;
@@ -1492,8 +1543,43 @@
   section.blog-cat .cat-body h3 a, section.blog-auth .auth-body h3 a {
     font-size: 27px;
   }
-}
+  section.pro-journey .about-pro h3{
+    font-size: 18px;
+  }
+  section.pro-journey .about-pro ul li {
+    font-size: 15px;
+  }
+  section.pro-journey .flip-card {
+    height: 300px;
+    width: 200px;
+  }
+  section.pro-journey .flip-card .flip-card-inner .flip-card-front h3 {
+    font-size: 20px;
+  }
+  section.pro-journey .flip-card .flip-card-inner .flip-card-front p {
+    font-size: 15px;
+  }
+  section.pro-journey .flip-card .flip-card-inner .flip-card-front p,
+  section.pro-journey .flip-card .flip-card-inner .flip-card-front h3 {
+    padding: 0 8px;
+  }
+  .professional-journey h1 {
+    margin: 0 0px 15px 0;
+    font-size: 28px;
+  }
+  section.uni_life_banner .sidebar {
+    margin: 73px 0px;
+  }
+  section.uni_life_banner .sidebar h1 {
+    font-size: 38px;
+  }
+  section.uni_life_banner .sidebar p {
+    padding: 10px 29px 0 10px;
+    font-size: 18px;
+  }
 
+}
+/*  */
 @media (max-width: 523px) {
   .blog-disc .blog-disc-body h1 {
     font-size: 30px;
@@ -1509,7 +1595,26 @@
   header .contact-header .clz-logo img {
     width: 35%;
   }
+  section.uni_life_banner {
+    height: 245px;
+  }
+  section.uni_life_banner .overlay {
+    height: 245px;
+  }
+  section.uni_life_banner .sidebar {
+    margin: 65px 0px;
+  }
+  section.uni_life_banner .sidebar h1 {
+    font-size: 33px;
+  }
+  section.uni_life_banner .sidebar p {
+    padding: 8px 29px 0 10px;
+    font-size: 17px;
+  }
 }
+
+
+
 @media (max-width: 390px) {
   header .contact-header .clz-logo img {
     width: 37%;
@@ -1550,6 +1655,26 @@
   }
   section.blog-cat .cat-heading h1, section.blog-auth .auth-heading h1 {
     font-size: 29px;
+  }
+  section.professors .pg-title h1,
+  .pro-disc h1{
+    font-size: 25px;
+  }
+  section.uni_life_banner .overlay {
+    padding: 0 12px;
+  }
+  section.uni_life_banner {
+    height: 235px;
+  }
+  section.uni_life_banner .overlay {
+    height: 235px;
+  }
+  section.uni_life_banner .sidebar h1 {
+    font-size: 32px;
+  }
+  section.uni_life_banner .sidebar p {
+    padding: 8px 0px 0 10px;
+    font-size: 16px;
   }
 
 }
@@ -1605,4 +1730,13 @@
   section.blog-auth .auth-heading p {
     font-size: 15px;
   }
+  section.pro-journey .about-pro ul {
+    padding-left: 23px;
+  }
+  .professional-journey h1 {
+    font-size: 26px;
+  }
+  section.uni_life_banner .sidebar {
+    margin: 50px 0px;
+  aeaeae
 }

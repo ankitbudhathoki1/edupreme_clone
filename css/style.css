@@ -500,7 +500,7 @@ section.motive p {
 /* setting for about campus */
 .about-campus {
   margin: 20px 0 0px 30px;
-  padding-right: 22px;
+  padding: 25px;
   position: relative;
 }
 
@@ -528,6 +528,7 @@ section.motive p {
 
 .about-campus-discription {
   margin-left: 25px;
+  padding: 32px 0;
 }
 
 .about-campus .about-campus-header h6 {
@@ -753,7 +754,48 @@ section.faculty .faculty-card .card-disc .btn {
   border-radius: 0;
   font-family: var(--secondary-font);
 }
-
+/* news and events preview section */
+section.prev-events {
+  padding: 25px 20px;
+}
+section.prev-events .card{
+  height: 420px;
+}
+section.prev-events h1 {
+  font-size: 31px;
+  margin: 0 0px 23px 7px;
+  border-left: 3px solid var(--primary-color);
+}
+.events-card-img img {
+  width: 306px;
+  height: 220px;
+  object-fit: cover;
+}
+.events-card-wrapper .events-card-body {
+  padding: 15px 20px;
+}
+.events-card-wrapper .events-card-body a{
+  text-decoration: none;
+  color: #000;
+}
+.events-card-wrapper .events-card-body .events-card-date span {
+  margin-right: 10px;
+  font-size: 13px;
+}
+.events-card-wrapper .events-card-body h3 {
+  font-size: 18px;
+  margin: 15px 0;
+  font-family: var(--primary-font-family);
+}
+.events-card-wrapper .events-card-body p {
+  font-size: 14px;
+  margin: 17px 0 4px 0;
+  color: var(--tertiary-color);
+}
+.events-card-wrapper .events-card-body .events-card-date span i {
+  margin-right: 3px;
+  color: var(--primary-color);
+}
 /* why study here section */
 section.why_study_here {
   padding: 100px 30px;
@@ -1113,14 +1155,14 @@ section.uni-life {
   background-size: cover;
   color: white;
   background-position: center;
-  padding: 80px 80px 80px 35px;
+  padding: 80px 25px 70px 40px;
   margin: 0px 15px;
 }
 
 section.uni-life .overlay {
   background: var(--overlay-first);
-  margin: -80px -80px -80px -35px;
-  padding: 80px 80px 80px 35px;
+  margin: -80px -25px -70px -40px;
+  padding: 80px 25px 70px 40px;
 }
 
 section.uni-life .uni-life-heading h3 {
@@ -1141,10 +1183,12 @@ section.faculty .faculty-dis span {
   border-top: 4px solid var(--primary-color);
   padding: 0 40px;
 }
-
+section.uni-life .uni-life-disc {
+  padding: 0 15px;
+}
 .uni-life-disc p {
   font-size: 19px;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
   font-family: var(--secondary-font);
 }
 
@@ -1158,7 +1202,7 @@ section.uni-life .uni-life-disc-points-wrapper .uni-life-disc-points h1 {
 }
 
 section.uni-life .uni-life-disc-points-wrapper .uni-life-disc-points p {
-  font-size: 16px;
+  font-size: 17px;
   margin: 0;
 }
 
@@ -1731,7 +1775,7 @@ section.uni_life_banner .overlay {
 }
 
 section.uni_life_banner .sidebar {
-  margin: 175px 0px;
+  margin: 160px 0px;
   color: #fff;
 }
 
@@ -1772,6 +1816,7 @@ section.uni_life_banner .sidebar p {
   border-left: 4px solid var(--primary-color);
   padding: 20px 30px 0 22px;
   font-size: 20px;
+  color: #c6cbcf;
 }
 
 /* settings for about us page */
@@ -2254,9 +2299,9 @@ section.professors .flip-card,
 section.pro-journey .flip-card {
   background-color: transparent;
   height: 340px;
-  width: 250px;
+  width: 245px;
   perspective: 1000px;
-  margin: 20px;
+  margin: 12px 14px;
   float: left;
 }
 
@@ -2371,13 +2416,20 @@ section.professors .flip-card .flip-card-inner .pro-img {
 
 /* pro journey */
 section.pro-journey {
-  padding: 50px 0;
+  padding: 20px 0;
 }
-.col-sm-12.col-md-4.card-center{
+.col-sm-12.col-md-5.col-lg-5.card-center{
   display: flex;
   justify-content: center;
 }
-
+.professional-journey a{
+text-decoration: none;
+color: #000;
+}
+.professional-journey i{
+  margin: 0px 0 10px 0;
+  font-size: 22px;
+}
 .professional-journey h1 {
   margin: 0 0px 40px 0;
   font-size: 30px;
