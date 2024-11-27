@@ -2127,8 +2127,13 @@ section.blogs .blog-card {
 .blog-img .overlay {
   background-color: rgb(0, 0, 0);
 }
+.blog-img {
+  background: #fff;
+  transition: 0.3s;
+}
 section.blogs .blog-card:hover .blog-img {
   overflow: hidden;
+  opacity: .7;
 }
 section.blogs .blog-card:hover .blog-img img{
   transition: 0.5s;
