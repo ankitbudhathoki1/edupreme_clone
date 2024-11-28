@@ -2567,20 +2567,22 @@ section.blog-auth .auth-body {
   height: 38px;
   font-weight: 600;
 }
-.reply .reply-form input[type="text"]:focus,
-.reply .reply-form input[type="text"]:active,
-.reply .reply-form input[type="email"]:focus,
-.reply .reply-form input[type="email"]:active,
+.reply .reply-form input:focus,
+.reply .reply-form input:active,
 .reply .reply-form textarea:active,
 .reply .reply-form textarea:focus{
   box-shadow: none;
   border: 1px solid #000;
 }
-label.form-label {
+.reply .reply-form label.form-label {
   margin: 0;
   color: #000;
   font-weight: 500;
 }
+.reply .reply-form input[type=checkbox]{
+  margin-right: 8px;
+}
+
 .reply .reply-form input[type="submit"]:hover {
   background: var(--secondary-color);
 }
