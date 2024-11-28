@@ -2025,6 +2025,7 @@ section.overview .overview-body .major-study .major-study-body ul li i {
   background-color: transparent;
   box-shadow: none;
   border-bottom: 1px dashed #dbdbdb;
+  border-left: 3px solid var(--primary-color);
 }
 
 .accordion-button:active,
@@ -2402,7 +2403,7 @@ section.professors .flip-card .flip-card-inner .flip-card-back a.btn {
   border: none;
   font-weight: 600;
   width: 100%;
-  margin: 16px 0px;
+  margin: 8px 0px;
 }
 
 section.professors .flip-card .flip-card-inner .flip-card-back a.btn:hover {
@@ -2514,6 +2515,16 @@ section.blog-auth .auth-body {
 /* blog discription */
 .blog-disc {
   padding: 25px 0;
+}
+.blog-disc .blog-disc-body .author-date span {
+  margin-right: 20px;
+  font-size: 15px;
+}
+.blog-disc .blog-disc-body .author-date span i {
+  margin-right: 3px;
+}
+.sharethis-inline-share-buttons {
+  margin: 15px 0;
 }
 .blog-disc .blog-disc-body h1 {
   font-size: 47px;

@@ -153,6 +153,11 @@
   }
 }
 
+@media (min-width: 1024px) {
+  section.professors .flip-card-wrapper {
+    justify-content: start;
+  }
+}
 @media (max-width: 1024px) {
   header .contact-header .bline {
     display: none;
@@ -198,6 +203,14 @@
   }
 
 
+
+}
+@media (max-width: 1023.99px) {
+  section.professors .flip-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  } 
 }
 
 
@@ -1738,5 +1751,5 @@
   }
   section.uni_life_banner .sidebar {
     margin: 50px 0px;
-  aeaeae
+  }
 }
