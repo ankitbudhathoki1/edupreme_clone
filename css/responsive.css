@@ -29,8 +29,7 @@
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
-@media (max-width: 1199.99px) {
-
+@media (min-width: 1199.99px) {
 }
 @media (max-width: 1200px) {
   header .contact-header .clz-logo img {
@@ -157,6 +156,7 @@
   section.professors .flip-card-wrapper {
     justify-content: start;
   }
+
 }
 @media (max-width: 1024px) {
   header .contact-header .bline {
@@ -211,6 +211,7 @@
     flex-wrap: wrap;
     justify-content: center;
   } 
+
 }
 
 
@@ -1590,14 +1591,59 @@
     padding: 10px 29px 0 10px;
     font-size: 18px;
   }
+  section.prev-events {
+    padding: 25px 65px;
+  }
+  section.news-events .heading-wrapper {
+    padding-top: 40px;
+  }
+}
 
+
+
+
+
+
+@media (max-width: 575.99px) {
+  section.news-events .heading-wrapper {
+    flex-wrap: wrap;
+  }
+  section.news-events .newsAndEvents-container-img {
+    display: none;
+  }
 }
 /*  */
+
+
+
+
+
+
 @media (max-width: 523px) {
   .blog-disc .blog-disc-body h1 {
     font-size: 30px;
   }
 }
+
+
+
+
+
+
+
+@media (max-width: 428px) {
+  section.prev-events {
+    padding: 25px 15px;
+  }
+
+}
+
+
+
+
+
+
+
 @media (max-width: 414px) {
   section.blog-cat .cat-heading h1, section.blog-auth .auth-heading h1 {
     font-size: 33px;
@@ -1689,8 +1735,28 @@
     padding: 8px 0px 0 10px;
     font-size: 16px;
   }
+  .newsAndEvents-card img {
+    min-height: 210px;
+  }
+  .newsAndEvents-card .card .card-body h3 {
+    margin: 5px 0;
+  }
+  .newsAndEvents-card .card {
+    margin: 10px 0;
+    height: 390px;
+  }
+  .newsAndEvents-card .card .card-body p {
+    margin: 8px 0 4px 0;
+  }
 
 }
+
+
+
+
+
+
+
 
 @media (max-width: 320px) {
   header .contact-header .clz-logo img {
@@ -1751,5 +1817,34 @@
   }
   section.uni_life_banner .sidebar {
     margin: 50px 0px;
+  }
+  .events-card-img img{
+    height: 180px;
+  }
+  .events-card-wrapper .events-card-body .events-card-date span {
+    margin-right: 9px;
+  }
+  .events-card-wrapper .events-card-body {
+    padding: 9px 14px;
+  }
+  section.prev-events .card{
+    height: 390px;
+  }
+  .events-card-wrapper .events-card-body h3{
+    font-size: 17px;
+    margin: 7px 0;
+  }
+  .events-card-wrapper .events-card-body p{
+    font-size: 13.5px;
+    margin: 7px 0 0px 0;
+  }
+  section.prev-events {
+    padding: 25px 4px;
+  }
+  .newsAndEvents-card img {
+    min-height: 190px;
+  }
+  .newsAndEvents-card .card .card-body h3 {
+    font-size: 17px;
   }
 }

@@ -2,7 +2,7 @@ $('.events-slider').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
-    autoplay:true,
+    autoplay:false,
     autoplayTimeout:4000,
     responsive:{
         0:{
@@ -15,7 +15,7 @@ $('.events-slider').owlCarousel({
             items:3
         },
         1200:{
-            items:3
+            items:4 
         }
     }
 })

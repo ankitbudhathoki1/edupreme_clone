@@ -758,18 +758,23 @@ section.faculty .faculty-card .card-disc .btn {
 section.prev-events {
   padding: 25px 20px;
 }
-section.prev-events .card{
+section.prev-events .card,
+.newsAndEvents-card .card{
   height: 420px;
+  width: 100%;
+  border-radius: 5px;
 }
 section.prev-events h1 {
   font-size: 31px;
   margin: 0 0px 23px 7px;
   border-left: 3px solid var(--primary-color);
 }
-.events-card-img img {
-  width: 306px;
+.events-card-img img,
+.img-holder img {
+  width: 100%px;
   height: 220px;
   object-fit: cover;
+  border-radius: 5px 5px 0 0;
 }
 .events-card-wrapper .events-card-body {
   padding: 15px 20px;
@@ -779,15 +784,17 @@ section.prev-events h1 {
   color: #000;
 }
 .events-card-wrapper .events-card-body .events-card-date span {
-  margin-right: 10px;
+  margin-right: 15px;
   font-size: 13px;
 }
-.events-card-wrapper .events-card-body h3 {
+.events-card-wrapper .events-card-body h3,
+.newsAndEvents-card .card .card-body h3{
   font-size: 18px;
   margin: 15px 0;
   font-family: var(--primary-font-family);
 }
-.events-card-wrapper .events-card-body p {
+.events-card-wrapper .events-card-body p,
+.newsAndEvents-card .card .card-body p{
   font-size: 14px;
   margin: 17px 0 4px 0;
   color: var(--tertiary-color);
@@ -2585,4 +2592,37 @@ section.blog-auth .auth-body {
 
 .reply .reply-form input[type="submit"]:hover {
   background: var(--secondary-color);
+}
+/* news and events page */
+section.news-events .heading-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+section.news-events .heading-wrapper .newsAndEvents-container-info h1{
+  font-family: var(--primary-font-family);
+}
+section.news-events .heading-wrapper .newsAndEvents-container-info p{
+  max-width: 650px;
+  color: var(--tertiary-color);
+  margin: 30px 0;
+}
+.newsAndEvents-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.newsAndEvents-card .card {
+  margin: 10px 14px;
+  height: 450px;
+  width: 340px;
+}
+.newsAndEvents-card img {
+  width: 100%;
+  min-height: 235px;
+  object-fit: cover;
+}
+.newsAndEvents-card a {
+  text-decoration: none;
+
 }
