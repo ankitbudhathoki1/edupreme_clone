@@ -1,8 +1,8 @@
 $('.events-slider').owlCarousel({
     loop:true,
     margin:10,
-    nav:true,
-    autoplay:false,
+    nav:false,
+    autoplay:true,
     autoplayTimeout:4000,
     responsive:{
         0:{

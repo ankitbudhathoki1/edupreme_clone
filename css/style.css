@@ -200,15 +200,6 @@ header .contact-header .offcanvas-body .ncontact-wrapper .nav-item .nav-link i {
   margin: 0;
   color: white;
 }
-
-header .contact-header .offcanvas-body .ncontact-wrapper .nav-item .nav-link i:hover,
-footer .college-short-disc .follow-us a i:hover,
-section.overview .department-contact .body .follow-us a i:hover {
-  background-color: yellow;
-  color: #000;
-  transform: scale(1.1);
-}
-
 header .contact-header .offcanvas-body {
   font-size: 14px;
   font-weight: 300;
@@ -754,13 +745,18 @@ section.faculty .faculty-card .card-disc .btn {
   border-radius: 0;
   font-family: var(--secondary-font);
 }
+
+
+
+
 /* news and events preview section */
 section.prev-events {
   padding: 25px 20px;
+  position: relative;
 }
 section.prev-events .card,
 .newsAndEvents-card .card{
-  height: 420px;
+  height: 412px;
   width: 100%;
   border-radius: 5px;
 }
@@ -777,7 +773,7 @@ section.prev-events h1 {
   border-radius: 5px 5px 0 0;
 }
 .events-card-wrapper .events-card-body {
-  padding: 15px 20px;
+  padding: 9px 16px;
 }
 .events-card-wrapper .events-card-body a{
   text-decoration: none;
@@ -790,19 +786,34 @@ section.prev-events h1 {
 .events-card-wrapper .events-card-body h3,
 .newsAndEvents-card .card .card-body h3{
   font-size: 18px;
-  margin: 15px 0;
+  margin: 7px 0;
   font-family: var(--primary-font-family);
 }
 .events-card-wrapper .events-card-body p,
 .newsAndEvents-card .card .card-body p{
   font-size: 14px;
-  margin: 17px 0 4px 0;
+  margin: 10px 0 4px 0;
   color: var(--tertiary-color);
 }
 .events-card-wrapper .events-card-body .events-card-date span i {
   margin-right: 3px;
   color: var(--primary-color);
 }
+section.prev-events .owl-theme .owl-dots .owl-dot.active span {
+  border: 3px solid var(--primary-color);
+  background: transparent;
+}
+section.prev-events .owl-theme .owl-dots .owl-dot span {
+}
+
+section.prev-events .owl-theme .owl-dots .owl-dot.active:hover span {
+  width: 16px;
+}
+section.prev-events .owl-theme .owl-dots .owl-dot:hover span {
+  background-color: var(--secondary-color);
+}
+
+
 /* why study here section */
 section.why_study_here {
   padding: 100px 30px;
@@ -1332,25 +1343,29 @@ footer .college-short-disc img {
 
 footer .college-short-disc .follow-us ul,
 footer .contact-us .direction-email ul,
-section.overview .department-contact .body .follow-us ul {
+section.overview .department-contact .body .follow-us ul,
+section.newsAndEvents-disc .content-box .logo-followUs .follow-us ul{
   list-style: none;
   padding: 0;
 }
 
 footer .college-short-disc .follow-us ul li,
-section.overview .department-contact .body .follow-us ul li {
+section.overview .department-contact .body .follow-us ul li,
+section.newsAndEvents-disc .content-box .logo-followUs .follow-us ul li{
   float: left;
   padding: 0 10px 0 0;
 }
 
 footer .college-short-disc .follow-us a,
-section.overview .department-contact .body .follow-us a {
+section.overview .department-contact .body .follow-us a,
+section.newsAndEvents-disc .content-box .logo-followUs .follow-us a{
   text-decoration: none;
   color: white;
 }
 
 footer .college-short-disc .follow-us i,
-section.overview .department-contact .body .follow-us i {
+section.overview .department-contact .body .follow-us i,
+section.newsAndEvents-disc .content-box .logo-followUs .follow-us i {
   background: #324a7d;
   font-size: 15px;
   height: 40px;
@@ -1360,6 +1375,14 @@ section.overview .department-contact .body .follow-us i {
   align-items: center;
   transition: 0.5s;
   border-radius: 5px;
+}
+header .contact-header .offcanvas-body .ncontact-wrapper .nav-item .nav-link i:hover,
+footer .college-short-disc .follow-us a i:hover,
+section.overview .department-contact .body .follow-us a i:hover,
+section.newsAndEvents-disc .content-box .logo-followUs .follow-us a i:hover {
+  background-color: yellow;
+  color: #000;
+  transform: scale(1.1);
 }
 
 footer .contact-us,
@@ -2523,12 +2546,15 @@ section.blog-auth .auth-body {
 .blog-disc {
   padding: 25px 0;
 }
-.blog-disc .blog-disc-body .author-date span {
+.blog-disc .blog-disc-body .author-date span,
+section.newsAndEvents-disc .content-box .publish-date span{
   margin-right: 20px;
   font-size: 15px;
 }
-.blog-disc .blog-disc-body .author-date span i {
+.blog-disc .blog-disc-body .author-date span i,
+section.newsAndEvents-disc .content-box .publish-date span i{
   margin-right: 3px;
+  color: var(--primary-color);
 }
 .sharethis-inline-share-buttons {
   margin: 15px 0;
@@ -2626,3 +2652,65 @@ section.news-events .heading-wrapper .newsAndEvents-container-info p{
   text-decoration: none;
 
 }
+/* events discription */
+section.newsAndEvents-disc .events-banner img{
+    width: 100%;
+}
+section.newsAndEvents-disc .content-box {
+  background: #f4f1f1;
+  padding: 30px 70px;
+  margin-top: -130px;
+}
+section.newsAndEvents-disc .content-box h1 {
+  font-size: 45px;
+  font-family: var(--primary-font-family);
+  margin: 30px 0;
+}
+section.newsAndEvents-disc .content-box .logo-followUs{
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 0;
+}
+section.newsAndEvents-disc .content-box .logo-followUs img {
+  width: 30%;
+}
+section.newsAndEvents-disc .contentWrapper {
+  padding: 45px 105px;
+}
+section.newsAndEvents-disc .contentWrapper .content {
+  margin: 50px 0;
+}
+section.newsAndEvents-disc .contentWrapper .content p,
+section.newsAndEvents-disc .contentWrapper .content li{
+  color: var(--tertiary-color);
+}
+section.newsAndEvents-disc .contentWrapper .content a{
+  color: var(--primary-color);
+}
+section.newsAndEvents-disc .contentWrapper .content a:hover{
+  color: var(--secondary-color);
+}
+
+section.newsAndEvents-disc .contentWrapper .content h3{
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 25px;
+}
+section.newsAndEvents-disc .contentWrapper .content h4{
+  font-family: var(--primary-font-family);
+  margin: 25px 0 10px 0;
+  font-weight: 600;
+  font-size: 21px;
+}
+
+section.newsAndEvents-disc .contentWrapper .content li{
+  margin: 15px;
+  font-size: 17px;
+  letter-spacing: 0.3px;
+}
+section.newsAndEvents-disc .contentWrapper .content li strong {
+  color: #4b4a4a;
+  font-size: 18px;
+  letter-spacing: 0;
+}
+

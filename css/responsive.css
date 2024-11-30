@@ -28,9 +28,22 @@
   }
 }
 
+
+
+
+
+
+
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1199.99px) {
 }
+
+
+
+
+
+
+
 @media (max-width: 1200px) {
   header .contact-header .clz-logo img {
     width: 45%;
@@ -130,6 +143,13 @@
 
 }
 
+
+
+
+
+
+
+
 @media (max-width: 1080px) {
   header .contact-header .clz-logo img {
     width: 48%;
@@ -158,6 +178,14 @@
   }
 
 }
+
+
+
+
+
+
+
+
 @media (max-width: 1024px) {
   header .contact-header .bline {
     display: none;
@@ -204,6 +232,9 @@
 
 
 
+
+
+
 }
 @media (max-width: 1023.99px) {
   section.professors .flip-card-wrapper {
@@ -213,6 +244,12 @@
   } 
 
 }
+
+
+
+
+
+
 
 
 /* // Large devices (desktops, 992px and up) */
@@ -374,6 +411,12 @@
     font-size: 36px;
   }
 }
+
+
+
+
+
+
 
 @media (max-width: 820px) {
   section.apply-section .main-heading h1 {
@@ -637,6 +680,12 @@
   }
 }
 
+
+
+
+
+
+
 /* // Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
   .header-contact-wrapper {
@@ -742,8 +791,14 @@
     padding: 15px 75px 0 20px;
     font-size: 18px;
   }
+  /* News And Events Discription Page */
+  section.newsAndEvents-disc .contentWrapper {
+    padding: 45px 35px;
+  }
 
 }
+
+
 
 
 
@@ -801,6 +856,11 @@
   }
 
 }
+
+
+
+
+
 
 @media (max-width: 767.99px) {
 
@@ -860,8 +920,11 @@
   .professional-journey h1 {
     margin: 0 0px 20px 0;
   }
-
 }
+
+
+
+
 
 @media (max-width: 667px) {
   section.welcome-msg .sidebar {
@@ -1224,17 +1287,6 @@
     font-size: 27px;
     margin: 17px 22px 0 5px;
   }
-
-
-
-
-
-
-  /* section.how-to-apply .how-to-apply-card .icon i {
-        font-size: 37px;
-        color: var(--primary-color);
-      } */
-
 
   section.how-to-apply .how-to-apply-card .apply-wrapper {
     display: flex;
