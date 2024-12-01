@@ -8,7 +8,7 @@ $('.events-slider').owlCarousel({
         0:{
             items:1
         },
-        600:{
+        800:{
             items:2
         },
         1000:{
