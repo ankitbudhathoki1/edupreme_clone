@@ -286,6 +286,12 @@ section.nbar .nbar-pd {
 }
 
 /* settings for navbar-section */
+.col-sm-6.col-md-6.nbar-width {
+  width: 65%;
+}
+.col-sm-6.col-md-6.nbar-pd {
+  width: 35%;
+}
 section.nbar .navbar.navbar-expand-lg {
   padding: 5px 0;
 }
@@ -591,12 +597,14 @@ section.milestone {
   padding: 55px 35px;
 }
 
-.mil-cont {
+section.milestone .milestone-wrapper .mil-cont {
   display: flex;
   /* justify-content: center; */
   align-items: center;
 }
-
+section.milestone .milestone-wrapper .mil-cont .span-wrap {
+  width: 200px;
+}
 section.milestone .mil-cont span {
   font-size: 50px;
   font-weight: 500;
@@ -606,10 +614,11 @@ section.milestone .mil-cont span {
 
 section.milestone .mil-cont h4 {
   margin: 0;
-  font-size: 18px;
+  font-size: 16px;
   padding: 0 0px 0 0;
   margin-left: 25px;
   font-family: var(--primary-font-family);
+  width: 100%;
 }
 
 .col-sm-12.col-lg-6.col-xl-3.rb {
@@ -2666,11 +2675,22 @@ section.newsAndEvents-disc .content-box .logo-followUs{
   justify-content: space-between;
   margin: 35px 0;
 }
+.college-logo {
+  width: 180px;
+}
 section.newsAndEvents-disc .content-box .logo-followUs img {
-  width: 30%;
+  width: 100%;
+}
+section.newsAndEvents-disc .content-box .logo-followUs .follow-us ul {
+  display: flex;
 }
 section.newsAndEvents-disc .contentWrapper {
   padding: 45px 105px;
+}
+section.newsAndEvents-disc .contentWrapper .share h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: var(--primary-font-family);
 }
 section.newsAndEvents-disc .contentWrapper .content {
   margin: 50px 0;

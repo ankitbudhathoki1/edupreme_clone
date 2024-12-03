@@ -427,6 +427,9 @@
   .blog-disc .blog-disc-body h1 {
     font-size: 36px;
   }
+  section.newsAndEvents-disc .content-box {
+    margin-top: -80px;
+  }
 }
 
 
@@ -812,6 +815,9 @@
   section.newsAndEvents-disc .contentWrapper {
     padding: 45px 35px;
   }
+  section.newsAndEvents-disc .content-box h1 {
+    font-size: 34px;
+  }
 
 }
 
@@ -870,6 +876,17 @@
     right: 95px;
     bottom: -17px; 
     z-index: 1;
+  }
+  /* events discription */
+  section.newsAndEvents-disc .content-box {
+    background: #f4f1f1;
+    padding: 15px 35px;
+    margin-top: -130px;
+  }
+  section.newsAndEvents-disc .content-box h1 {
+    font-size: 33px;
+    margin: 22px 0;
+    letter-spacing: 1px;
   }
 
 }
@@ -1068,7 +1085,31 @@
     padding: 10px 0px 0 20px;
     font-size: 17px;
   }
+  /* news and events discription */
+  section.newsAndEvents-disc .content-box {
+    margin-top: -65px;
+  }
+  section.newsAndEvents-disc .content-box h1 {
+    font-size: 26px;
+  }
+  section.newsAndEvents-disc .content-box .publish-date span {
+    margin-right: 15px;
+    font-size: 13px;
+  }
+  .college-logo {
+    width: 160px;
+  }
+  section.newsAndEvents-disc .content-box .logo-followUs .follow-us i {
+    height: 32px;
+    width: 32px;
+  }
 }
+
+
+
+
+
+
 
 @media (max-width: 640px) {
 
@@ -1747,6 +1788,25 @@
   section.uni_life_banner .sidebar p {
     padding: 8px 29px 0 10px;
     font-size: 17px;
+  }
+  /* news and events discription */
+  section.newsAndEvents-disc .content-box {
+    margin-top: -45px;
+  }
+  section.newsAndEvents-disc .content-box h1 {
+    font-size: 24px;
+    margin: 15px 0;
+  }
+  section.newsAndEvents-disc .content-box .publish-date span {
+    margin-right: 8px;
+  }
+  section.newsAndEvents-disc .content-box .logo-followUs {
+    margin: 20px 0px 5px 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .college-logo {
+    margin-bottom: 20px;
   }
 }
 
