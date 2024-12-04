@@ -45,6 +45,7 @@
 
 
 @media (max-width: 1200px) {
+  /*------------------------------------------ index page---------------------------------- */
   header .contact-header .clz-logo img {
     width: 45%;
   }
@@ -52,7 +53,11 @@
   .header-contact-wrapper {
     margin-left: -20px;
   }
-
+/* about campus */
+.about-campus {
+  margin: 0;
+  padding: 20px 5px;
+}
   section.apply-section .sidebar {
     padding: 120px 15px;
   }
@@ -151,10 +156,11 @@
 
 
 @media (max-width: 1080px) {
+  /* header */
+  /* index page */
   header .contact-header .clz-logo img {
     width: 48%;
   }
-
   section.apply-section .main-heading h1 {
     font-size: 52px;
   }
@@ -170,7 +176,48 @@
   section.faculty-details-banner .sidebar {
     margin: 90px 0px;
   }
+  /* about campus */
+  .about-campus .about-image img {
+    width: 95%;
+    overflow: hidden;
+    object-fit: cover;
+    height: 420px;
+  }
+  .about-campus .img-frame {
+    left: -3px;
+    bottom: -15px;
+  }
+  .about-campus .welcome-header h1 {
+    font-size: 33px;
+  }
+  .about-campus .discription-first p {
+    font-size: 19px;
+  }
+  /* faculty */
+  section.faculty .faculty-heading h1 {
+    font-size: 34px;
+    width: 367px;
+  }
+  section.experience {
+    margin: 0px 10px;
+  }
+  section.experience .experience-img img {
+    width: 49%;
+    height: 180px;
+    margin-right: 20px;
+  }
+  section.experience .experience-img h1 {
+    font-size: 18.5px;
+    padding-top: 5px;
+  }
+  section.experience .experience-img p {
+    font-size: 15.5px;
+  }
 }
+
+
+
+
 
 @media (min-width: 1024px) {
   section.professors .flip-card-wrapper {
@@ -251,10 +298,10 @@
 @media (min-width: 992px) {
   /* navbar */
   .col-sm-6.col-md-6.nbar-width {
-    width: 67%;
+    width: 76%;
   }
   .col-sm-6.col-md-6.nbar-pd {
-    width: 33%;
+    width: 24%;
   }
 }
 
@@ -266,6 +313,22 @@
   header .contact-header .clz-logo img {
     width: 85%;
   }
+    /* experience */
+    section.experience .experience-img img {
+      width: 30%;
+      height: 150px;
+    }
+    /* uni life */
+    section.uni-life .uni-life-disc {
+      padding: 0;
+    }
+    section.experience .explore-more-wrapper .explore-more-experience {
+      margin: 32px 0 0 0;
+      border-right: 0;
+      border-top: 1px solid #dbdbdb;
+      border-bottom: 1px solid #dbdbdb;
+      padding: 20px 0px;
+    }
 }
 
 
@@ -430,6 +493,7 @@
   section.newsAndEvents-disc .content-box {
     margin-top: -80px;
   }
+
 }
 
 

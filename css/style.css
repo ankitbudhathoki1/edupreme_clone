@@ -305,16 +305,16 @@ section.nbar .navbar.navbar-expand-lg {
   font-size: 16px;
   font-weight: 550;
   transition: 0.5s;
+  border: none;
 }
 
 .navbar-section .nav-tab .nav-item .nav-link.dropdown-toggle {
   padding: 0;
 }
 
-/* .navbar-section .nav-tab .nav-item .nav-link:hover {
+.navbar-section .nav-tab .nav-item .nav-link:hover {
   color: var(--primary-color);
-  border: none;
-} */
+}
 
 .navbar-section .nav-tab .nav-item .nav-link.active {
   background: none;
@@ -504,7 +504,7 @@ section.motive p {
 }
 
 .about-campus .about-image img {
-  width: 95%;
+  width: 97%;
   z-index: 2;
 }
 
@@ -513,7 +513,7 @@ section.motive p {
   background: var(--primary-color);
   height: 198px;
   width: 198px;
-  left: 0px;
+  left: -6px;
   bottom: -15px;
   z-index: 1;
 }
@@ -527,7 +527,7 @@ section.motive p {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
-  margin: 26px 0 20px 0;
+  margin: 15px 0;
 }
 
 .about-campus .welcome-header h1 {
@@ -539,14 +539,12 @@ section.motive p {
 .about-campus .discription-first p {
   color: #6f6f6f;
   font-size: 20px;
-  font-weight: 500;
   margin: 15px 0;
 }
 
 .about-campus .discription-second p {
   color: var(--tertiary-color);
   margin-bottom: 30px;
-  font-weight: 500;
 }
 
 .about-campus .discover-more a,
@@ -1177,14 +1175,14 @@ section.uni-life {
   background-size: cover;
   color: white;
   background-position: center;
-  padding: 80px 25px 70px 40px;
+  padding: 73px 25px 70px 40px;
   margin: 0px 15px;
 }
 
 section.uni-life .overlay {
   background: var(--overlay-first);
-  margin: -80px -25px -70px -40px;
-  padding: 80px 25px 70px 40px;
+  margin: -73px -25px -70px -40px;
+  padding: 73px 25px 70px 40px;
 }
 
 section.uni-life .uni-life-heading h3 {
@@ -1209,7 +1207,7 @@ section.uni-life .uni-life-disc {
   padding: 0 15px;
 }
 .uni-life-disc p {
-  font-size: 19px;
+  font-size: 18.5px;
   margin-bottom: 35px;
   font-family: var(--secondary-font);
 }
@@ -1230,7 +1228,7 @@ section.uni-life .uni-life-disc-points-wrapper .uni-life-disc-points p {
 
 /* settings for experience */
 section.experience {
-  margin: 0px 35px;
+  margin: 0px 25px;
   padding: 100px 0;
 }
 
@@ -1239,9 +1237,11 @@ section.experience .experience-img {
 }
 
 section.experience .experience-img img {
-  width: 44%;
+  width: 49%;
   float: left;
   margin-right: 25px;
+  height: 179px;
+  object-fit: cover;
 }
 
 section.experience .experience-img h1 {
@@ -1261,6 +1261,7 @@ section.experience .explore-more-wrapper .explore-more-experience-center {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 40px;
 }
 
 section.experience .explore-more-wrapper .explore-more-experience-btn a {
@@ -1269,7 +1270,8 @@ section.experience .explore-more-wrapper .explore-more-experience-btn a {
 }
 
 section.experience .explore-more-wrapper .explore-more-experience {
-  padding: 25px 34px 0 0px;
+  margin: 40px 0 0 0;
+  border-right: 1px solid #bdbcbc;
 }
 
 section.experience .explore-more-wrapper .explore-more-experience h1 {
@@ -1280,6 +1282,7 @@ section.experience .explore-more-wrapper .explore-more-experience h1 {
 section.experience .explore-more-wrapper .explore-more-experience p {
   font-size: 17px;
   color: var(--tertiary-color);
+  margin: 0;
 }
 
 /* learn together section */
@@ -1310,6 +1313,7 @@ section.learn-together .learn-together-body h1 {
 section.learn-together .learn-together-body p {
   font-size: 17px;
   margin-bottom: 30px;
+  max-width: 520px;
 }
 
 section.learn-together .learn-together-body .learn-apply a {
@@ -2641,6 +2645,7 @@ section.news-events .heading-wrapper .newsAndEvents-container-info p{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 50px;
 }
 .newsAndEvents-card .card {
   margin: 10px 14px;
