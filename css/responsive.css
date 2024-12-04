@@ -698,6 +698,13 @@
     height: 325px;
     width: 225px;
   }
+  section.campus-history .history-disc{
+    
+  }
+  /* events discription page */
+  section.newsAndEvents-disc .contentWrapper {
+    padding: 45px 5px;
+  }
 }
 
 
@@ -813,10 +820,21 @@
   }
   /* News And Events Discription Page */
   section.newsAndEvents-disc .contentWrapper {
-    padding: 45px 35px;
+    padding: 45px 20px;
   }
   section.newsAndEvents-disc .content-box h1 {
     font-size: 34px;
+  }
+  section.newsAndEvents-disc .contentWrapper .content h3 {
+    font-weight: 600;
+    font-size: 23px;
+  }
+  section.newsAndEvents-disc .contentWrapper .content li {
+    font-size: 16.5px;
+    letter-spacing: 0px;
+  }
+  section.newsAndEvents-disc .contentWrapper .content li strong {
+    font-size: 17.5px;
   }
 
 }
@@ -963,6 +981,16 @@
   .professional-journey h1 {
     margin: 0 0px 20px 0;
   }
+  /* events page */
+  section.news-events .newsAndEvents-container-img {
+    display: none;
+  }
+  section.news-events .heading-wrapper {
+    padding: 35px 35px 0 35px;
+  }
+  section.news-events .heading-wrapper .newsAndEvents-container-info p {
+    margin: 20px 0 30px 0;
+  }
 }
 
 
@@ -1097,7 +1125,7 @@
     font-size: 13px;
   }
   .college-logo {
-    width: 160px;
+    width: 150px;
   }
   section.newsAndEvents-disc .content-box .logo-followUs .follow-us i {
     height: 32px;
@@ -1727,12 +1755,46 @@
   section.news-events .heading-wrapper {
     flex-wrap: wrap;
   }
-  section.news-events .newsAndEvents-container-img {
-    display: none;
-  }
+
 }
 /*  */
 
+
+
+
+
+@media (max-width: 528px) {
+  /* events page */
+  section.news-events .heading-wrapper {
+    padding: 25px 35px 0 35px;
+  }
+  section.news-events .heading-wrapper .newsAndEvents-container-info h1 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  /* events discription page */
+  section.newsAndEvents-disc .events-banner img {
+    height: 210px;
+    object-fit: cover;
+  }
+  section.newsAndEvents-disc .content-box {
+    padding: 15px 35px;
+  }
+  section.newsAndEvents-disc .content-box h1 {
+    font-size: 25px;
+    letter-spacing: 0;
+  }
+  section.newsAndEvents-disc .contentWrapper .content p{
+    font-size: 15.5px;
+  }
+  section.newsAndEvents-disc .contentWrapper .content li {
+    font-size: 16px;
+  }
+  section.newsAndEvents-disc .contentWrapper .content li strong {
+    font-size: 17px;
+  }
+
+}
 
 
 
@@ -1750,10 +1812,48 @@
 
 
 
+@media (min-width: 429px) {
+  section.newsAndEvents-disc .content-box .logo-followUs .follow-us{
+    margin-top: 0px;
+  }
+}
 @media (max-width: 428px) {
   section.prev-events {
     padding: 25px 15px;
   }
+  /* events page */
+  section.news-events .heading-wrapper {
+    padding: 0 20px;
+  }
+  section.news-events .heading-wrapper .newsAndEvents-container-info h1 {
+    font-size: 23.5px;
+  }
+/* news and events discription */
+section.newsAndEvents-disc .content-box {
+  margin-top: -50px;
+}
+section.newsAndEvents-disc .content-box {
+  padding: 15px 25px;
+}
+section.newsAndEvents-disc .content-box h1 {
+  margin: 5px 0px;
+}
+section.newsAndEvents-disc .content-box .logo-followUs {
+  margin: 20px 0;
+}
+section.newsAndEvents-disc .content-box .logo-followUs {
+  flex-direction: column;
+  align-items: center;
+}
+section.newsAndEvents-disc .content-box .logo-followUs .follow-us{
+  margin-top: 25px;
+}
+section.newsAndEvents-disc .contentWrapper {
+  padding: 45px 4px;
+}
+section.newsAndEvents-disc .contentWrapper .content ul {
+  padding-left: 5px;
+}
 
 }
 
@@ -1804,9 +1904,6 @@
     margin: 20px 0px 5px 0;
     flex-direction: column;
     align-items: center;
-  }
-  .college-logo {
-    margin-bottom: 20px;
   }
 }
 
@@ -1885,6 +1982,16 @@
   }
   .newsAndEvents-card .card .card-body p {
     margin: 8px 0 4px 0;
+  }
+  /*events page */
+  section.news-events .heading-wrapper .newsAndEvents-container-info h1 {
+    font-size: 22px;
+  }
+  section.news-events .heading-wrapper .newsAndEvents-container-info p {
+    margin: 18px 0;
+  }
+  section.newsAndEvents-disc .content-box {
+    padding: 15px 23px;
   }
 
 }
@@ -1979,10 +2086,28 @@
   section.prev-events {
     padding: 25px 4px;
   }
+  /* events page */
   .newsAndEvents-card img {
-    min-height: 190px;
+    min-height: 170px;
   }
   .newsAndEvents-card .card .card-body h3 {
-    font-size: 17px;
+    font-size: 16.5px;
+  }
+  .newsAndEvents-card .card {
+    height: 365px;
+  }
+  /* news and discription page */
+  section.newsAndEvents-disc .events-banner img {
+    height: 225px;
+  }
+  .publish-date {
+    display: flex;
+    flex-direction: column;
+  }
+  section.newsAndEvents-disc .content-box h1 {
+    margin: 5px 0 15px 0;
+  }
+  section.newsAndEvents-disc .content-box {
+    margin-top: -80px;
   }
 }

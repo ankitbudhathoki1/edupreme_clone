@@ -311,10 +311,10 @@ section.nbar .navbar.navbar-expand-lg {
   padding: 0;
 }
 
-.navbar-section .nav-tab .nav-item .nav-link:hover {
+/* .navbar-section .nav-tab .nav-item .nav-link:hover {
   color: var(--primary-color);
   border: none;
-}
+} */
 
 .navbar-section .nav-tab .nav-item .nav-link.active {
   background: none;
@@ -520,7 +520,7 @@ section.motive p {
 
 .about-campus-discription {
   margin-left: 25px;
-  padding: 32px 0;
+  padding: 0;
 }
 
 .about-campus .about-campus-header h6 {
@@ -606,7 +606,7 @@ section.milestone .milestone-wrapper .mil-cont .span-wrap {
   width: 200px;
 }
 section.milestone .mil-cont span {
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 500;
   font-family: var(--primary-font-family);
   color: #324a7d;
@@ -2652,6 +2652,12 @@ section.news-events .heading-wrapper .newsAndEvents-container-info p{
   min-height: 235px;
   object-fit: cover;
 }
+.newsAndEvents-card .card .card-body span {
+  font-weight: 600;
+  text-transform: capitalize;
+  background: #f7f;
+  padding: 3px;
+}
 .newsAndEvents-card a {
   text-decoration: none;
 
@@ -2695,7 +2701,10 @@ section.newsAndEvents-disc .contentWrapper .share h1 {
 section.newsAndEvents-disc .contentWrapper .content {
   margin: 50px 0;
 }
-section.newsAndEvents-disc .contentWrapper .content p,
+section.newsAndEvents-disc .contentWrapper .content p{
+  color: var(--tertiary-color);
+  text-align: justify;
+}
 section.newsAndEvents-disc .contentWrapper .content li{
   color: var(--tertiary-color);
 }
