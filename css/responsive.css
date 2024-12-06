@@ -145,6 +145,14 @@
     margin-left: 60px;
     padding: 15px 0;
   }
+  /* contact page */
+  section.contact-page .getin-touch h1 {
+    padding-bottom: 12px;
+    font-size: 35px;
+  }
+  section.contact-page .getin-touch .message-us {
+    margin: 20px 0 20px 25px;
+  }
 
 }
 
@@ -276,13 +284,30 @@
   section.uni_life_banner .sidebar {
     margin: 149px 0px;
   }
-
-
-
-
-
-
+  /* contact page */
+  section.contact-page section.getin-touch {
+    padding: 50px 15px;
+  }
+  section.contact-page .getin-touch .contact-details .contact-info-wrapper .icon-body {
+    padding-right: 0;
+  }
+  section.contact-page .getin-touch .contact-details .contact-info-wrapper .icon-body .icon i {
+    margin-right: 10px;
+    font-size: 25px;
+  }
+  section.contact-page .contact-page-faq .heading h1 {
+    font-size: 30px;
+  }
+  section.contact-page .contact-page-faq {
+    padding: 50px 15px;
+  }
 }
+
+
+
+
+
+
 @media (max-width: 1023.99px) {
   section.professors .flip-card-wrapper {
     display: flex;
@@ -328,6 +353,23 @@
       border-top: 1px solid #dbdbdb;
       border-bottom: 1px solid #dbdbdb;
       padding: 20px 0px;
+    }
+    /* contact page */
+    section.contact-page .getin-touch .message-us {
+      margin: 20px 0 20px 25px;
+      padding: 45px;
+    }
+    section.contact-page .getin-touch .contact-details .contact-info-wrapper .icon-body {
+      padding-right: 130px;
+    }
+    section.contact-page .getin-touch .contact-details .contact-info-wrapper .icon-body .icon i {
+      font-size: 30px;
+    }
+    section.contact-page .contact-page-faq .heading {
+      margin: 0 0 25px 0;
+    }
+    section.contact-page .getin-touch .google-map iframe {
+      height: 250px;
     }
 }
 
@@ -768,6 +810,36 @@
   /* events discription page */
   section.newsAndEvents-disc .contentWrapper {
     padding: 45px 5px;
+  }
+  /* contact page */
+  section.contact-page .getin-touch h1 {
+    padding-bottom: 10px;
+    font-size: 31px;
+  }
+  section.contact-page .getin-touch .contact-details .heading h2 {
+    font-size: 25px;
+    margin: 14px 0;
+  }
+  section.contact-page .getin-touch .contact-details .heading span {
+    font-size: 16.5px;
+  }
+  section.contact-page .getin-touch .contact-details .contact-info-wrapper .icon-body .icon i {
+    font-size: 25px;
+  }
+  section.contact-page .getin-touch .contact-details .contact-info-wrapper .icon-body .body h3,
+  section.contact-page .getin-touch .contact-details .department .department-email h3, 
+  section.contact-page .getin-touch .our-social-media h3 {
+    font-size: 18px;
+  }
+  section.contact-page .getin-touch .contact-details .contact-info-wrapper .icon-body .body a,
+  section.contact-page .getin-touch .contact-details .contact-info-wrapper .icon-body .body p,
+  section.contact-page .getin-touch .contact-details .department .department-email a {
+    font-size: 15px;
+  }
+  section.contact-page .getin-touch .our-social-media .follow-us i {
+    font-size: 15px;
+    height: 35px;
+    width: 35px;
   }
 }
 
