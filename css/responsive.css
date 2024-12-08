@@ -301,6 +301,13 @@
   section.contact-page .contact-page-faq {
     padding: 50px 15px;
   }
+
+  section.contact-page .contact-page-faq .aa{
+    width: 100%;
+  }
+  section.contact-page .contact-page-faq .bb {
+    width: 100%;
+  }
 }
 
 
@@ -356,7 +363,7 @@
     }
     /* contact page */
     section.contact-page .getin-touch .message-us {
-      margin: 20px 0 20px 25px;
+      margin: 50px 0;
       padding: 45px;
     }
     section.contact-page .getin-touch .contact-details .contact-info-wrapper .icon-body {
@@ -1879,6 +1886,9 @@
   }
   section.news-events .heading-wrapper {
     padding-top: 40px;
+  }
+  section.contact-page .getin-touch .message-us {
+    padding: 25px;
   }
 }
 
