@@ -1530,27 +1530,17 @@
     border: 1px solid red;
   }
 
-  /* how to apply page */
-  section.how_to_apply {
+  /* how to apply guide */
+  section.how_to_apply{
     background: url(../images/how_to_apply/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: inherit;
-    height: 423px;
+    height: 475px;
     padding: 0 45px;
+    background-position: inherit;
   }
 
-  section.how_to_apply .overlay {
-    background: var(--overlay-third);
-    height: 423px;
-    margin: 0 -45px;
-    padding: 0 45px;
-  }
-
-  section.how_to_apply .sidebar {
-    margin: 125px 0px;
-    color: #fff;
-  }
 
   /* apply details section */
   section.apply-details {
@@ -1564,7 +1554,7 @@
   section.apply-details .apply-details-body h1 {
     font-family: var(--primary-font-family);
     margin: 0;
-    padding: 15px 0;
+    padding-bottom: 15px;
     border-bottom: 4px solid var(--primary-color);
     font-size: 38px;
   }
@@ -1573,11 +1563,12 @@
     font-family: var(--primary-font-family);
     margin: 0;
     padding: 20px 0;
-    font-size: 22px;
+    font-size: 24px;
   }
 
   section.apply-details .apply-details-body p {
     color: var(--tertiary-color);
+    font-size: 17px;
   }
 
   section.apply-details .apply-details-body .apply-details-discover-more {
@@ -1612,11 +1603,15 @@
     padding: 30px;
   }
 
-  section.edu-services .edu-services-body .edu-ser-body-wrapper {
+  section.edu-services .edu-services-body .edu-ser-body-wrapper.border-bottom {
     display: flex;
     margin: 18px 0;
     border-bottom: 1px solid #6d6d6d;
   }
+  section.edu-services .edu-services-body .edu-ser-body-wrapper {
+    display: flex;
+  }
+
 
   section.edu-services .edu-services-body .edu-ser-body-wrapper .icon i {
     color: #ffd500;
@@ -1798,7 +1793,7 @@
   }
 
   /* university life */
-  section.uni_life_banner {
+  section.uni_life_banner{
     background: url(../images/university_life/uni_life_banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -1807,14 +1802,18 @@
     padding: 0 45px;
   }
 
-  section.uni_life_banner .overlay {
+  section.uni_life_banner .overlay,
+  section.contact-page .contact-banner .overlay,
+  section.how_to_apply .overlay{
     background: var(--overlay-third);
     height: 475px;
     margin: 0 -45px;
     padding: 0 45px;
   }
 
-  section.uni_life_banner .sidebar {
+  section.uni_life_banner .sidebar,
+  section.contact-page .contact-banner .sidebar,
+  section.how_to_apply .sidebar {
     margin: 160px 0px;
     color: #fff;
   }
@@ -1843,7 +1842,8 @@
 
   section.campus-news .sidebar h1,
   section.how_to_apply .sidebar h1,
-  section.uni_life_banner .sidebar h1 {
+  section.uni_life_banner .sidebar h1,
+  section.contact-page .contact-banner .sidebar h1{
     font-family: var(--primary-font-family);
     font-size: 48px;
     text-transform: capitalize;
@@ -1852,7 +1852,8 @@
 
   section.campus-news .sidebar p,
   section.how_to_apply .sidebar p,
-  section.uni_life_banner .sidebar p {
+  section.uni_life_banner .sidebar p,
+  section.contact-page .contact-banner .sidebar p{
     border-left: 4px solid var(--primary-color);
     padding: 20px 30px 0 22px;
     font-size: 20px;
@@ -2745,6 +2746,7 @@
     letter-spacing: 0;
   }
   /* contact us page */
+
   /* Chrome, Safari, Edge, Opera */
   input::-webkit-outer-spin-button,
   input::-webkit-inner-spin-button {
@@ -2754,6 +2756,14 @@
   /* Firefox */
   input[type=number] {
     -moz-appearance: textfield;
+  }
+  section.contact-page .contact-banner {
+    background: url(../images/contact/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 475px;
+    padding: 0 45px;
   }
   section.contact-page .getin-touch h1 {
     border-bottom: 4px solid var(--primary-color);
@@ -2824,14 +2834,16 @@
   section.contact-page .getin-touch .contact-details .department .department-email ul{
     list-style: none;
     padding: 0;
+    margin: 0;
   }
   section.contact-page .getin-touch .our-social-media {
     display: flex;
     align-items: center;
     padding: 30px 0;
+    flex-wrap: wrap;
   }
   section.contact-page .getin-touch .our-social-media h3 {
-    margin-right: 20px;
+    margin: 0 20px 0 0;
   }
   section.contact-page .getin-touch .our-social-media .follow-us a{
     text-decoration: none;
