@@ -53,6 +53,7 @@
   .header-contact-wrapper {
     margin-left: -20px;
   }
+
 /* about campus */
 .about-campus {
   margin: 0;
@@ -225,6 +226,31 @@
   section.experience .experience-img p {
     font-size: 15.5px;
   }
+  /* apply guide */
+  section.app-process {
+    padding: 100px 15px;
+  }
+  section.app-process .wtsnd,
+  section.app-process .tto{
+    padding: 22px;
+  }
+  section.app-process .tto .app-form a {
+    font-size: 14.5px;
+  }
+  section.app-process .tto .app-form {
+    height: 35px;
+  }
+  section.app-process .wtsnd h1 {
+    font-size: 20px;
+  }
+  /* footer */
+  footer.footer-bg {
+    padding: 78px 20px;
+  }
+  footer.footer-bg .overlay {
+    margin: -78px -20px;
+    padding: 78px 20px;
+  }
 }
 
 
@@ -335,6 +361,22 @@
   section.contact-page .getin-touch .message-us {
     margin: 50px 0 0px 0;
   }
+  /* footer */
+  footer .college-short-disc img {
+    width: 165px;
+  }
+  footer .college-short-disc {
+    padding-right: 35px;
+  }
+  footer .get-connected {
+    padding-left: 35px;
+  }
+  footer .border-lr {
+    padding: 0 35px;
+  }
+  footer .contact-us p, footer .get-connected p, footer .college-short-disc {
+    font-size: 16px;
+  }
   /* apply guide */
   section.how_to_apply {
     height: 375px;
@@ -368,8 +410,17 @@
     display: flex;
     flex-direction: column-reverse;
   }
+  section.app-process .wtsnd {
+    margin: 25px 0;
+  }
   section.app-process {
-    padding: 100px 25px;
+    padding: 40px 20px;
+  }
+  section.app-process .tto .app-form a {
+    font-size: 16px;
+  }
+  section.app-process .wtsnd h1 {
+    font-size: 21px;
   }
   section.app-process .app-process-steps h1 {
     font-size: 33px;
@@ -663,6 +714,18 @@ section.app-process .app-process-steps .process-wrapper .process h2 {
 section.apply-details {
   padding: 50px 28px;
 }
+/* footer */
+footer .contact-us .direction-email i {
+  width: 25px;
+  height: 25px;
+}
+footer .contact-us .direction-email p {
+  font-size: 13px;
+  font-weight: 600;
+}
+footer .contact-us p, footer .get-connected p, footer .college-short-disc {
+  font-size: 16px;
+} 
 
 }
 
@@ -682,6 +745,9 @@ section.apply-details {
   section.how_to_apply {
     height: 360px;
     padding: 0 20px;
+  }
+  section.uni_life_banner .sidebar, section.contact-page .contact-banner .sidebar, section.how_to_apply .sidebar {
+    margin: 105px 0px;
   }
   section.uni_life_banner .overlay, section.contact-page .contact-banner .overlay, section.how_to_apply .overlay {
     height: 360px;
@@ -706,6 +772,45 @@ section.apply-details {
   }
   section.gd .gd-body h1 {
     font-size: 29px;
+  }
+  /* footer */
+  footer .college-short-disc .follow-us i, section.overview .department-contact .body .follow-us i, section.newsAndEvents-disc .content-box .logo-followUs .follow-us i {
+    height: 37px;
+    width: 37px;
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 926px) {
+  /* footer */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 854px) {
+  /* apply guide */
+  section.gd {
+    height: 400px;
+  }
+  section.gd .overlay {
+    height: 400px;
+  }
+  section.gd .gd-body {
+    margin: 10px 0;
   }
 }
 
@@ -938,24 +1043,6 @@ section.apply-details {
   }
 
   /* footer */
-  footer .contact-us p,
-  footer .get-connected p,
-  footer .college-short-disc {
-    font-size: 15px;
-  }
-
-  footer .college-short-disc img {
-    width: 83%;
-  }
-
-  footer .college-short-disc {
-    padding: 50px 20px;
-  }
-
-  footer .contact-us,
-  footer .get-connected {
-    padding: 52px 20px;
-  }
 
   footer .college-short-disc .follow-us i {
     height: 35px;
@@ -1032,6 +1119,25 @@ section.apply-details {
     font-size: 27px;
   }
 }
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+  footer .college-short-disc {
+    padding-right: 10px;
+  }
+  footer .get-connected {
+    padding-left: 10px;
+  }
+  footer .border-lr {
+    padding: 0 20px;
+  }
+}
+
 
 
 
@@ -1323,7 +1429,30 @@ section.how_to_apply .sidebar{
   section.news-events .heading-wrapper .newsAndEvents-container-info p {
     margin: 20px 0 30px 0;
   }
-
+/* footer */
+footer .border-lr {
+  border: 0;
+}
+footer .college-short-disc,
+footer .get-connected{
+padding: 0;
+}
+footer .border-lr {
+  padding: 15px;
+  margin: 23px 0;
+  border-top: 1px dashed #6d6d6d;
+  border-bottom: 1px dashed #6d6d6d;
+}
+footer.footer-bg {
+  padding: 40px 15px;
+}
+footer.footer-bg .overlay {
+  margin: -40px -15px;
+  padding: 40px 15px;
+}
+footer .contact-us .direction-email a, footer .get-connected a {
+  font-size: 13px;
+}
   /* apply guide */
   section.apply-details {
     padding: 25px 28px;
@@ -1507,6 +1636,43 @@ section.how_to_apply .sidebar{
   section.newsAndEvents-disc .content-box .logo-followUs .follow-us i {
     height: 32px;
     width: 32px;
+  }
+  /* apply guide */
+  section.app-process .app-process-steps .process-wrapper .process h2 {
+    font-size: 20px;
+  }
+  section.app-process .app-process-steps .process-wrapper .process p {
+    font-size: 15.5px;
+  }
+  section.app-process .app-process-steps .process-wrapper .sn p {
+    height: 45px;
+    width: 55px;
+    font-size: 33px;
+    margin: 7px 35px 0 0;
+  }
+  section.app-process .tto h1 {
+    font-size: 21px;
+  }
+  section.app-process .tto ul li,
+  section.app-process .wtsnd p{
+    font-size: 15px;
+  }
+  section.app-process .tto .app-form a{
+    font-size: 14px;
+  }
+  section.app-process .wtsnd h1 {
+    font-size: 20px;
+  }
+  section.app-process .wtsnd .wtsnd-contact a {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  section.app-process .app-process-steps h1 {
+    font-size: 29px;
+  }
+  section.app-process {
+    padding: 20px 10px;
   }
 }
 
@@ -1730,7 +1896,7 @@ section.how_to_apply .sidebar{
     margin: 0 auto;
   }
 
-  /* how to apply */
+  /* apply guide */
   section.how-to-apply {
     padding: 10px 20px;
   }
@@ -1750,7 +1916,12 @@ section.how_to_apply .sidebar{
   section.how-to-apply .how-to-apply-card.apply-bg h1 {
     font-size: 23px;
   }
-
+  section.app-process .app-process-steps h1 {
+    font-size: 29px;
+  }
+  section.app-process .app-process-steps h1 {
+    font-size: 27px;
+  }
   section.how-to-apply .how-to-apply-card h1 {
     margin: 11px 0px;
   }
@@ -1860,14 +2031,6 @@ section.how_to_apply .sidebar{
   }
 
   /* footer */
-  footer .college-short-disc img {
-    width: 50%;
-  }
-
-  footer .contact-us,
-  footer .get-connected {
-    padding: 15px 20px;
-  }
 
   footer .contact-us h1,
   footer .get-connected h1 {
@@ -1884,15 +2047,6 @@ section.how_to_apply .sidebar{
     font-size: 13px;
   }
 
-  footer .contact-us,
-  footer .college-short-disc {
-    border-bottom: 1px dashed #dbdbdb;
-  }
-
-  footer .contact-us {
-    padding: 7px 20px;
-    margin: 6px 0;
-  }
 
   section.grad .graduation-alumni i {
     height: 55px;
@@ -2247,6 +2401,13 @@ section.newsAndEvents-disc .contentWrapper {
 section.newsAndEvents-disc .contentWrapper .content ul {
   padding-left: 5px;
 }
+/* apply guide */
+section.app-process .app-process-steps .process-wrapper .sn p {
+  height: 40px;
+  width: 40px;
+  font-size: 31px;
+  margin: 7px 20px 0 0;
+}
 
 }
 
@@ -2542,5 +2703,15 @@ section.how_to_apply .sidebar{
   }
   section.newsAndEvents-disc .content-box {
     margin-top: -80px;
+  }
+  /* apply guide */
+  section.app-process .app-process-steps h1 {
+    font-size: 24px;
+  }
+  section.app-process .app-process-steps .process-wrapper .process h2 {
+    font-size: 18.8px;
+  }
+  section.app-process .app-process-steps .process-wrapper .process p {
+    font-size: 15px;
   }
 }

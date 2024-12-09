@@ -1333,20 +1333,24 @@
     background-repeat: no-repeat;
     background-position: center;
     border-top: 3px solid yellow;
+    padding: 78px 30px;
   }
-
+  /* footer.footer-bg .footer-wrapper {
+    padding: 79px 35px 74px 35px;
+  } */
+  footer .contact-us .direction-email ul{
+    margin: 0;
+  }
   footer.footer-bg .overlay {
     background-color: rgb(33, 49, 83, 0.9);
-  }
+    margin: -78px -30px;
+    padding: 78px 30px;
 
-  footer .college-short-disc {
-    padding: 75px 45px;
-    color: #fff;
   }
 
   footer .college-short-disc img {
-    width: 60%;
-    margin-bottom: 15px;
+    width: 190px;
+    margin-bottom: 20px;
   }
 
   footer .college-short-disc .follow-us ul,
@@ -1397,9 +1401,21 @@
 
   footer .contact-us,
   footer .get-connected {
-    padding: 75px 45px;
     color: white;
   }
+  footer .college-short-disc {
+    padding-right: 60px;
+    color: #fff;
+  }
+  footer .border-lr{
+    padding: 0 60px;
+    border-left: 1px dashed #6d6d6d;
+    border-right: 1px dashed #6d6d6d;
+  }
+  footer .get-connected {
+    padding-left: 60px;
+  }
+
 
   footer .contact-us h1,
   footer .get-connected h1 {
@@ -1412,7 +1428,7 @@
   footer .contact-us p,
   footer .get-connected p,
   footer .college-short-disc {
-    font-size: 16.5px;
+    font-size: 17px;
     color: #dbdbdb;
     margin-bottom: 6px;
   }
@@ -1633,7 +1649,7 @@
 
   /* application process */
   section.app-process {
-    padding: 100px 0px;
+    padding: 100px 30px;
   }
 
   section.app-process .tto {
@@ -1771,7 +1787,7 @@
   }
 
   section.gd .gd-body {
-    margin: 92px 0;
+    margin: 85px 0;
   }
 
   section.gd .gd-body h1 {
