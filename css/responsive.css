@@ -1502,6 +1502,9 @@ footer .contact-us .direction-email a, footer .get-connected a {
     height: 280px;
     margin-top: 30px;
   }
+  section.apply-details .apply-details-body {
+    padding-right: 0;
+  }
   section.edu-services .edu-services-body .edu-ser-body-wrapper {
     flex-direction: column;
     align-items: center;
