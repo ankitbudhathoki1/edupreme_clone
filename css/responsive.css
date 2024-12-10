@@ -1137,6 +1137,13 @@ footer .contact-us p, footer .get-connected p, footer .college-short-disc {
   section.contact-page .contact-page-faq .heading h1 {
     font-size: 27px;
   }
+  section.contact-page .contact-page-faq .faq {
+    padding: 15px 20px;
+  }
+  .accordion .accordion-item h2.accordion-header button {
+    margin: 5px 0;
+  }
+
 }
 
 
@@ -1314,6 +1321,9 @@ section.apply-details {
 }
 section.apply-details .apply-details-img img {
   padding: 25px 0 0 0px;
+}
+.accordion .accordion-item h2.accordion-header button {
+  padding: 12px;
 }
 }
 
@@ -1734,6 +1744,10 @@ section.how_to_apply .sidebar{
   }
   section.apply-details .apply-details-img img {
     height: 250px;
+  }
+  /* contact page */
+  .accordion .accordion-item h2.accordion-header button {
+    margin: 0;
   }
 }
 
@@ -2499,6 +2513,10 @@ section.gd .gd-body {
 }
 section.gd .gd-body .gb-discover-more a {
   font-size: 12px;
+}
+/* contact page */
+section.contact-page .contact-page-faq .faq {
+  padding: 8px 10px;
 }
 
 }

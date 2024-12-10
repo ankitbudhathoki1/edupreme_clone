@@ -2906,10 +2906,12 @@
     padding: 10px;
   }
   section.contact-page .getin-touch .message-us .message-form-wrapper input:active,
-  section.contact-page .getin-touch .message-us .message-form-wrapper input:focus {
-    box-shadow: none;
-    box-shadow: none;
-    border: 1px solid #000;
+  section.contact-page .getin-touch .message-us .message-form-wrapper input:focus ,
+  section.contact-page .getin-touch .message-us .message-form-wrapper textarea:active ,
+  section.contact-page .getin-touch .message-us .message-form-wrapper textarea:focus {
+  box-shadow: none;
+  box-shadow: none;
+    border: 1px solid var(--primary-color);
   }
   section.contact-page .getin-touch .message-us .message-form-wrapper button.btn.btn-danger {
     text-transform: uppercase;
