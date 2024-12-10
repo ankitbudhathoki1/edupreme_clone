@@ -457,9 +457,7 @@
   section.gd .gd-body h1 {
     font-size: 32px;
   }
-  section.gd .content-width{
-    width: 60%;
-  }
+
   section.gd .gd-body .gb-discover-more a {
     font-size: 13px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
   }
@@ -923,7 +921,7 @@ footer .contact-us p, footer .get-connected p, footer .college-short-disc {
     font-size: 15px;
   }
 
-  /* why study here */
+  /* study guide */
   section.why_study_here .why_study_here_header h1 {
     font-size: 30px;
   }
@@ -943,6 +941,24 @@ footer .contact-us p, footer .get-connected p, footer .college-short-disc {
 
   section.why_study_here .why_study_here_card .why_study_here_card_body p {
     font-size: 14px;
+  }
+  section.gd {
+    height: 415px;
+    padding: 50px 15px;
+  }
+  section.gd .overlay {
+    height: 415px;
+    padding: 50px 15px;
+    margin: -50px -15px;
+  }
+  section.gd .gd-body {
+    margin: 20px 0;
+  }
+  section.gd .gd-body h1 {
+    font-size: 31px;
+  }
+  section.gd .gd-body p {
+    margin: 18px 0;
   }
 
   /* video tour */
@@ -1048,6 +1064,9 @@ footer .contact-us p, footer .get-connected p, footer .college-short-disc {
     height: 35px;
     width: 35px;
   }
+  footer .contact-us p, footer .get-connected p, footer .college-short-disc {
+    font-size: 14.5px;
+  }
 
   /* copyright */
   section.copyright .terms-rights .right p {
@@ -1135,6 +1154,18 @@ footer .contact-us p, footer .get-connected p, footer .college-short-disc {
   }
   footer .border-lr {
     padding: 0 20px;
+  }
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* apply guide */
+  section.gd .content-width{
+    width: 60%;
   }
 }
 
@@ -1274,7 +1305,16 @@ section.how_to_apply .sidebar{
   section.newsAndEvents-disc .contentWrapper .content li strong {
     font-size: 17.5px;
   }
-
+/* apply guide */
+section.gd .gd-body {
+  margin: 15px 0;
+}
+section.apply-details {
+  padding: 35px 15px;
+}
+section.apply-details .apply-details-img img {
+  padding: 25px 0 0 0px;
+}
 }
 
 
@@ -1459,7 +1499,7 @@ footer .contact-us .direction-email a, footer .get-connected a {
   }
   section.apply-details .apply-details-img img {
     padding: 0;
-    height: 330px;
+    height: 280px;
     margin-top: 30px;
   }
   section.edu-services .edu-services-body .edu-ser-body-wrapper {
@@ -1486,6 +1526,12 @@ footer .contact-us .direction-email a, footer .get-connected a {
   }
   section.edu-services .overlay {
     height: 800px;
+  }
+  section.gd {
+    height: 360px;
+  }
+  section.gd .overlay {
+    height: 360px;
   }
 }
 
@@ -1673,6 +1719,18 @@ section.how_to_apply .sidebar{
   }
   section.app-process {
     padding: 20px 10px;
+  }
+  section.apply-details .apply-details-body h1 {
+    font-size: 28px;
+  }
+  section.apply-details {
+    padding: 25px 10px;
+  }
+  section.apply-details .apply-details-body h3 {
+    font-size: 22px;
+  }
+  section.apply-details .apply-details-img img {
+    height: 250px;
   }
 }
 
@@ -1937,6 +1995,9 @@ section.how_to_apply .sidebar{
 
   section.how-to-apply .how-to-apply-card.apply-bg p {
     font-size: 16px;
+  }
+  section.apply-details .apply-details-body p {
+    font-size: 15px;
   }
 
   /* university life */
@@ -2302,6 +2363,13 @@ section.how_to_apply .sidebar{
   section.news-events .heading-wrapper {
     flex-wrap: wrap;
   }
+  section.gd .gd-body h1 {
+    font-size: 28px;
+  }
+  section.gd .gd-body .gb-discover-more {
+    height: 34px;
+    width: 150px;
+  }
 
 }
 /*  */
@@ -2407,6 +2475,27 @@ section.app-process .app-process-steps .process-wrapper .sn p {
   width: 40px;
   font-size: 31px;
   margin: 7px 20px 0 0;
+}
+section.gd .gd-body h1 {
+  font-size: 26px;
+}
+section.gd .gd-body p {
+  font-size: 15px;
+}
+section.gd {
+  padding: 0px 15px;
+  background-position: center;
+}
+section.gd .overlay {
+  height: 415px;
+  padding: 15px 15px;
+  margin: -15px -15px;
+}
+section.gd .gd-body {
+  margin: 25px 0;
+}
+section.gd .gd-body .gb-discover-more a {
+  font-size: 12px;
 }
 
 }
@@ -2569,7 +2658,16 @@ section.how_to_apply{
   section.newsAndEvents-disc .content-box {
     padding: 15px 23px;
   }
-
+  /* apply guide */
+  section.apply-details .apply-details-body h1 {
+    font-size: 24px;
+  }
+  section.apply-details .apply-details-body h3 {
+    font-size: 20px;
+  }
+  section.apply-details .apply-details-img img {
+    height: 200px;
+  }
 }
 
 
@@ -2713,5 +2811,14 @@ section.how_to_apply .sidebar{
   }
   section.app-process .app-process-steps .process-wrapper .process p {
     font-size: 15px;
+  }
+  section.gd .gd-body h1 {
+    font-size: 24px;
+  }
+  section.gd .gd-body {
+    margin: 18px 0;
+  }
+  section.apply-details .apply-details-img img {
+    height: 176px;
   }
 }
