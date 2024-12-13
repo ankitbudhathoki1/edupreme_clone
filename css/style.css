@@ -347,7 +347,7 @@
 
   section.apply-section .main-heading h1 {
     font-family: var(--primary-font-family);
-    font-size: 57px;
+    font-size: 55px;
     font-weight: 600;
     margin-bottom: -5px;
   }
@@ -423,7 +423,7 @@
 
 
   section.apply-section .sidebar {
-    padding: 170px 15px;
+    padding: 155px 15px;
   }
 
   section.apply-section .sidebar .sidebar-image img {
@@ -491,7 +491,6 @@
 
   /* setting for about campus */
   .about-campus {
-    margin: 20px 0 0px 30px;
     padding: 25px;
     position: relative;
   }
@@ -592,7 +591,7 @@
 
   /* settings for milestone */
   section.milestone {
-    padding: 55px 35px;
+    padding: 55px 30px;
   }
 
   section.milestone .milestone-wrapper .mil-cont {
@@ -681,7 +680,7 @@
 
   /* settings for faculty */
   section.faculty {
-    padding: 100px 20px;
+    padding: 100px 30px;
     background: #f0f0f0;
   }
 
@@ -703,6 +702,7 @@
   }
 
   /* settings for faculty cards */
+
   .faculty-card-wrapper {
     margin: 12px 0;
   }
@@ -711,7 +711,11 @@
     background: #324a7d;
     color: white;
   }
-
+  section.faculty .faculty-card .card-img img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+  }
   section.faculty .faculty-card .card-title h1 {
     margin: 0;
     padding: 15px;
@@ -755,6 +759,9 @@
   section.prev-events {
     padding: 25px 20px;
     position: relative;
+  }
+  section.prev-events .item{
+    margin: 0 5px;
   }
   section.prev-events .card,
   .newsAndEvents-card .card{
@@ -821,7 +828,7 @@
     padding: 100px 30px;
   }
 
-  .tick_logo i {
+  section.why_study_here .why_study_here_card .tick_logo i {
     color: yellow;
     font-size: 28px;
     margin: 3px 19px 0px 0;
@@ -938,7 +945,7 @@
 
   /* setting for graduation */
   section.grad {
-    padding: 110px 30px;
+    padding: 100px 30px 50px 30px;
     position: relative;
   }
 
@@ -1020,7 +1027,7 @@
 
   /* how to apply section */
   section.how-to-apply {
-    padding: 50px 32px;
+    padding: 50px 30px 100px 30px;
     position: relative;
   }
 
@@ -1217,8 +1224,9 @@
   }
 
   section.uni-life .uni-life-disc-points-wrapper .uni-life-disc-points h1 {
-    font-size: 23px;
+    font-size: 23.5px;
     font-family: var(--primary-font-family);
+    font-weight: 600;
   }
 
   section.uni-life .uni-life-disc-points-wrapper .uni-life-disc-points p {
@@ -1228,29 +1236,31 @@
 
   /* settings for experience */
   section.experience {
-    margin: 0px 25px;
-    padding: 100px 0;
+    padding: 100px 30px;
   }
 
   section.experience .experience-img {
     margin: 18px 0px;
+    width: 300px;
   }
 
   section.experience .experience-img img {
-    width: 49%;
-    float: left;
+    width: 100%;
     margin-right: 25px;
     height: 179px;
     object-fit: cover;
+    float: left;
   }
 
-  section.experience .experience-img h1 {
+  section.experience .img-body-wrapper h1,
+  section.experience h1 {
     font-size: 19px;
     font-family: var(--primary-font-family);
     padding-top: 10px;
   }
 
-  section.experience .experience-img p {
+  section.experience .img-body-wrapper p,
+  section.experience p {
     font-size: 16px;
     color: var(--tertiary-color);
     font-family: var(--secondary-font);
@@ -1288,18 +1298,18 @@
   /* learn together section */
   section.learn-together {
     background: url(../images/learn-together.jpg);
-    /* background-attachment: fixed; */
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position: left; */
+    height: 528px;
   }
 
   section.learn-together .overlay {
     background: var(--overlay-first);
+    height: 528px;
   }
 
   section.learn-together .learn-together-body {
-    padding: 150px 0;
+    padding: 115px 0;
     color: white;
   }
 
@@ -1937,7 +1947,7 @@
 
   /* settings for campus history */
   .campus-history {
-    padding: 60px 30px;
+    padding: 60px 30px 0 30px;
     position: relative;
   }
 
@@ -2675,6 +2685,7 @@
     width: 100%;
     min-height: 235px;
     object-fit: cover;
+    border-radius: 5px 5px 0 0;
   }
   .newsAndEvents-card .card .card-body span {
     font-weight: 600;
@@ -2715,7 +2726,7 @@
     display: flex;
   }
   section.newsAndEvents-disc .contentWrapper {
-    padding: 45px 105px;
+    padding: 45px 65px;
   }
   section.newsAndEvents-disc .contentWrapper .share h1 {
     text-align: center;

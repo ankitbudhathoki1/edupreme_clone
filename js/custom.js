@@ -14,7 +14,7 @@ $('.events-slider').owlCarousel({
         1000:{
             items:3
         },
-        1200:{
+        1400:{
             items:4 
         }
     }

@@ -22,7 +22,7 @@
     display: none;
   }
 
-  .col-sm-12.col-md-4.life-point-two {
+  section.uni-life .uni-life-disc-points-wrapper .life-point-two {
     border-right: 1px solid #5e5e5e;
     border-left: 1px solid #5e5e5e;
   }
@@ -53,6 +53,48 @@
   .header-contact-wrapper {
     margin-left: -20px;
   }
+  section.experience .experience-img {
+    width: 275px;
+  }
+  section.faculty .faculty-heading h1 {
+    font-size: 35px;
+  }
+  section.faculty .faculty-card .card-title h1 {
+    font-size: 23px;
+  }
+  section.faculty .faculty-card .card-disc {
+    padding: 20px;
+  }
+  section.faculty .faculty-card .card-disc p {
+    font-size: 16px;
+  }
+  section.why_study_here .why_study_here_card {
+    padding: 20px;
+  }
+  section.why_study_here .why_study_here_card .why_study_here_card_body h1 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  section.why_study_here .why_study_here_card .why_study_here_card_body p {
+    font-size: 16px;
+  }
+  section.grad .graduation-alumni h1 {
+    font-size: 23px;
+  }
+  section.experience h1 {
+    padding-top: 0;
+  }
+  section.milestone .mil-cont {
+    margin-left: 40px;
+  }
+  section.milestone .mil-cont h4 {
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  section.milestone .milestone-wrapper .mil-cont {
+    padding: 10px 0;
+  }
+
 
 /* about campus */
 .about-campus {
@@ -137,15 +179,7 @@
     border-bottom: 1px dashed #aeaeae;
   }
 
-  section.milestone .mil-cont h4 {
-    font-size: 20px;
-    margin-left: 65px;
-  }
 
-  section.milestone .mil-cont {
-    margin-left: 60px;
-    padding: 15px 0;
-  }
   /* contact page */
   section.contact-page .getin-touch h1 {
     padding-bottom: 12px;
@@ -189,6 +223,14 @@
   section.faculty-details-banner .sidebar {
     margin: 90px 0px;
   }
+  section.experience .experience-img img {
+    margin-right: 20px;
+    height: 200px;
+    margin-top: 8px;
+  }
+  section.experience .experience-img {
+    width: 250px;
+  }
   /* about campus */
   .about-campus .about-image img {
     width: 95%;
@@ -211,14 +253,7 @@
     font-size: 34px;
     width: 367px;
   }
-  section.experience {
-    margin: 0px 10px;
-  }
-  section.experience .experience-img img {
-    width: 49%;
-    height: 180px;
-    margin-right: 20px;
-  }
+
   section.experience .experience-img h1 {
     font-size: 18.5px;
     padding-top: 5px;
@@ -272,6 +307,14 @@
 
 
 @media (max-width: 1024px) {
+  section.faculty,
+  section.prev-events,
+  section.why_study_here,
+  section.grad ,
+  section.experience {
+    padding: 50px 15px;
+  }
+  /* index page */
   header .contact-header .bline {
     display: none;
   }
@@ -289,7 +332,23 @@
   .col-md-1.col-lg-1.col-xl-1 {
     display: none;
   }
-
+  section.apply-section {
+    height: 550px;
+  }
+  section.apply-section .main-heading h1 {
+    font-size: 46px;
+  }
+  section.apply-section .sidebar {
+    padding: 75px 15px;
+  }
+  section.apply-section .sidebar .buttons .apply-now,
+  section.apply-section .sidebar .buttons .our-mission{
+    height: 40px;
+    width: 165px;
+  }
+  section.apply-section .sidebar .buttons a {
+    font-size: 15.5px;
+  }
   section.motive .our-principle {
     padding: 30px 40px;
   }
@@ -312,6 +371,206 @@
     padding: 11px 21px;
   }
 
+  .grad .grad-msg h1 {
+    font-size: 33px;
+  }
+  section.grad .graduation-alumni h1 {
+    font-size: 22px;
+  }
+  section.grad .graduation-alumni i {
+    height: 65px;
+    width: 65px;
+  }
+  section.how-to-apply .how-to-apply-card h1 {
+    font-size: 20.5px;
+  }
+  section.how-to-apply .how-to-apply-card .arrow .right i {
+    height: 42px;
+    width: 42px;
+    font-size: 21px;
+  }
+  section.how-to-apply .how-to-apply-card .icon i {
+    font-size: 32px;
+  }
+  section.how-to-apply .how-to-apply-card p {
+    font-size: 15.5px;
+  }
+  section.how-to-apply .how-to-apply-card {
+    padding: 23px 34px;
+  }
+  section.how-to-apply .how-to-apply-card.apply-bg h1 {
+    font-size: 25px;
+  }
+
+
+  section.why_study_here .why_study_here_header h1 {
+    font-size: 32px;
+  }
+    section.why_study_here .why_study_here_card {
+      padding: 20px;
+    }  
+    section.why_study_here .why_study_here_card .tick_logo i {
+      font-size: 26px;
+    }
+    section.why_study_here .why_study_here_card .why_study_here_card_body h1 {
+      font-size: 23px;
+      font-weight: 500;
+    }
+    section.why_study_here .why_study_here_card .why_study_here_card_body p {
+      font-size: 15px;
+    }
+    section.faculty .faculty-card .card-img img {
+      height: 220px;
+    }
+    section.faculty .faculty-card .card-disc p {
+      font-size: 16px;
+      font-weight: 400;
+    }
+    section.faculty .faculty-heading h1 {
+      font-size: 32px;
+      width: 100%;
+      margin: 15px 0;
+    }
+    section.faculty .faculty-dis p {
+      font-weight: 400;
+    }
+    section.faculty .faculty-card .card-title h1 {
+      font-size: 22px;
+    }
+    section.faculty .faculty-card .card-disc .btn {
+      font-size: 13.5px;
+      font-weight: 600;
+    }
+    section.uni-life{
+      margin: 0;
+      padding: 70px 15px;
+    }
+    section.uni-life .overlay {
+      background: var(--overlay-first);
+      margin: -70px -15px;
+      padding: 70px 15px;
+    }
+    section.uni-life .uni-life-disc{
+    padding: 0;
+  }
+
+  section.uni-life .uni-life-heading h1 {
+    font-size: 32px;
+  }
+  .uni-life-disc p {
+    font-size: 17.5px;
+  }
+
+  section.experience .experience-img {
+    width: 285px;
+    margin: 24px 0px;
+
+  }
+  section.experience .experience-img img {
+    height: 155px;
+  }
+
+  section.experience .explore-more-wrapper .explore-more-experience {
+    margin: 40px 0 0 0;
+    border-right: 0;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 27px 0px;
+  }
+  section.experience h1 {
+    padding-top: 0;
+  }
+  section.milestone .milestone-wrapper .mil-cont .span-wrap {
+    width: 215px;
+  }
+  section.milestone .mil-cont h4 {
+    font-size: 18px;
+    margin-left: 0px;
+  }
+  section.milestone .mil-cont {
+    margin-left: 20px;
+  }
+  section.features {
+    margin-bottom: 0;
+  }
+  .about-campus {
+    padding: 50px 15px 0 15px;
+  }
+  .about-campus-discription {
+    padding: 0 0 50px 0;
+  margin-left: 0;
+  }
+  .about-campus .about-image img {
+    width: 100%;
+  }
+  .about-campus .img-frame {
+    left: -15px;
+    bottom: -15px;
+  }
+  section.milestone{
+    padding: 30px 15px;
+  }
+  section.review .review-right-sidebar .right-sidebar-disc h1 {
+    font-size: 34px;
+  }
+  section.review .review-right-sidebar .right-sidebar-disc p {
+    font-size: 16.5px;
+  }
+  section.review .review-right-sidebar .right-sidebar-disc {
+    padding: 0 30px;
+  }
+  section.review .review-bg-img .review-card .card-disc p {
+    font-size: 18px;
+  }
+  section.review .review-bg-img .review-card .card_heading h1 {
+    font-size: 19px;
+  }
+  section.review .review-bg-img .review-card .card_heading p {
+    font-size: 17px;
+  }
+  section.review .review-bg-img .review-card {
+    height: 220px;
+    width: 325px;
+    bottom: 20px;
+    padding: 21px;
+  }
+  section.learn-together .learn-together-body h1 {
+    font-size: 40px;
+  }
+  section.learn-together .learn-together-body p {
+    font-size: 16px;
+  }
+  section.learn-together .learn-together-body .learn-apply{
+    width: 155px;
+  }
+  section.learn-together .learn-together-body .learn-apply a {
+    font-size: 14px;
+  }
+  section.experience .experience-img img {
+    margin: 0 25px 0 0;
+  }
+  .experience-disc {
+    padding: 15px 0;
+  }
+  section.learn-together {
+    height: 400px;
+  }
+  section.learn-together .overlay {
+    height: 400px;
+  }
+  section.learn-together .learn-together-body {
+    padding: 62px 0;
+  }
+  
+
+
+  /* about page */
+  section.campus-history .college-img img {
+    padding: 0;
+  }
+  section.campus-history .history-disc {
+    margin-bottom: 30px;
+  }
   /* contact page */
   section.contact-page section.getin-touch {
     padding: 50px 15px;
@@ -330,12 +589,16 @@
     padding: 50px 15px;
   }
 
-  section.contact-page .aa{
-    width: 100%;
-  }
-  section.contact-page .bb {
-    width: 100%;
-  }
+  section.contact-page .aa,
+    section.about-page section.campus-history .aa,
+    section.grad .aa,
+    section.faculty .aa,
+    section.uni-life .aa,
+    section.experience .aa,
+    .about-campus .aa {
+      width: 100%;
+    }
+
   /* contact page */
   section.contact-page .getin-touch h1 {
     font-size: 32px;
@@ -406,7 +669,10 @@
   section.app-process .right-sidebar{
     width: 100%;
   }
-  section.app-process .row.rr{
+  section.app-process .row.rr,
+  section.about-page section.campus-history .rr,
+  .about-campus .rr,
+  section.review .rr{
     display: flex;
     flex-direction: column-reverse;
   }
@@ -498,22 +764,11 @@
   header .contact-header .clz-logo img {
     width: 85%;
   }
-    /* experience */
-    section.experience .experience-img img {
-      width: 30%;
-      height: 150px;
-    }
     /* uni life */
     section.uni-life .uni-life-disc {
       padding: 0;
     }
-    section.experience .explore-more-wrapper .explore-more-experience {
-      margin: 32px 0 0 0;
-      border-right: 0;
-      border-top: 1px solid #dbdbdb;
-      border-bottom: 1px solid #dbdbdb;
-      padding: 20px 0px;
-    }
+
     /* contact page */
 
 }
@@ -534,7 +789,7 @@
   }
 
   section.how-to-apply .how-to-apply-card {
-    padding: 15px 24px;
+    padding: 16px 33px;
   }
 
   section.how-to-apply .how-to-apply-card .arrow .right i {
@@ -672,11 +927,11 @@
   }
 
   section.milestone .mil-cont {
-    margin-left: 50px;
+    margin-left: 20px;
   }
 
   section.milestone .mil-cont span {
-    font-size: 47px;
+    font-size: 43px;
   }
   .blog-disc .blog-disc-body h1 {
     font-size: 36px;
@@ -684,6 +939,30 @@
   section.newsAndEvents-disc .content-box {
     margin-top: -80px;
   }
+  .events-card-wrapper .events-card-body h3, .newsAndEvents-card .card .card-body h3 {
+    font-size: 20px;
+  }
+  .events-card-wrapper .events-card-body .events-card-date span {
+    font-size: 14px;
+  }
+  .events-card-wrapper .events-card-body p, .newsAndEvents-card .card .card-body p {
+    font-size: 15px;
+  }
+  section.features h3, section.motive h3 {
+    font-size: 21.5px;
+  }
+  section.milestone .mil-cont h4 {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+  section.milestone .milestone-wrapper .mil-cont .span-wrap {
+    text-align: center;
+  }
+  section.experience .explore-more-wrapper .explore-more-experience {
+    text-align: center;
+  }
+
+
 /* contact page */
 section.contact-page .getin-touch .our-social-media .follow-us i {
   height: 35px;
@@ -785,7 +1064,61 @@ footer .contact-us p, footer .get-connected p, footer .college-short-disc {
 
 
 @media (max-width: 926px) {
-  /* footer */
+  /* index page */
+  section.experience .experience-img {
+    width: 265px;
+  }
+  section.experience .experience-img img {
+    height: 150px;
+  }
+  section.experience h1 {
+    font-size: 18px;
+  }
+  section.experience p {
+    font-size: 15.5px;
+  }
+  section.experience .explore-more-wrapper .explore-more-experience h1 {
+    font-size: 22px;
+  }
+  section.experience .explore-more-wrapper .explore-more-experience p {
+    font-size: 16px;
+  }
+  .about-campus .discover-more, .empowering .empowering-discover-btn, section.review .review-right-sidebar .right-sidebar-disc .review-discover-more, section.experience .explore-more-wrapper .explore-more-experience-btn, section.learn-together .learn-together-body .learn-apply, section.campus-history .discover-more, section.apply-details .apply-details-body .apply-details-discover-more, section.gd .gd-body .gb-discover-more {
+    width: 160px;
+  }
+  section.experience .explore-more-wrapper .explore-more-experience-btn a {
+    font-size: 13.5px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  section.apply-section .main-heading h1 {
+    font-size: 42px;
+  }
+  section.review .review-right-sidebar .right-sidebar-disc {
+    padding: 50px 10px 50px 30px;
+  }
+  section.review .review-bg-img .review-card .card-disc p {
+    font-size: 17px;
+  }
+  section.review .review-bg-img .review-card .card_heading h1 {
+    font-size: 18px;
+  }
+  section.review .review-bg-img .review-card .card_heading p {
+    font-size: 16.5px;
+  }
+  section.review .review-bg-img .card_heading-quote_icon .quote-icon i {
+    font-size: 45px;
+  }
+  section.review .review-bg-img .review-card {
+    height: 200px;
+    width: 315px;
+    padding: 18px;
+  }
+  section.review .review-bg-img img {
+    width: 100%;
+    height: 502px;
+    object-fit: cover;
+  }
 
 }
 
@@ -846,12 +1179,12 @@ footer .contact-us p, footer .get-connected p, footer .college-short-disc {
 
   .about-campus {
     margin: 0;
-    padding-right: 0;
+    padding: 0 15px;
   }
 
   .about-campus .img-frame {
     background: #762F69;
-    left: 5px;
+    left: -14px;
     bottom: -14px;
   }
 
@@ -875,6 +1208,15 @@ footer .contact-us p, footer .get-connected p, footer .college-short-disc {
 
   .world-ranking {
     padding: 15px 35px;
+  }
+  section.uni-life .uni-life-disc-points-wrapper .uni-life-disc-points h1 {
+    font-size: 22px;
+  }
+  section.uni-life .uni-life-disc-points-wrapper .uni-life-disc-points p {
+    font-size: 16.5px;
+  }
+  section.experience .explore-more-wrapper .explore-more-experience-center {
+    margin-top: 10px;
   }
 
   /* faculty */
@@ -910,7 +1252,7 @@ footer .contact-us p, footer .get-connected p, footer .college-short-disc {
 
   /* review section */
   section.review .review-right-sidebar .right-sidebar-disc {
-    padding: 65px 30px;
+    padding: 40px 30px;
   }
 
   section.review .review-right-sidebar .right-sidebar-disc h1 {
@@ -1003,9 +1345,6 @@ footer .contact-us p, footer .get-connected p, footer .college-short-disc {
   }
 
   /* experience */
-  section.experience .experience-img img {
-    width: 28%;
-  }
 
   section.experience {
     margin: 0 20px;
@@ -1047,11 +1386,10 @@ footer .contact-us p, footer .get-connected p, footer .college-short-disc {
   }
 
   section.learn-together .learn-together-body p {
-    font-size: 14px;
+    font-size: 15px;
   }
-
   section.learn-together .learn-together-body {
-    padding: 70px 0;
+    padding: 52px 0;
   }
 
   section.learn-together .overlay {
@@ -1174,6 +1512,10 @@ footer .contact-us p, footer .get-connected p, footer .college-short-disc {
   section.gd .content-width{
     width: 60%;
   }
+  section.why_study_here .why_study_here_card_wrapper .wid50,
+  section.faculty .wid50 {
+    width: 50%;
+  }
 }
 
 
@@ -1185,22 +1527,41 @@ footer .contact-us p, footer .get-connected p, footer .college-short-disc {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
+  /* index page */
   .header-contact-wrapper {
     margin-left: 55px;
   }
 
-  /* apply section */
-  section.apply-section .sidebar .buttons {
-    flex-direction: column;
+  section.review .review-right-sidebar .right-sidebar-disc h1 {
+    font-size: 29px;
   }
-
+  section.how-to-apply .how-to-apply-card {
+    padding: 16px 26px;
+  }
+  section.how-to-apply .how-to-apply-card h1 {
+    font-size: 20px;
+  }
+  section.how-to-apply .how-to-apply-card.apply-bg h1 {
+    font-size: 24px;
+  }
+  section.how-to-apply .how-to-apply-card .icon i {
+    font-size: 30px;
+  }
+  section.prev-events .card{
+    height: 385px;
+  }
+  section.uni-life {
+    background-size: contain;
+    background-position: top;
+  }
+  /* apply section */
   section.apply-section .sidebar .buttons .our-mission {
     margin-left: 0px;
   }
 
   section.apply-section .sidebar .buttons .apply-now,
   section.apply-section .sidebar .buttons .our-mission {
-    margin: 8px 0;
+    margin: 8px;
     width: 100%;
   }
 
@@ -1360,29 +1721,9 @@ section.apply-details .apply-details-img img {
   section.milestone .mil-cont {
     margin-left: 110px;
   }
-  section.how-to-apply .how-to-apply-card .arrow .right {
-    display: none;
-  }
-  section.how-to-apply .how-to-apply-card .arrow .down {
-    display: inline;
-  }
-  section.how-to-apply .how-to-apply-card .arrow .down i {
-    color: #fff;
-    background: var(--primary-color);
-    border-radius: 50%;
-    height: 36px;
-    width: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-  }
-  section.how-to-apply .how-to-apply-card .arrow .down {
-    position: absolute;
-    right: 95px;
-    bottom: -17px; 
-    z-index: 1;
-  }
+ 
+
+
   /* events discription */
   section.newsAndEvents-disc .content-box {
     background: #f4f1f1;
@@ -1468,6 +1809,57 @@ section.apply-details .apply-details-img img {
   }
   .professional-journey h1 {
     margin: 0 0px 20px 0;
+  }
+  section.learn-together,
+    section.learn-together .overlay {
+    height: 350px;
+  }
+  section.learn-together .learn-together-body {
+    padding: 36px 0;
+  }
+  section.uni-life .uni-life-disc-points-wrapper .life-point-two {
+    border: none;
+  }
+  section.uni-life .uni-life-disc-points-wrapper .life-point-one,
+  section.uni-life .uni-life-disc-points-wrapper .life-point-two {
+  border-bottom: 1px solid #5e5e5e; 
+ }
+  section.uni-life .uni-life-disc-points-wrapper .uni-life-disc-points {
+    padding: 25px 0px;
+  }
+  section.how-to-apply .how-to-apply-card .arrow .right {
+    display: none;
+  }
+  section.how-to-apply .how-to-apply-card .arrow .down {
+    display: inline;
+  }
+  section.how-to-apply .how-to-apply-card .arrow .down i {
+    color: #fff;
+    background: var(--primary-color);
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+  section.how-to-apply .how-to-apply-card .arrow .down {
+    position: absolute;
+    right: 95px;
+    bottom: -17px; 
+    z-index: 1;
+  }
+  section.why_study_here .why_study_here_card {
+    flex-direction: column;
+    text-align: center;
+  } 
+   section.why_study_here .why_study_here_card .why_study_here_card_body h1 {
+    font-size: 22px;
+    margin: 8px 0;
+  }
+  section.why_study_here .why_study_here_card .why_study_here_card_body p {
+    font-size: 15px;
   }
   /* events page */
   section.news-events .newsAndEvents-container-img {
@@ -1678,6 +2070,23 @@ section.how_to_apply .sidebar{
     padding: 10px 0px 0 20px;
     font-size: 17px;
   }
+  section.experience .experience-img {
+    width: 100%;
+  }
+  section.experience .experience-img img {
+    height: 244px;
+    margin: 0 0 10px 0;
+  }
+  section.experience p {
+    margin: 0;
+  }
+  section.experience h1 {
+    font-size: 21px;
+  }
+  .experience-disc {
+    padding: 15px 17px;
+    border: 1px solid #5e5e5e;
+  }
   /* news and events discription */
   section.newsAndEvents-disc .content-box {
     margin-top: -65px;
@@ -1748,6 +2157,10 @@ section.how_to_apply .sidebar{
   /* contact page */
   .accordion .accordion-item h2.accordion-header button {
     margin: 0;
+  }
+  section.contact-page .aa,
+    section.contact-page .bb {
+    padding: 0;
   }
 }
 
@@ -2018,9 +2431,7 @@ section.how_to_apply .sidebar{
   }
 
   /* university life */
-  .col-sm-12.col-md-4.life-point-two {
-    border: none;
-  }
+
 
   /* experience */
   section.experience {
