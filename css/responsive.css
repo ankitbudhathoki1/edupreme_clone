@@ -53,6 +53,10 @@
   section.contact-page section.getin-touch {
     padding: 50px 30px;
   }
+  /* blog page */
+  section.blogs .blog-body {
+    padding: 25px 24px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -171,12 +175,10 @@ section.welcome-msg .sidebar {
   }
 
   .faculty_faq {
-    margin: 50px 0;
+    margin: 50px 0 25px 0;
   }
 
-  section.blogs {
-    padding: 113px 7px;
-  }
+
 
   section.blogs .blog-body .blog-prev p {
     font-size: 15px;
@@ -209,9 +211,16 @@ section.welcome-msg .sidebar {
   section.contact-page .getin-touch .message-us {
     margin: 20px 0 20px 25px;
   }
+  section.facultyDetailsPage .overview .major-img img {
+    height: 215px;
+  }
   /* apply guide */
   section.apply-details .apply-details-body h1 {
     font-size: 35px;
+  }
+  /* blog disc page */
+  .blog-disc .blog-disc-body h1 {
+    font-size: 42px;
   }
 
 }
@@ -310,6 +319,10 @@ section.welcome-msg .sidebar {
   footer.footer-bg .overlay {
     margin: -78px -20px;
     padding: 78px 20px;
+  }
+  /* contact page */
+  section.facultyDetailsPage .overview .major-img img {
+    height: 230px;
   }
 }
 
@@ -662,14 +675,15 @@ section.welcome-msg .sidebar {
   }
 
   section.contact-page .aa,
-    section.about-page section.campus-history .aa,
-    section.grad .aa,
-    section.faculty .aa,
-    section.uni-life .aa,
-    section.experience .aa,
-    .about-campus .aa {
-      width: 100%;
-    }
+  section.about-page section.campus-history .aa,
+  section.grad .aa,
+  section.faculty .aa,
+  section.uni-life .aa,
+  section.experience .aa,
+  .about-campus .aa,
+  section.facultyDetailsPage .overview .aa {
+    width: 100%;
+  }
 
   /* contact page */
   section.contact-page .getin-touch h1 {
@@ -824,6 +838,39 @@ section.welcome-msg .sidebar {
   section.faculty-details-banner .sidebar {
     margin: 65px 0px;
   }
+  section.facultyDetailsPage .overview .major-study .major-study-body {
+    margin: 35px 0px;
+  }
+  section.overview .department-contact,
+  section.overview .related-downloads{
+    margin: 15px 24px;
+    width: 45%;
+    float: left;
+  }
+  section.overview .department-contact .body .follow-us i {
+    height: 40px;
+    width: 40px;
+  }
+  /* blog author page */
+  section.blogs {
+    padding: 30px 15px;
+  }
+  section.campus-news {
+    height: 325px;
+    padding: 0 30px;
+  }
+  section.campus-news .overlay {
+    height: 325px;
+    margin: 0 -30px;
+    padding: 0 30px;
+  }
+  section.campus-news .sidebar {
+    margin: 100px 0px;
+  }
+  /* blog disc page */
+  .blog-disc .blog-disc-body h1 {
+    font-size: 36px;
+  }
 }
 
 
@@ -947,10 +994,6 @@ section.welcome-msg .sidebar {
     font-size: 40px;
   }
 
-  section.faculty-details-banner .sidebar {
-    margin: 135px 0px;
-  }
-
   section.faculty-details-banner .overlay {
     padding: 0 25px;
   }
@@ -974,14 +1017,6 @@ section.welcome-msg .sidebar {
   section.overview .overview-body .major-study .major-study-body h2 {
     font-size: 19px;
     font-weight: 600;
-  }
-
-  section.overview .department-contact {
-    margin: 30px 0;
-  }
-
-  section.overview .related-downloads {
-    margin: 30px 0;
   }
 
   section.blogs {
@@ -1081,6 +1116,9 @@ section.app-process .app-process-steps .process-wrapper .process h2 {
 }
 section.apply-details {
   padding: 50px 28px;
+}
+section.overview .department-contact, section.overview .related-downloads {
+  margin: 15px 23.5px;
 }
 /* footer */
 footer .contact-us .direction-email i {
@@ -1258,7 +1296,10 @@ footer .contact-us p, footer .get-connected p, footer .college-short-disc {
     margin: 10px 0;
   }
   /* about us page */
-
+/* contact page */
+section.facultyDetailsPage .overview .major-study .major-study-body {
+  margin: 0;
+}
 }
 
 
@@ -1717,6 +1758,14 @@ section.campus-history .history-disc h1 {
 section.contact-page .getin-touch .contact-details .contact-info-wrapper .icon-body .body a, section.contact-page .getin-touch .contact-details .contact-info-wrapper .icon-body .body p, section.contact-page .getin-touch .contact-details .department .department-email a {
   padding-right: 0;
 }
+section.overview .department-contact, section.overview .related-downloads {
+  margin: 0 0 25px 0;
+  width: 100%;
+  float: none;
+}
+section.overview .department-contact .heading h1, section.overview .department-contact .body h1 {
+  font-size: 22px;
+}
 
   /* apply section */
   section.apply-section .sidebar .buttons .our-mission {
@@ -1782,7 +1831,7 @@ section.contact-page .getin-touch .contact-details .contact-info-wrapper .icon-b
     font-size: 16px;
   }
   section.blog-cat .cat-heading h1, section.blog-auth .auth-heading h1 {
-    font-size: 40px;
+    font-size: 38px;
   }
   section.blog-cat .cat-body h3 a, section.blog-auth .auth-body h3 a {
     font-size: 30px;
@@ -1846,6 +1895,15 @@ section.apply-details .apply-details-img img {
 }
 .accordion .accordion-item h2.accordion-header button {
   padding: 12px;
+}
+/* blog disc page */
+.blog-cat-pg-blog-img img, .blog-auth-blog-img img {
+  height: 320px;
+}
+.reply .reply-form input[type="submit"] {
+  width: 145px;
+  height: 35px;
+  font-size: 15px;
 }
 }
 
@@ -2048,11 +2106,9 @@ section.apply-section .main-heading p{
     font-size: 15px;
   }
   /* about us page */
-  section.welcome-msg, section.faculty-details-banner {
-    height: 330px;
-  }
-  section.welcome-msg .overlay, section.faculty-details-banner .overlay {
-    height: 330px;
+  section.welcome-msg, section.faculty-details-banner,
+    section.welcome-msg .overlay, section.faculty-details-banner .overlay {
+    height: 420px;
   }
   section.welcome-msg .sidebar h1 {
     font-size: 35px;
@@ -2139,6 +2195,14 @@ footer .contact-us .direction-email a, footer .get-connected a {
   }
   section.gd .overlay {
     height: 360px;
+  }
+  /* contact page */
+  section.facultyDetailsPage .overview .major-img img {
+    height: 450px;
+    margin-bottom: 20px;
+  }
+  section.overview .overview-body .major-study .major-study-body ul {
+    margin: 0;
   }
 }
 
@@ -2232,18 +2296,6 @@ footer .contact-us .direction-email a, footer .get-connected a {
   section.faculty-details-banner .sidebar p {
     font-size: 17px;
     padding: 12px 46px 0px 15px;
-  }
-
-  section.faculty-details-banner {
-    height: 500px;
-  }
-
-  section.faculty-details-banner .overlay {
-    height: 500px;
-  }
-
-  section.faculty-details-banner .sidebar {
-    margin: 110px 0px;
   }
 
   section.campus-history .college-img img {
@@ -2459,6 +2511,11 @@ section.how_to_apply .sidebar{
     section.contact-page .bb {
     padding: 0;
   }
+  section.facultyDetailsPage .overview .major-img img {
+    height: 375px;
+  }
+  /* blog page */
+
 }
 
 
@@ -2949,11 +3006,11 @@ section.welcome-msg .overlay{
   }
 
   section.faculty-details-banner .sidebar h1 {
-    font-size: 32px;
+    font-size: 34px;
   }
 
   section.faculty-details-banner .sidebar p {
-    font-size: 15px;
+    font-size: 16px;
     padding: 7px 20px 0px 15px;
   }
 
@@ -2966,18 +3023,17 @@ section.welcome-msg .overlay{
     font-size: 13px;
   }
 
-  section.faculty-details-banner {
-    height: 400px;
-  }
-
-  section.faculty-details-banner .overlay {
+  section.faculty-details-banner,
+    section.faculty-details-banner .overlay {
     height: 400px;
   }
 
   section.faculty-details-banner .sidebar {
-    margin: 50px 0px;
+    margin: 75px 0px;
   }
-
+  section.overview {
+    padding: 25px 10px;
+  }
   .accordion .accordion-item h2.accordion-header button {
     font-size: 15px;
     padding: 15px;
@@ -3139,8 +3195,17 @@ section.how_to_apply .sidebar{
   section.contact-page .contact-page-faq .heading {
     margin: 0 0 30px 0;
   }
+  section.facultyDetailsPage .overview .major-img img {
+    height: 320px;
+  }
+/*  blog disc page*/
+.blog-cat-pg-blog-img img, .blog-auth-blog-img img {
+  height: 300px;
 }
-
+section.blog-cat .cat-body h3 a, section.blog-auth .auth-body h3 a {
+  font-size: 25px;
+}
+}
 
 
 
@@ -3201,7 +3266,19 @@ section.how_to_apply .sidebar{
   section.milestone .mil-cont {
     margin-left: 0px;
   }
-
+  section.learn-together .learn-together-body {
+    padding: 50px 5px;
+  }
+/* contact page */
+section.faculty-details-banner .sidebar h1 {
+  font-size: 32.5px;
+}
+section.faculty-details-banner .sidebar p {
+  font-size: 15.5px;
+}
+section.faculty-details-banner .sidebar {
+  margin: 60px 0px;
+}
 }
 
 
@@ -3358,7 +3435,19 @@ section.contact-page section.getin-touch {
 section.contact-page .getin-touch .contact-details .heading h2 {
   font-size: 21.5px;
 }
-
+section.why_study_here .why_study_here_card {
+  padding: 20px 10px;
+}
+/* blog disc page */
+.blog-cat-pg-blog-img img, .blog-auth-blog-img img {
+  height: 275px;
+}
+.blog-disc .blog-disc-body .blog-disc-img {
+  width: 100%;
+}
+.blog-disc .blog-disc-body .blog-disc-img img {
+  height: 240px;
+}
 }
 
 
@@ -3423,6 +3512,7 @@ section.how_to_apply .sidebar{
   section.contact-page .getin-touch .message-us {
     padding: 17px;
   }
+
 }
 
 
@@ -3564,6 +3654,20 @@ section.how_to_apply{
   section.contact-page .getin-touch .google-map iframe {
     height: 300px;
   }
+
+  section.overview .department-contact .heading h1, section.overview .department-contact .body h1 {
+    font-size: 21px;
+  }
+  section.facultyDetailsPage .overview .major-img img {
+    height: 275px;
+  }
+  /* blog disc page */
+  .blog-cat-pg-blog-img img, .blog-auth-blog-img img {
+    height: 230px;
+  }
+  .blog-disc .blog-disc-body .blog-disc-img img {
+    height: 220px;
+  }
 }
 
 
@@ -3584,6 +3688,10 @@ section.how_to_apply{
   /* about us page */
   section.welcome-msg .sidebar h1 {
     font-size: 27px;
+  }
+  /* contact page */
+  section.faculty-details-banner .sidebar {
+    margin: 47px 0px;
   }
 }
 
@@ -3731,5 +3839,16 @@ section.how_to_apply .sidebar{
   }
   section.apply-details .apply-details-img img {
     height: 176px;
+  }
+  /* contact page */
+  section.faculty-details-banner .sidebar h1 {
+    font-size: 28px;
+  }
+  section.faculty-details-banner .sidebar p {
+    font-size: 15px;
+  }
+  /* blog disc page */
+  .blog-cat-pg-blog-img img, .blog-auth-blog-img img {
+    height: 200px;
   }
 }

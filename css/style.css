@@ -1313,6 +1313,7 @@
     font-weight: 600;
     font-family: var(--primary-font-family);
     margin-bottom: 15px;
+    max-width: 520px;
   }
 
   section.learn-together .learn-together-body p {
@@ -2058,6 +2059,11 @@
   section.overview .overview-body .major-study {
     padding: 10px 0;
   }
+  section.facultyDetailsPage .overview .major-img img {
+    width: 100%;
+    height: 222px;
+    object-fit: cover;
+  }
 
   section.overview .overview-body .major-study .major-study-body h2 {
     font-family: var(--primary-font-family);
@@ -2105,7 +2111,7 @@
   section.overview .department-contact .body .follow-us i {
     background: #fff;
     color: var(--primary-color);
-    font-size: 16px;
+    font-size: 19px;
     height: 45px;
     width: 45px;
     display: flex;
@@ -2204,6 +2210,7 @@
   section.overview .related-downloads ul {
     list-style: none;
     padding: 0;
+    margin: 0;
   }
 
   section.overview .related-downloads ul li {
@@ -2227,7 +2234,7 @@
 
   /* blog cards settings */
   section.blogs {
-    padding: 113px 30px;
+    padding: 60px 30px;
     background: #f0f0f0;
   }
 
@@ -2249,10 +2256,8 @@
     opacity: .7;
   }
   section.blogs .blog-card:hover .blog-img img{
-    transition: 0.5s;
-  }
-  section.blogs .blog-card:hover .blog-img img{
     transform: scale(1.05) rotate(3deg);
+    transition: 0.5s;
   }
   section.blogs .blog-body {
     padding: 29px 33px;
@@ -2597,16 +2602,26 @@
     margin: 15px 0;
   }
   .blog-disc .blog-disc-body h1 {
-    font-size: 47px;
+    font-size: 45px;
     font-weight: 600;
     font-family: var(--primary-font-family);
   }
   .blog-disc .blog-disc-body p {
     color: var(--tertiary-color);
   }
+  .blog-disc .blog-disc-body p.first-para::first-letter{
+    color: var(--primary-color);
+    font-size: 60px;
+    initial-letter: 3 2;
+  }
   .blog-disc .blog-disc-body .blog-disc-img {
     float: left;
     margin: 0 20px 15px 0px;
+  }
+  .blog-disc .blog-disc-body .blog-disc-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
   }
   .blog-disc .blog-disc-body .blog-disc-img .image-caption {
     width: 300px;
@@ -2642,7 +2657,7 @@
   .reply .reply-form textarea:active,
   .reply .reply-form textarea:focus{
     box-shadow: none;
-    border: 1px solid #000;
+    border: 1px solid var(--primary-color);
   }
   .reply .reply-form label.form-label {
     margin: 0;
@@ -2680,6 +2695,11 @@
     margin: 10px 14px;
     height: 450px;
     width: 340px;
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+  }
+  .newsAndEvents-card .card:hover{
+    transform: scale(1.05);
   }
   .newsAndEvents-card img {
     width: 100%;
@@ -2921,7 +2941,6 @@
   section.contact-page .getin-touch .message-us .message-form-wrapper textarea:active ,
   section.contact-page .getin-touch .message-us .message-form-wrapper textarea:focus {
   box-shadow: none;
-  box-shadow: none;
     border: 1px solid var(--primary-color);
   }
   section.contact-page .getin-touch .message-us .message-form-wrapper button.btn.btn-danger {
@@ -2946,8 +2965,7 @@
     background: #fff;
   }
   .accordion .accordion-item h2.accordion-header button {
-    padding: 10px;
-    margin: 10px 0;
+    padding: 15px;
   }
   section.contact-page .contact-page-faq .heading {
     margin: 75px 0;
