@@ -487,6 +487,7 @@
     font-weight: 350;
     font-family: var(--secondary-font);
     color: var(--tertiary-color);
+    margin: 0;
   }
 
   /* setting for about campus */
@@ -585,13 +586,14 @@
   section.experience .explore-more-wrapper .explore-more-experience-btn:hover,
   section.learn-together .learn-together-body .learn-apply:hover,
   section.apply-details .apply-details-body .apply-details-discover-more:hover,
+  section.campus-history .discover-more:hover,
   section.gd .gd-body .gb-discover-more:hover {
     background-color: var(--secondary-color);
   }
 
   /* settings for milestone */
   section.milestone {
-    padding: 55px 30px;
+    padding: 80px 30px;
   }
 
   section.milestone .milestone-wrapper .mil-cont {
@@ -889,6 +891,7 @@
     background-size: cover;
     margin: 0 auto;
     background-repeat: no-repeat;
+    background-position: center;
   }
 
   section.video-tour .overlay {
@@ -912,26 +915,13 @@
     margin: 0;
     color: white;
     font-size: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     font-family: var(--secondary-font);
   }
 
-  /* section.video-tour .video-tour-heading .play-btn {
-      position: relative;
-    }
-    section.video-tour .video-tour-heading .play-btn  .play-bg {
-      position: relative;
-      background: white;
-      height: 60px;
-      display: block;
-      width: 60px;
-      border-radius: 50px;
-      margin: 0 auto;
-    } */
   section.video-tour .video-tour-heading .play-btn a {
     text-decoration: none;
   }
-
   section.video-tour .video-tour-heading .play-btn i {
     background: rgb(255, 255, 255, 0.6);
     height: 80px;
@@ -939,8 +929,10 @@
     font-size: 35px;
     border-radius: 50px;
     color: var(--secondary-color);
-    margin: 20px 0 0 0;
-    line-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
   }
 
   /* setting for graduation */
@@ -953,7 +945,9 @@
   .alumni {
     display: flex;
   }
-
+  section.grad .aa {
+    margin: 25px 0px;
+  }
   .grad .grad-msg h1 {
     font-size: 35px;
     font-family: var(--primary-font-family);
@@ -968,6 +962,7 @@
 
   .grad .graduation-alumni p {
     color: var(--tertiary-color);
+    margin: 0;
   }
 
   section.grad .graduation-alumni i {
@@ -1958,8 +1953,8 @@
   section.campus-history .college-img img {
     width: 100%;
     object-fit: cover;
-    height: 430px;
-    padding: 0 35px 0 0;
+    height: 475px;
+    padding: 0 10px 0 0;
     z-index: 2;
     position: relative;
   }
@@ -1977,6 +1972,7 @@
   section.campus-history .history-disc h1 {
     font-family: var(--primary-font-family);
     font-size: 37px;
+    margin-bottom: 5px;
   }
 
   section.campus-history .history-disc h3 {
@@ -1984,6 +1980,7 @@
     font-size: 18px;
     color: var(--tertiary-color);
     font-weight: 600;
+    margin-bottom: 20px;
   }
 
   section.campus-history .history-disc p {
@@ -2003,7 +2000,10 @@
   section.motive .our-philosophy,
   section.motive .key-of-success {
     padding: 40px;
-  }
+}
+    section.motive .key-of-success {
+      background-color: #f0f0f0;
+    }
 
   /* faculty details */
   section.faculty-details-banner {
