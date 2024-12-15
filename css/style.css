@@ -1412,9 +1412,9 @@
   section.overview .department-contact .body .follow-us i,
   section.newsAndEvents-disc .content-box .logo-followUs .follow-us i {
     background: #324a7d;
-    font-size: 15px;
-    height: 40px;
-    width: 40px;
+    font-size: 20px;
+    height: 45px;
+    width: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1517,20 +1517,17 @@
     margin-right: 10px;
   }
 
-  footer .get-connected .subscribe {
+  footer .get-connected .sub-form .sub-btn .btn.btn-primary {
     background: transparent;
-    height: 40px;
-    width: 140px;
     border: 2px solid var(--yellow-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 22px;
+    font-size: 18px;
+    padding: 5px 26px;
+    border-radius: 0;
+    font-weight: 600;
     transition: 0.3s;
   }
-
-  footer .get-connected .subscribe:hover {
-    background: var(--primary-color);
+  footer .get-connected .sub-form .sub-btn .btn.btn-primary:hover {
+    background-color: var(--primary-color);
     border: 2px solid var(--primary-color);
   }
 
@@ -1557,17 +1554,19 @@
   section.copyright .right a {
     text-decoration: none;
     color: var(--white-color);
-    font-size: 13px;
+    font-size: 13.4px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
   }
 
   section.copyright .developer a,
   section.copyright .right a{
-    text-decoration: underline solid var(--yellow-color);
+    color: var(--yellow-color);
   }
   section.copyright .terms-rights .terms ul li a:hover,
   section.copyright .developer a:hover,
   section.copyright .right a:hover {
-    color: var(--yellow-color);
+    text-decoration: underline solid var(--yellow-color);
   }
 
   section.copyright .terms-rights .right p {
@@ -3067,14 +3066,16 @@
     margin-bottom: 3px;
   }
 
-  section.contact-page .getin-touch .message-us .message-form-wrapper input {
+  section.contact-page .getin-touch .message-us .message-form-wrapper input{
     padding: 10px;
   }
 
   section.contact-page .getin-touch .message-us .message-form-wrapper input:active,
   section.contact-page .getin-touch .message-us .message-form-wrapper input:focus,
   section.contact-page .getin-touch .message-us .message-form-wrapper textarea:active,
-  section.contact-page .getin-touch .message-us .message-form-wrapper textarea:focus {
+  section.contact-page .getin-touch .message-us .message-form-wrapper textarea:focus,
+  footer .get-connected .sub-form input:active,
+  footer .get-connected .sub-form input:focus{
     box-shadow: none;
     border: 1px solid var(--primary-color);
   }
