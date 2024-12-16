@@ -927,8 +927,9 @@ padding: 15px;
     padding: 7px;
   }
 
-  section.contact-page .contact-page-faq .heading {
-    margin: 15px 0 30px 0;
+  section.contact-page .contact-page-faq .heading,
+  section.facultyDetailsPage .contact-page-faq .heading {
+    margin: 0px 0 30px 0;
   }
 
   section.contact-page .getin-touch .message-us {
@@ -2166,11 +2167,13 @@ padding: 15px;
     width: 35px;
   }
 
-  section.contact-page .contact-page-faq .heading h1 {
+  section.contact-page .contact-page-faq .heading h1,
+  section.facultyDetailsPage .contact-page-faq .heading h1 {
     font-size: 27px;
   }
 
-  section.contact-page .contact-page-faq .faq {
+  section.contact-page .contact-page-faq .faq,
+  section.facultyDetailsPage .contact-page-faq .faq {
     padding: 15px 20px;
   }
 
@@ -4235,15 +4238,18 @@ padding: 15px;
     padding: 5px 11px;
   }
 
-  section.contact-page .contact-page-faq {
+  section.contact-page .contact-page-faq,
+  section.facultyDetailsPage .contact-page-faq {
     padding: 25px 15px;
   }
 
-  section.contact-page .contact-page-faq .heading h1 {
+  section.contact-page .contact-page-faq .heading h1,
+  section.facultyDetailsPage .contact-page-faq .heading h1 {
     font-size: 25px;
   }
 
-  section.contact-page .contact-page-faq .heading {
+  section.contact-page .contact-page-faq .heading,
+  section.facultyDetailsPage .contact-page-faq .heading {
     margin: 0 0 30px 0;
   }
 
@@ -4553,7 +4559,8 @@ padding: 15px;
   }
 
   /* contact page */
-  section.contact-page .contact-page-faq .faq {
+  section.contact-page .contact-page-faq .faq,
+  section.facultyDetailsPage .contact-page-faq .faq {
     padding: 8px 10px;
   }
 
@@ -4624,6 +4631,16 @@ padding: 15px;
     bottom: -9px;
     height: 90px;
     width: 90px;
+  }
+  /* faculty details page */
+  section.faculty-details-banner .sidebar {
+    margin: 40px 0px;
+  }
+  section.faculty-details-banner .sidebar h1 {
+    font-size: 31px;
+  }
+  section.faculty-details-banner .sidebar p {
+    font-size: 15px;
   }
 }
 

@@ -2675,6 +2675,14 @@
     margin-right: 20px;
     font-size: 15px;
   }
+  .blog-disc .blog-disc-body .author-date span a{
+    text-decoration: none;
+    color: var(--black-color);
+  }
+  .blog-disc .blog-disc-body .author-date span a:hover{
+    text-decoration: none;
+    color: var(--primary-color);
+  }
 
   .blog-disc .blog-disc-body .author-date span i,
   section.newsAndEvents-disc .content-box .publish-date span i {
@@ -3111,29 +3119,35 @@
   }
 
   /* contact faq */
-  section.contact-page .contact-page-faq {
+  section.contact-page .contact-page-faq,
+  section.facultyDetailsPage .contact-page-faq {
     padding: 50px 30px;
     background: #f7f7f7;
   }
 
-  section.contact-page .contact-page-faq .faq {
+  section.contact-page .contact-page-faq .faq,
+  section.facultyDetailsPage .contact-page-faq .faq {
     padding: 25px 40px;
     background: var(--white-color);
   }
 
-  .accordion .accordion-item h2.accordion-header button {
+  section.contact-page .accordion .accordion-item h2.accordion-header button,
+  section.facultyDetailsPage .accordion .accordion-item h2.accordion-header button {
     padding: 15px;
   }
 
-  section.contact-page .contact-page-faq .heading {
-    margin: 75px 0;
+  section.contact-page .contact-page-faq .heading,
+  section.facultyDetailsPage .contact-page-faq .heading {
+    margin: 10px 0;
   }
 
-  section.contact-page .contact-page-faq .heading h1 {
+  section.contact-page .contact-page-faq .heading h1,
+  section.facultyDetailsPage .contact-page-faq .heading h1 {
     font-family: var(--primary-font-family);
     font-size: 36px;
   }
 
-  section.contact-page .contact-page-faq .heading p {
+  section.contact-page .contact-page-faq .heading p,
+  section.facultyDetailsPage .contact-page-faq .heading p {
     color: var(--paragraph-color);
   }
