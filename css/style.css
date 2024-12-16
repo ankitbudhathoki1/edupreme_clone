@@ -35,11 +35,16 @@
   p {
     font-family: var(--secondary-font);
   }
-
+/* notice modal  */
+.notice-modal .modal-body {
+  padding: 0;
+}
   /* contact header settings */
-  header .contact-header .clz-logo img {
-    width: 56%;
-    padding: 5px 0;
+  header .contact-header .clz-logo {
+    width: 200px;
+  }
+  header .contact-header .acenter{
+    align-content: center;
   }
 
   header .contact-header .clz-logo span {
@@ -69,7 +74,6 @@
 
   .header-contact-wrapper {
     display: flex;
-    padding: 10px 0px;
     margin-left: 60px;
   }
 
@@ -93,8 +97,8 @@
 
   header .contact-header .bline {
     border-left: 1px solid #dedede;
-    height: 35px;
-    margin-top: 7px;
+    /* height: 35px;
+    margin-top: 7px; */
   }
 
   /* settings for header navbar toggler starts*/
@@ -134,7 +138,7 @@
   }
 
   header .contact-header .offcanvas-body {
-    padding: 35px;
+    padding: 0 35px 35px 35px;
   }
 
   header .contact-header .offcanvas-body .nav-item p,
@@ -206,7 +210,7 @@
     transition: 0.5s;
     border-radius: 5px;
     margin: 0;
-    color: var(--black-color);
+    color: var(--white-color);
   }
 
   header .contact-header .offcanvas-body {
@@ -457,7 +461,7 @@
   }
 
   section.features {
-    margin-bottom: 95px;
+    margin-bottom: 50px;
   }
 
   section.features .features-university-life,
@@ -504,8 +508,11 @@
 
   /* setting for about campus */
   .about-campus {
-    padding: 100px 25px;
+    padding: 50px 25px;
     position: relative;
+    /* background: url(../images/diagonal-lines-2.png); */
+  }
+  .about-campus .overlay{
     background: url(../images/diagonal-lines-2.png);
   }
 
@@ -1540,11 +1547,13 @@
   section.copyright .terms-rights .terms ul {
     list-style: none;
     margin: 0;
+    display: flex;
+    justify-content: left;
+    padding: 0;
   }
 
   section.copyright .terms-rights .terms ul li {
-    float: left;
-    margin: 0 13px;
+    margin: 0 10px;
   }
 
   section.copyright .terms-rights .terms ul li a,
@@ -1583,7 +1592,10 @@
   }
 
   section.copyright .terms-rights .terms span {
-    border: 1px solid red;
+    border: 2px solid red;
+    height: 2px;
+    margin-top: 11px;
+    border-radius: 50%;
   }
 
   /* how to apply guide */
@@ -1659,21 +1671,25 @@
   }
 
   section.edu-services .edu-services-body {
-    background: var(--secondary-color);
-    padding: 15px 20px;
+    /* background: var(--secondary-color);
+    padding: 15px 20px; */
+    padding: 0;
+
   }
 
-  section.edu-services .edu-services-body .edu-ser-body-wrapper.border-bottom {
+  section.edu-services .edu-services-body{
+    background-color: var(--secondary-color);
+  }
+  section.edu-services .edu-services-body .edu-ser-body-wrapper{
     display: flex;
-    margin: 18px 0;
+    margin: 0;
+    width: 100%;
+    padding: 15px 0px 5px 0px;
+  }
+  section.edu-services .edu-services-body .bb {
     border-bottom: 1px solid var(--border-color-two);
   }
-
-  section.edu-services .edu-services-body .edu-ser-body-wrapper {
-    display: flex;
-  }
-
-
+ 
   section.edu-services .edu-services-body .edu-ser-body-wrapper .icon i {
     color: #ffd500;
   }
@@ -1689,7 +1705,7 @@
 
   section.edu-services .edu-services-body .edu-ser-body-wrapper .content h1 {
     font-family: var(--primary-font-family);
-    font-size: 22px;
+    font-size: 24px;
   }
 
   /* application process */

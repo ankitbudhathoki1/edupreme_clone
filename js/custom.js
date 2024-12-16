@@ -19,3 +19,8 @@ $('.events-slider').owlCarousel({
         }
     }
 })
+
+// settings for notice modal
+$('document').ready(function(){
+    $('#notice').modal('show')
+    })
