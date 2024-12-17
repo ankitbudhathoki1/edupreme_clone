@@ -1157,10 +1157,14 @@ padding: 15px;
 
   section.overview .department-contact,
   section.overview .related-downloads {
-    margin: 15px 24px;
-    width: 45%;
+    margin: 15px 0 0 0;
+    width: 48%;
     float: left;
   }
+  section.overview .related-downloads {
+    float: right;
+  }
+
 
   section.overview .department-contact .body .follow-us i {
     height: 40px;
@@ -1332,8 +1336,6 @@ padding: 15px;
   .edu-ser-body-wrapper {
     width: 100%;
   }
-
-
 
   section.how-to-apply .how-to-apply-card h1 {
     font-size: 21px;
@@ -1540,11 +1542,6 @@ padding: 15px;
 
   section.apply-details {
     padding: 50px 28px;
-  }
-
-  section.overview .department-contact,
-  section.overview .related-downloads {
-    margin: 15px 23.5px;
   }
 
   /* footer */
@@ -2204,7 +2201,6 @@ padding: 15px;
     font-size: 14px;
     font-weight: 500;
   }
-
 }
 
 
@@ -2272,8 +2268,8 @@ padding: 15px;
   header .contact-header .col-sm-12.phone {
     display: none;
   }
+ 
 }
-
 
 
 @media (max-width: 768px) {
@@ -2382,13 +2378,6 @@ padding: 15px;
   section.contact-page .getin-touch .contact-details .contact-info-wrapper .icon-body .body p,
   section.contact-page .getin-touch .contact-details .department .department-email a {
     padding-right: 0;
-  }
-
-  section.overview .department-contact,
-  section.overview .related-downloads {
-    margin: 0 0 25px 0;
-    width: 100%;
-    float: none;
   }
 
   section.overview .department-contact .heading h1,
@@ -2631,8 +2620,6 @@ padding: 15px;
   header .contact-header .phone {
     width: 50%;
   }  
-
-
 
   section.apply-section {
     height: 485px;
@@ -2880,6 +2867,12 @@ padding: 15px;
     font-size: 17.5px;
   }
 
+/* faculty details page */
+section.overview .department-contact, section.overview .related-downloads {
+  margin: 0 0 25px 0;
+  width: 100%;
+  float: none;
+}
   /* events page */
   section.news-events .newsAndEvents-container-img {
     display: none;
@@ -3065,8 +3058,15 @@ padding: 15px;
 
 
 
+
+
+
+
+
+
+
 @media (min-width: 768px) {
-  header .contact-header .clz-logo span {
+header .contact-header .clz-logo span {
     display: none;
   }
   
