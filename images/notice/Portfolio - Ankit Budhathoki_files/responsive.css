@@ -1,0 +1,626 @@
+@media (max-width: 1080px) {
+    .services-section .service-box {
+        padding: 30px 20px;
+    }
+}
+
+
+
+
+
+@media (max-width: 991.99px) {
+    .navbar .glow-button.for-lg {
+        display: none;
+    }
+}
+
+/* Positioning the navbar-toggler to the right for small screens */
+@media (max-width: 992px) {
+    .navbar-toggler {
+        position: absolute;
+        /* Make it absolute to control its placement */
+        right: 0;
+        top: 5px;
+        z-index: 2;
+        /* Ensure it stays above other elements */
+    }
+
+    .navbar-dark .navbar-toggler {
+        border: 1px dotted #00d4ff;
+    }
+
+    /* Adjust the container-fluid to avoid toggler overlapping */
+    .navbar .container-fluid {
+        position: relative;
+        /* Maintain relative positioning */
+    }
+
+    .navbar .btn.btn-connect.glow-button.for-sm {
+        margin: 10px auto;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar {
+        padding: 9px 50px;
+    }
+
+    /* hero section */
+    #\#hero {
+        display: flex;
+        flex-direction: column-reverse;
+        line-height: 0;
+    }
+
+    .hero-section {
+        padding: 30px 20px;
+        min-height: auto;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .hero-content h5 {
+        margin: 20px 0 15px 0;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.5rem;
+        margin: 8px 0;
+        justify-content: center;
+    }
+
+    .btn-gradient {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    .static-text {
+        margin: 8px 15px 8px 0;
+    }
+
+    .dynamic-text {
+        font-size: 28px;
+    }
+
+    .hero-section p {
+        margin: 15px 0 50px 0;
+        max-width: 650px;
+        line-height: 1.5;
+    }
+
+    .dwn-btn {
+        padding: 0px 0px;
+    }
+
+    .hero-image {
+        padding: 110px 0 25px 0;
+    }
+
+    .hero-image img {
+        width: 300px;
+        height: 300px;
+        margin-top: 10px;
+    }
+
+    /* Stack content and profile image on small devices */
+    .hero-section {
+        flex-direction: column;
+        /* Stack the elements */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .navbar-hidden {
+        transform: translateY(0);
+    }
+
+    #contact .email-btn {
+        font-size: 1rem;
+        padding: 7px 15px;
+    }
+
+    #contact .email-btn .plane-icon {
+        font-size: 1rem;
+        right: 13px;
+    }
+
+    /* timeline */
+    .timeline {
+        position: relative;
+        width: 100%;
+        margin: 0;
+    }
+
+
+
+
+}
+
+
+
+@media (min-width: 992px) {
+    .navbar a.for-sm {
+        display: none;
+    }
+
+    .navbar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    /* Navbar hidden (for scroll effect) */
+    .navbar-hidden {
+        transform: translateY(-100%);
+        /* Moves navbar out of view */
+    }
+
+}
+
+@media (max-width: 926px) {
+    .services-section .col-md-4 {
+        flex: 1 1 calc(50% - 20px);
+        max-width: 100%;
+    }
+
+    .services-section .service-box {
+        padding: 30px 20px;
+        margin: 12px 0;
+    }
+
+    .services-section .service-box:hover {
+        transform: scale(1.05);
+    }
+
+    #portfolio .col-md-4 {
+        flex: 1 1 calc(50% - 20px);
+        max-width: 50%;
+        margin-bottom: 15px;
+    }
+
+    #portfolio .portfolio-item img {
+        border-radius: 8px;
+        max-height: 250px;
+        object-fit: cover;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 854px) {
+    footer .col-md-4 {
+        flex: 1 1 calc(100%);
+        max-width: 100%;
+        text-align: center;
+    }
+
+    #footer .row {
+        gap: 0px;
+    }
+}
+
+@media (min-width: 854.99px) {
+    #footer .developed {
+        text-align: end;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #portfolio .portfolio-item {
+        padding: 15px;
+    }
+
+    #portfolio .col-md-4 {
+        padding: 0;
+    }
+
+    #skills .col-md-3 {
+        flex: 0 45%;
+        max-width: 48%;
+    }
+
+
+}
+
+
+
+
+
+
+@media (max-width: 667px) {
+    .services-section .col-md-4 {
+        flex: 1 1 calc(100% - 20px);
+    }
+
+    #portfolio .col-md-4 {
+        flex: 1 1 calc(100% - 20px);
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .portfolio-item img {
+        border-radius: 8px;
+        max-height: 330px;
+        object-fit: cover;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    #portfolio .mt-3,
+    .my-3 {
+        margin-top: 0.5rem !important;
+    }
+
+    #portfolio .portfolio-item {
+        padding: 20px 20px 23px 20px;
+    }
+
+    .skill-item {
+        padding: 13px;
+        margin: 5px auto;
+    }
+
+}
+
+
+
+
+@media (max-width: 640px) {
+    #contact .social-buttons a {
+        padding: 6px 12px;
+    }
+
+    .navbar {
+        padding: 7px 50px;
+    }
+
+    .navbar .glow-text {
+        font-size: 25.5px;
+    }
+
+    .navbar-dark .navbar-toggler {
+        padding: 3px 10px;
+        font-size: 1.20rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        padding: 12px 25px;
+    }
+
+    .navbar .glow-link:hover {
+        transform: scale(1.05);
+    }
+
+    .navbar .btn.btn-connect.glow-button.for-sm {
+        margin: 10px auto;
+        padding: 7px 0;
+        font-size: 15px;
+        width: 175px;
+    }
+
+    .navbar-nav {
+        padding: 15px 0;
+    }
+
+    /* hero section */
+    .dynamic-text {
+        font-size: 23px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.2rem;
+    }
+
+    .hero-image img {
+        width: 250px;
+        height: 250px;
+        margin-top: 15px;
+    }
+
+    .hero-section .btn.contact {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    .btn-gradient.download .text,
+    .btn-gradient.contact .text {
+        font-size: 14px;
+    }
+
+    .hero-section .btn.download {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    .btn-gradient {
+        font-size: 12px;
+        padding: 8px 18px;
+    }
+
+    .about-section {
+        padding: 50px 10px;
+    }
+
+    .about-section .about-text {
+        text-align: justify;
+    }
+
+    .services-section .service-icon {
+        font-size: 35px;
+    }
+
+    /* skills */
+    #skills h2 {
+        font-size: 2.3rem;
+    }
+
+    /* timeline */
+    .academics-title {
+        font-size: 2rem;
+    }
+    /* all projects */
+    #all-projects {
+        padding: 60px 20px;
+      }
+
+}
+
+@media (max-width: 428px) {
+
+    /* hero section */
+    .hero-section .social-buttons a {
+        width: 45px;
+        height: 45px;
+    }
+
+    .hero-section p {
+        margin: 15px 0 30px 0px;
+    }
+
+    .hero-section .dwn-btn {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .hero-section .btn-wrapper {
+        margin: 0 0 15px 0;
+    }
+
+    .hero-section .social-buttons {
+        margin-top: 8px;
+    }
+
+    /* services */
+    .services-section .service-heading {
+        margin-top: 5px;
+    }
+
+    .services-title {
+        font-size: 2.3rem;
+    }
+
+    .services-section {
+        padding: 55px 20px;
+    }
+
+    .owl-theme .owl-dots .owl-dot.active span,
+    .owl-theme .owl-dots .owl-dot:hover span {
+        width: 14px;
+        margin: 5px 4px;
+        height: 9px;
+    }
+
+    #portfolio .owl-theme .owl-dots .owl-dot span {
+        margin: 5px 4px;
+        height: 9px;
+        width: 9px;
+    }
+
+    #contact .contact-title {
+        font-size: 2rem;
+        margin-bottom: 13px;
+    }
+
+    #contact .contact-description {
+        font-size: 1.1rem;
+        margin-bottom: 25px;
+    }
+
+    #contact .contact-details p {
+        font-size: 1.15rem;
+    }
+
+    #skills .col-md-3 {
+        flex: 0 100%;
+        max-width: 100%;
+    }
+
+    #skills .skill-item:hover {
+        transform: scale(1.05);
+    }
+
+    .about-section .about-text {
+        font-size: 1rem;
+    }
+
+    #portfolio .portfolio-title {
+        font-size: 2.2rem;
+    }
+
+    .portfolio-subtitle {
+        font-size: 1.1rem;
+    }
+
+    #portfolio {
+        padding: 40px 5px;
+    }
+
+    .portfolio-title {
+        font-size: 2.5rem;
+        margin-bottom: 25px;
+    }
+
+    .about-title {
+        font-size: 2.4rem;
+    }
+
+    /* timeline */
+    .timeline-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .timeline-content {
+        padding: 10px;
+    }
+
+    .timeline-content p {
+        font-size: 0.9rem;
+    }
+    .timeline::before {
+        top: 0;
+        left: 0;
+    }
+
+    .timeline-entry {
+        width: 100%;
+    }
+
+    .timeline-entry.right {
+        left: 0;
+    }
+
+    .timeline-entry.left .timeline-dot {
+        left: 0;
+    }
+
+    .timeline-entry.left .timeline-content,
+    .timeline-entry.right .timeline-content {
+        transform: translateX(15px);
+    }
+
+    .timeline-entry.left {
+        left: 0;
+        text-align: left;
+    }
+
+    .timeline-entry {
+        margin: 15px 0;
+    }
+
+
+}
+
+@media (max-width: 390px) {
+ 
+
+
+}
+
+@media (max-width: 375px) {
+    #portfolio .portfolio-item {
+        padding: 13px;
+    }
+
+    .services-section .col-md-4,
+    #portfolio .col-md-4 {
+        padding: 0;
+    }
+
+    .contact-details p {
+        font-size: 1.1rem;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+    .dynamic-text {
+        font-size: 20px;
+    }
+
+    .static-text {
+        font-size: 18px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-content h5 {
+        font-size: 16.5px;
+    }
+
+    .hero-image img {
+        width: 215px;
+        height: 215px;
+    }
+
+    #about .about-buttons {
+        padding: 12px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about-btn-primary,
+    .about-btn-secondary {
+        padding: 5px 14px;
+        margin: 0 0 20px 0;
+    }
+
+    .about-btn-secondary {
+        margin: 0;
+    }
+
+    .services-section .service-box {
+        padding: 20px 15px;
+    }
+
+    .services-section .service-icon {
+        margin-bottom: 10px;
+    }
+
+    .container-fluid.text-center {
+        padding: 0 8px;
+    }
+
+    #contact .contact-details p {
+        font-size: 1.08rem;
+    }
+
+    #contact .social-buttons {
+        gap: 0;
+    }
+
+    #contact .social-buttons .social-name {
+        margin-left: 5px;
+        font-size: 12px;
+    }
+
+}

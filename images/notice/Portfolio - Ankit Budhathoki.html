@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ankit Budhathoki</title>
+    <!-- Bootstrap CSS -->
+    
+    <!-- Font Awesome -->
+    
+    
+    <!-- Google Fonts -->
+    
+    <!-- Animate.css for WOW.js -->
+    
+    <!-- carousel CSS -->
+    
+    
+    <!-- custom links -->
+    
+    
+
+<link rel="stylesheet" href="Portfolio%20-%20Ankit%20Budhathoki_files/bootstrap.min_002.css"><link href="Portfolio%20-%20Ankit%20Budhathoki_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"><link rel="stylesheet" href="Portfolio%20-%20Ankit%20Budhathoki_files/all.min.css"><link href="Portfolio%20-%20Ankit%20Budhathoki_files/css2.css" rel="stylesheet"><link rel="stylesheet" href="Portfolio%20-%20Ankit%20Budhathoki_files/animate.min.css"><link rel="stylesheet" href="Portfolio%20-%20Ankit%20Budhathoki_files/owl.carousel.min.css"><link rel="stylesheet" href="Portfolio%20-%20Ankit%20Budhathoki_files/owl.theme.default.min.css"><link rel="stylesheet" href="Portfolio%20-%20Ankit%20Budhathoki_files/style.css"><link rel="stylesheet" href="Portfolio%20-%20Ankit%20Budhathoki_files/responsive.css"></head>
+
+<body>
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#email-me">
+        Launch demo modal
+      </button> -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="email-me" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <!-- Top Close Button -->
+                    <button type="button" class="btn-close top-close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                    <h1>Email Me</h1>
+                    <p>If you have any questions or inquiries, feel free to send me an email.</p>
+
+                    <form action="mailer.php" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="name">Your Name*</label>
+                            <input type="text" id="name" name="name" required="" placeholder="Enter Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email*</label>
+                            <input type="email" id="email" name="email" required="" placeholder="someone@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Your Contact Number (Optional)</label>
+                            <input type="number" id="phone" name="phone" placeholder="Enter Your Contact Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject*</label>
+                            <input type="text" id="subject" name="subject" required="" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message*</label>
+                            <textarea id="message" name="message" required="" placeholder="Your Message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+
+                    <div class="form-footer">
+                        <p>By submitting, you agree to our <a href="#">Privacy Policy</a>.</p>
+                    </div>
+
+                    <!-- Bottom Close Button -->
+                    <button type="button" class="btn btn-secondary bottom-close-btn" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal ends -->
+
+
+
+
+
+    <!-- Hire Me Modal -->
+<div class="modal fade hire-modal" id="hire-me" tabindex="-1" aria-labelledby="hireModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <!-- Top Close Button -->
+                <button type="button" class="btn-close top-close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                <h1>Hire Me</h1>
+                <p>I am available for freelance projects, collaborations, or long-term opportunities. Let’s create something amazing together!</p>
+
+                <form action="mailto:ankitbc777@gmail.com" method="post">
+                    <!-- Full Name -->
+                    <div class="form-group">
+                        <label for="full-name">Full Name*</label>
+                        <input type="text" id="full-name" name="full_name" required="" placeholder="Enter Your Full Name">
+                    </div>
+
+                    <!-- Email -->
+                    <div class="form-group">
+                        <label for="email">Email Address*</label>
+                        <input type="email" id="email" name="email" required="" placeholder="yourname@example.com">
+                    </div>
+
+                    <!-- Contact Number -->
+                    <div class="form-group">
+                        <label for="phone">Contact Number*</label>
+                        <input type="text" id="phone" name="phone" placeholder="Enter Your Contact Number">
+                    </div>
+
+                    <!-- Project Budget -->
+                    <div class="form-group">
+                        <label for="budget">Project Budget*</label>
+                        <select id="budget" name="budget" required="">
+                            <option value="" disabled="disabled" selected="selected">Select Your Budget</option>
+                            <option value="100-500">$100 - $500</option>
+                            <option value="500-1000">$500 - $1000</option>
+                            <option value="1000-2500">$1000-$2500</option>
+                            <option value="$5000+">$5000+</option>
+                        </select>
+                    </div>
+
+                    <!-- Project Details -->
+                    <div class="form-group">
+                        <label for="project-details">Project Details*</label>
+                        <textarea id="project-details" name="project_details" required="" placeholder="Briefly describe your project" rows="5"></textarea>
+                    </div>
+
+                    <!-- Upload Files -->
+                    <div class="form-group">
+                        <label for="attachment">Upload Relevant Files (Optional)</label>
+                        <input type="file" id="attachment" name="attachment">
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit Request</button>
+                </form>
+
+                <div class="form-footer">
+                    <p>By submitting this form, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
+                </div>
+
+                <!-- Bottom Close Button -->
+                <button type="button" class="btn btn-secondary bottom-close-btn" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Ends -->
+
+
+
+
+
+
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top navbar-hidden">
+        <div class="container-fluid">
+            <a class="navbar-brand font-weight-bold glow-text" href="http://127.0.0.1:5500/index.html">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link glow-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link glow-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link glow-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link glow-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link glow-link" href="#contact">Contact</a></li>
+                    <a class="for-sm" href="#">
+                        <button class="btn btn-connect glow-button">Hire Me</button>
+                    </a>
+                </ul>
+            </div>
+            <a class="wave-ani" href="#">
+                <button class="btn btn-connect glow-button for-lg">Hire Me</button>
+            </a>
+        </div>
+    </nav>
+    <!-- navbar ends -->
+    <!-- Hero Section -->
+    <section id="#hero" class="hero-section">
+        <div class="hero-content">
+            <h5>Hello, I'm</h5>
+            <h1>Ankit Budhathoki</h1>
+            <h2>
+                <span class="static-text">I am a</span>
+                <span id="typed-text" class="dynamic-text" style="color: rgb(255, 152, 0);">Web Developer</span>
+            </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisi at dolor dapibus auctor eget a
+                risus.</p>
+            <div class="dwn-btn">
+
+                <!-- Contact Me Button -->
+                <a href="#contact" class="btn-wrapper">
+                    <button class="btn btn-gradient contact">
+                        <span class="text">Contact Me</span>
+                        <i class="fas fa-comment-dots static-icon"></i> <!-- Static icon for contact -->
+                        <i class="fas fa-comment-dots contact-icon"></i> <!-- Animated icon for contact -->
+                    </button>
+                </a>
+
+                <!-- Download Button -->
+                <a href="http://127.0.0.1:5500/downloads/test.pdf" class="btn-wrapper" target="_blank">
+                    <button class="btn btn-gradient download">
+                        <span class="text">Download CV</span>
+                        <i class="fas fa-download static-icon"></i> <!-- Static icon for download -->
+                        <i class="fas fa-download download-icon"></i> <!-- Animated icon for download -->
+                    </button>
+                </a>
+            </div>
+            <div class="social-buttons">
+                <a target="_blank" href="https://www.facebook.com/ankitbc11"><i class="fab fa-facebook-f"></i></a>
+                <a target="_blank" href="https://instagram.com/ankitbudhathokii"><i class="fab fa-instagram"></i></a>
+                <a target="_blank" href="https://github.com/ankitbudhathoki1"><i class="fab fa-github"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/ankitbudhathoki/"><i class="fab fa-linkedin-in"></i></a>
+                <!-- LinkedIn Icon -->
+
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="Portfolio%20-%20Ankit%20Budhathoki_files/350.png" alt="Profile Picture">
+        </div>
+    </section>
+    <!-- hero section ends -->
+    <!-- about section starts -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-container text-center">
+                <p class="about-subtitle">Get to Know</p>
+                <h2 class="about-title glow-title">About Me</h2>
+                <p class="about-text">
+                    Hello! I am <span class="about-highlight">Ankit Budhathoki</span>, a passionate web developer and
+                    designer
+                    with a knack for turning ideas into stunning digital experiences. My journey in the tech world began
+                    with curiosity and has grown into a career focused on delivering innovative solutions. I specialize
+                    in building responsive, user-friendly websites that help businesses thrive online.
+                </p>
+                <p class="about-text">
+                    I believe in continuous learning and staying updated with the latest trends in web development and
+                    design. When I’m not coding, you can find me exploring new design concepts, experimenting with
+                    animations, or diving into photography and creative storytelling.
+                </p>
+                <div class="about-buttons">
+                    <a href="#portfolio" class="about-btn-primary">
+                        <button class="btn">View Portfolio</button>
+                    </a>
+                    <a href="#hire" class="about-btn-secondary">
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#hire-me">Hire Me</button>
+                    </a>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- about section ends -->
+    <!-- academics timeline section starts -->
+    <section id="academics" class="academics-section">
+        <div class="container">
+            <h2 class="academics-title">Academics</h2>
+            <div class="timeline">
+                <!-- Timeline Entry 1 -->
+                <div class="timeline-entry left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Web Development</h3>
+                        <p>Hi-Tech Computer Institute</p>
+                        <span class="year">2024</span>
+                    </div>
+                </div>
+
+                <!-- Timeline Entry 2 -->
+                <div class="timeline-entry right">
+                    <div class="timeline-dot r"></div>
+                    <div class="timeline-content">
+                        <h3>Graphic Design</h3>
+                        <p>Hi-Tech Computer Institute</p>
+                        <span class="year">2024</span>
+                    </div>
+                </div>
+
+                <!-- Timeline Entry 3 - Graphic Design -->
+                <div class="timeline-entry left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>+2 <span class="course">Science</span></h3>
+                        <p>Tulsi Boarding Secondary School</p>
+                        <span class="year">2021-2023</span>
+                    </div>
+                </div>
+
+                <!-- Timeline Entry 4 - Web Development -->
+                <div class="timeline-entry right">
+                    <div class="timeline-dot r"></div>
+                    <div class="timeline-content">
+                        <h3>SEE</h3>
+                        <p>Tulsi Boarding Secondary School</p>
+                        <span class="year">2021</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- timeline ends -->
+    <!-- services starts -->
+    <section id="services" class="services-section text-center">
+        <div class="container-fluid">
+            <h2 class="services-title glow-title">My Services</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="service-box service-box-1 wow animate__fadeInUp animated" style="visibility: visible; animation-name: gradientFlow;">
+                        <i class="fas fa-code fa-3x service-icon"></i>
+                        <h4 class="service-heading">Web Development</h4>
+                        <p class="service-text">Building responsive and high-performance websites.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box service-box-2 wow animate__fadeInUp animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: gradientFlow;">
+                        <i class="fas fa-paint-brush fa-3x service-icon"></i>
+                        <h4 class="service-heading">Graphic Design</h4>
+                        <p class="service-text">Creating modern and user-friendly UI/UX designs.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box service-box-3 wow animate__fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: gradientFlow;">
+                        <i class="fas fa-mobile-alt fa-3x service-icon"></i>
+                        <h4 class="service-heading">Responsive Design</h4>
+                        <p class="service-text">Ensuring seamless user experience across all devices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section starts -->
+    <section id="portfolio">
+        <div class="container-fluid text-center">
+            <small class="portfolio-subtitle">Explore My</small>
+            <h2 class="portfolio-title">Projects</h2>
+            <div class="row mt-4">
+                <div class="owl-carousel events-slider owl-theme owl-loaded owl-drag">
+                    <!-- First Card -->
+                    
+                    <!-- Second Card -->
+                    
+                    <!-- Third Card -->
+                    
+
+                    <!-- Second row with two cards -->
+                    <!-- Fourth Card -->
+                    
+                    <!-- Fifth Card -->
+                    
+                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1749px, 0px, 0px); transition: 0.25s; width: 4811px;"><div class="owl-item cloned" style="width: 427.333px; margin-right: 10px;"><div class="item">
+                        <div class="card">
+                            <a class="portfolio-img-holder" href="http://127.0.0.1:5500/news" target="_blank">
+                                <img src="Portfolio%20-%20Ankit%20Budhathoki_files/600x400.png" class="img-fluid" alt="News Portal">
+                            </a>
+                            <h5 class="mt-3">News Portal</h5>
+                            <a href="#" class="btn btn-gradient mt-2" target="_blank">
+                                View Project
+                            </a>
+                        </div>
+                    </div></div><div class="owl-item cloned" style="width: 427.333px; margin-right: 10px;"><div class="item">
+                        <div class="card">
+                            <a class="portfolio-img-holder" href="#" target="_blank" style="pointer-events: none">
+                                <img src="Portfolio%20-%20Ankit%20Budhathoki_files/600x400.png" class="img-fluid" alt="Project #4">
+                            </a>
+                            <h5 class="mt-3">Project #4</h5>
+                            <a href="#" class="btn btn-gradient mt-2" target="_blank" style="pointer-events: none">
+                                Adding Soon
+                            </a>
+                        </div>
+                    </div></div><div class="owl-item cloned" style="width: 427.333px; margin-right: 10px;"><div class="item">
+                        <div class="card">
+                            <a class="portfolio-img-holder" href="#" target="_blank" style="pointer-events: none">
+                                <img src="Portfolio%20-%20Ankit%20Budhathoki_files/600x400.png" class="img-fluid" alt="Project #5">
+                            </a>
+                            <h5 class="mt-3">Project #5</h5>
+                            <a href="#" class="btn btn-gradient mt-2" target="_blank" style="pointer-events: none">
+                                Adding Soon
+                            </a>
+                        </div>
+                    </div></div><div class="owl-item" style="width: 427.333px; margin-right: 10px;"><div class="item">
+                        <div class="card">
+                            <a class="portfolio-img-holder" href="http://127.0.0.1:5500/school" target="_blank">
+                                <img src="Portfolio%20-%20Ankit%20Budhathoki_files/600x400.png" class="img-fluid" alt="School Project">
+                            </a>
+                            <h5 class="mt-3">School</h5>
+                            <a href="http://127.0.0.1:5500/school" class="btn btn-gradient mt-2" target="_blank">
+                                View Project
+                            </a>
+                        </div>
+                    </div></div><div class="owl-item active" style="width: 427.333px; margin-right: 10px;"><div class="item">
+                        <div class="card">
+                            <a class="portfolio-img-holder" href="http://127.0.0.1:5500/restaurant" target="_blank">
+                                <img src="Portfolio%20-%20Ankit%20Budhathoki_files/600x400.png" class="img-fluid" alt="Restaurant Project">
+                            </a>
+                            <h5 class="mt-3">Restaurant</h5>
+                            <a href="http://127.0.0.1:5500/restaurant" class="btn btn-gradient mt-2" target="_blank">
+                                View Project
+                            </a>
+                        </div>
+                    </div></div><div class="owl-item active" style="width: 427.333px; margin-right: 10px;"><div class="item">
+                        <div class="card">
+                            <a class="portfolio-img-holder" href="http://127.0.0.1:5500/news" target="_blank">
+                                <img src="Portfolio%20-%20Ankit%20Budhathoki_files/600x400.png" class="img-fluid" alt="News Portal">
+                            </a>
+                            <h5 class="mt-3">News Portal</h5>
+                            <a href="#" class="btn btn-gradient mt-2" target="_blank">
+                                View Project
+                            </a>
+                        </div>
+                    </div></div><div class="owl-item active" style="width: 427.333px; margin-right: 10px;"><div class="item">
+                        <div class="card">
+                            <a class="portfolio-img-holder" href="#" target="_blank" style="pointer-events: none">
+                                <img src="Portfolio%20-%20Ankit%20Budhathoki_files/600x400.png" class="img-fluid" alt="Project #4">
+                            </a>
+                            <h5 class="mt-3">Project #4</h5>
+                            <a href="#" class="btn btn-gradient mt-2" target="_blank" style="pointer-events: none">
+                                Adding Soon
+                            </a>
+                        </div>
+                    </div></div><div class="owl-item" style="width: 427.333px; margin-right: 10px;"><div class="item">
+                        <div class="card">
+                            <a class="portfolio-img-holder" href="#" target="_blank" style="pointer-events: none">
+                                <img src="Portfolio%20-%20Ankit%20Budhathoki_files/600x400.png" class="img-fluid" alt="Project #5">
+                            </a>
+                            <h5 class="mt-3">Project #5</h5>
+                            <a href="#" class="btn btn-gradient mt-2" target="_blank" style="pointer-events: none">
+                                Adding Soon
+                            </a>
+                        </div>
+                    </div></div><div class="owl-item cloned" style="width: 427.333px; margin-right: 10px;"><div class="item">
+                        <div class="card">
+                            <a class="portfolio-img-holder" href="http://127.0.0.1:5500/school" target="_blank">
+                                <img src="Portfolio%20-%20Ankit%20Budhathoki_files/600x400.png" class="img-fluid" alt="School Project">
+                            </a>
+                            <h5 class="mt-3">School</h5>
+                            <a href="http://127.0.0.1:5500/school" class="btn btn-gradient mt-2" target="_blank">
+                                View Project
+                            </a>
+                        </div>
+                    </div></div><div class="owl-item cloned" style="width: 427.333px; margin-right: 10px;"><div class="item">
+                        <div class="card">
+                            <a class="portfolio-img-holder" href="http://127.0.0.1:5500/restaurant" target="_blank">
+                                <img src="Portfolio%20-%20Ankit%20Budhathoki_files/600x400.png" class="img-fluid" alt="Restaurant Project">
+                            </a>
+                            <h5 class="mt-3">Restaurant</h5>
+                            <a href="http://127.0.0.1:5500/restaurant" class="btn btn-gradient mt-2" target="_blank">
+                                View Project
+                            </a>
+                        </div>
+                    </div></div><div class="owl-item cloned" style="width: 427.333px; margin-right: 10px;"><div class="item">
+                        <div class="card">
+                            <a class="portfolio-img-holder" href="http://127.0.0.1:5500/news" target="_blank">
+                                <img src="Portfolio%20-%20Ankit%20Budhathoki_files/600x400.png" class="img-fluid" alt="News Portal">
+                            </a>
+                            <h5 class="mt-3">News Portal</h5>
+                            <a href="#" class="btn btn-gradient mt-2" target="_blank">
+                                View Project
+                            </a>
+                        </div>
+                    </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></div>
+            </div>
+            <!-- View All Projects Button -->
+            <div class="mt-3">
+                <a href="http://127.0.0.1:5500/projects.html" class="btn btn-gradient btn-view-all" target="_blank">Explore More</a>
+            </div>
+        </div>
+    </section>
+    <!-- contact starts -->
+    <section id="contact">
+        <div class="container-fluid text-center">
+            <h2 class="contact-title">Contact Info</h2>
+            <p class="contact-description">Feel free to reach out to me through any of the following means!</p>
+
+            <div class="contact-details">
+                <p><strong>Email:</strong> <a href="mailto:ankitbc777@gmail.com">ankitbc777@gmail.com</a></p>
+                <p><strong>Alternative Email:</strong> <a href="mailto:info@ankitbudhathoki.com.np">info@ankitbudhathoki.com.np</a></p>
+                <p><strong>Phone No:</strong> <a href="https://wa.me/9779861449982" target="_blank">+977-9861449982</a>
+                </p>
+            </div>
+
+            <!-- "Send Email" button with flying paper plane animation -->
+            <button type="button" class="btn email-btn mt-3" data-bs-toggle="modal" data-bs-target="#email-me">
+                <i class="fas fa-envelope plane-icon"></i> <!-- Change the icon to fa-envelope -->
+                <span class="btn-text">Send Email</span>
+            </button>
+            <p class="seperator"><span>or</span></p>
+            <div class="social-buttons mt-4">
+                <a target="_blank" href="https://www.linkedin.com/in/ankitbudhathoki/" class="social-btn linkedin" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span class="social-name">LinkedIn</span>
+                </a>
+                <a target="_blank" href="https://github.com/ankitbudhathoki1" class="social-btn github" title="GitHub">
+                    <i class="fab fa-github"></i>
+                    <span class="social-name">GitHub</span>
+                </a>
+                <a target="_blank" href="https://instagram.com/ankitbudhathokii" class="social-btn instagram" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span class="social-name">Instagram</span>
+                </a>
+                <a target="_blank" href="https://facebook.com/ankitbc11" class="social-btn facebook" title="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                    <span class="social-name">Facebook</span>
+                </a>
+                <a target="_blank" href="https://wa.me/9779861449982" class="social-btn whatsapp" title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                    <span class="social-name">WhatsApp</span>
+                </a>
+                <a target="_blank" href="https://t.me/ankitbudhathoki" class="social-btn telegram" title="Telegram">
+                    <i class="fab fa-telegram-plane"></i>
+                    <span class="social-name">Telegram</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills starts -->
+    <section id="skills">
+        <div class="container-fluid text-center">
+            <h2>My Skills</h2>
+            <div class="row mt-4">
+                <div class="col-md-3 skill-item">HTML</div>
+                <div class="col-md-3 skill-item">CSS</div>
+                <div class="col-md-3 skill-item">JavaScript</div>
+                <div class="col-md-3 skill-item">Bootstrap</div>
+                <div class="col-md-3 skill-item">Git &amp; Github</div>
+                <div class="col-md-3 skill-item">Photoshop</div>
+                <div class="col-md-3 skill-item">Pagemaker</div>
+                <div class="col-md-3 skill-item">Figma</div>
+                <div class="col-md-3 skill-item">Adobe Illustrator</div>
+                <div class="col-md-3 skill-item">Adobe XD</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer starts -->
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Left Section -->
+                <div class="col-md-4 col-sm-12 df">
+                    <div class="copyright">
+
+                        <span>
+                            Copyright © <a href="https://www.ankitbudhathoki.com.np/">Ankit Budhathoki</a>
+                        </span>
+                    </div>
+                </div>
+                <!-- Center Section -->
+                <div class="col-md-4 col-sm-12 text-center df">
+                    <div class="visitors">
+                        <span class="vis">
+                            Visitors: <i class="fas fa-eye"></i> <span id="visitor-count">216</span>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Right Section -->
+                <div class="col-md-4 col-sm-12 df">
+                    <div class="developed">
+
+                        <span>
+                            Developed by <a href="https://www.ankitbudhathoki.com.np/">Ankit Budhathoki</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="Portfolio%20-%20Ankit%20Budhathoki_files/jquery-3.5.1.min.js"></script>
+    <script src="Portfolio%20-%20Ankit%20Budhathoki_files/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="Portfolio%20-%20Ankit%20Budhathoki_files/bootstrap.min.js"></script>
+    <script src="Portfolio%20-%20Ankit%20Budhathoki_files/wow.min.js"></script>
+    <script src="Portfolio%20-%20Ankit%20Budhathoki_files/owl.carousel.js"></script>
+    <script src="Portfolio%20-%20Ankit%20Budhathoki_files/custom.js"></script>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body><style type="text/css"></style></html>
