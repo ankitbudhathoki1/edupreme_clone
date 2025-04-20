@@ -109,12 +109,13 @@
     margin: 0px 35px;
   }
 
+  
   header .contact-header .navbar-toggler span {
     display: block;
     width: 30px;
     height: 2px;
     border: 1px;
-    background: var(--paragraph-color);
+    background: var(--primary-color);
   }
 
   header .contact-header .navbar-toggler span+span {
@@ -126,7 +127,10 @@
   header .contact-header .navbar-toggler span+span+span {
     width: 20px;
     margin-left: 9px;
+    background: var(--secondary-color);
+
   }
+
 
   header .contact-header .navbar-toggler:focus,
   header .contact-header .navbar-toggler:active {
@@ -228,9 +232,41 @@
     background-color: var(--white-color);
   }
 
-  section.nbar .dropdown:hover .dropdown-menu {
-    display: block;
+  .dropdown:hover>.dropdown-menu{
+    /* display: block;
+    transition: all 0.5s ease;
+    animation: fadeIn 1.5s; */
   }
+  /* Ensure the dropdown menu is hidden by default */
+  .nav-item.dropdown .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(-100px);
+}
+
+/* Show the dropdown menu on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    animation: fadeIn 1.5s;
+}
+
+
+
+  .dropdown-item:hover{
+    transition: 0.8s;
+  }
+  section.nbar .dropdown:hover .dropdown-menu .dropdown-item.active {
+    background: var(--secondary-color);
+  }
+  section.nbar .dropdown:hover .dropdown-menu .dropdown-item:hover {
+    background: var(--primary-color);
+    color: #fff;
+  }
+
 
   section.nbar .navbar .nav-link {
     color: #1e1e1e;
@@ -241,6 +277,9 @@
   }
 
   section.nbar .navbar .nav-link:hover {
+    color: var(--primary-color);
+  }
+  section.nbar .navbar .nav-link.active {
     color: var(--primary-color);
   }
 
