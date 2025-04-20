@@ -233,17 +233,21 @@
   }
 
   .dropdown:hover>.dropdown-menu{
-    /* display: block;
-    transition: all 0.5s ease;
-    animation: fadeIn 1.5s; */
+     display: block;
+    transition: all 0.2s ease;
+    animation: fadeIn 1s; 
   }
   /* Ensure the dropdown menu is hidden by default */
   .nav-item.dropdown .dropdown-menu {
-    display: block;
+    /* display: block; */
     opacity: 1;
     visibility: visible;
     transition: opacity 0.3s ease, transform 0.3s ease;
-    transform: translateY(-100px);
+    /* transform: translateY(-100px); */
+
+    /* &:hover{
+      display: block;
+    } */
 }
 
 /* Show the dropdown menu on hover */
